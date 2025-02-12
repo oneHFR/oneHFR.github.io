@@ -83,8 +83,8 @@ analytics:
 # Site Author
 author:
   name             : "Hongrui Wu"
-  avatar           : "profile.jpg"
-  bio              : "Undergraduate student"
+  avatar           : "profile.png"
+  bio              : "Undergraduate student in CS @ Tongji U"
   location         : "Shanghai, China"
   employer         :
   pubmed           : # 
@@ -101,21 +101,21 @@ author:
   github           : "onehfr"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "onehfr"
   impactstory      : # "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/hongrui-wu-7546b734b/"
+  linkedin         : "hongrui-wu-7546b734b/"
   orcid            : # "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            : # 
   tumblr           :
-  twitter          : "https://x.com/Hongrui_W"
+  twitter          : "Hongrui_W"
   vine             :
   weibo            :
   xing             :
-  youtube          : "https://www.youtube.com/@oneHFR"
+  youtube          : "oneHFR"
   wikipedia        :
 
 
@@ -239,13 +239,13 @@ defaults:
       share: true
       comment: true
   # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+  # - scope:
+  #     path: ""
+  #     type: talks
+  #   values:
+  #     layout: talk
+  #     author_profile: true
+  #     share: true
 
 # Sass/SCSS
 sass:
