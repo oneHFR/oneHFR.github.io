@@ -9,7 +9,7 @@ encoding: utf-8
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hongrui Wu"
+title                    : "Wu's Homepage"
 title_separator          : "-"
 name                     : &name "Hongrui Wu"
 description              : &description "Undergraduate student"
