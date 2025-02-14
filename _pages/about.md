@@ -23,7 +23,7 @@ Current Research
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
    <div style="flex: 0 0 400px; margin-right: 20px;">
-       <img src="../images/MOSS_Homepage.png" width="400"/>
+       <img src="../images/MOSS_Homepage.png" width="300"/>
    </div>
    <div style="flex: 1;">
        <h3 style="margin-top: 0;"><img src="..\images\favicon-192x192.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em;; margin-right: 2px;">MOSS: Mask-Oriented Open-Set for 3D Scene Segmentation using Superpoint</h3>
@@ -41,7 +41,7 @@ Current Research
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
    <div style="flex: 0 0 400px; margin-right: 20px;">
-       <img src="../images/universe_01.png" width="400"/>
+       <img src="../images/universe_pre.png" width="300"/>
    </div>
    <div style="flex: 1;">
        <h3 style="margin-top: 0;"><img src="..\images\universe.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em;; margin-right: 2px;"><strong>Universe</strong>: Unleashing the Consistent Prior of Video Diffusion Models for Robust Reconstruction</h3>
