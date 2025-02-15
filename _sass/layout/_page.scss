@@ -411,28 +411,30 @@
    ========================================================================== */
 .projects {
   margin-top: 2em;
+  padding-left: 20px;  /* 给整个 .projects 容器增加左侧内边距 */
 
   h3 {
     color: #333;
     margin: 0 0 0.5em;
     font-size: 1.1em;
     font-weight: bold;
-  
+    padding-left: 20px; /* 确保标题与文本左对齐 */
+
     a {
       color: inherit;
       text-decoration: none;
-      display: inline-block; // 添加这个以支持transform效果
+      display: inline-block;
       transition: transform 0.3s ease, box-shadow 0.3s ease;
-      padding: 4px 8px; // 添加一些内边距让阴影效果更明显
-      border-radius: 4px; // 添加圆角
-      
+      padding: 4px 8px;
+      border-radius: 4px;
+
       &:hover {
-        transform: translateY(-2px); // 向上浮动效果
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // 添加阴影效果，与图片保持一致
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       }
     }
   }
-  
+
   .project-item {
     display: flex;
     flex-direction: column;
@@ -446,14 +448,15 @@
     @media (min-width: 768px) {
       flex-direction: row;
       align-items: flex-start;
-      gap: 3em; // 增加左右间距
+      gap: 3em;
     }
   }
 
   .project-content {
     flex: 1;
     min-width: 0;
-    padding-top: 2em; // 添加上边距使文本内容整体下移
+    padding-top: 2em;
+    padding-left: 20px; /* 给项目内容添加左侧内边距，与标题对齐 */
   }
 
   .project-meta {
@@ -480,8 +483,8 @@
 
   .project-image {
     flex: 1;
-    margin-top: 0; // 移除顶部边距
-    
+    margin-top: 0;
+
     @media (min-width: 768px) {
       width: 50%;
     }
@@ -499,8 +502,7 @@
     }
   }
 }
-
-
+  
 /* 重新定义项目中的图片样式 */
 .project-image {
   margin-top: 1.5em;
@@ -628,14 +630,48 @@
 
 /* 确保 iframe 的容器占满全宽 */
 .c-viewer.viewer-container {
-  width: 100%;  /* 设置为全宽 */
+  width: 100%; /* 设置为全宽 */
   height: 500px; /* 可以根据需要调整高度 */
   margin-top: 2em; /* 可以设置一些间距 */
+  display: flex; /* 使用 flex 布局 */
+  justify-content: space-between; /* 使 iframe 和图片容器并排显示 */
 }
 
 /* 确保 iframe 占满容器的宽度并且自适应高度 */
 .c-viewer__iframe {
-  width: 100%;  /* 占满容器宽度 */
+  width: 70%; /* 占满容器宽度的 70% */
   height: 100%; /* 高度和容器一致 */
   border: none; /* 去除 iframe 边框 */
+}
+
+/* 图片容器 */
+.image-container {
+  width: 28%; /* 占满容器宽度的 28% */
+  height: 100%; /* 高度和容器一致 */
+  overflow: hidden; /* 隐藏超出部分 */
+  position: relative; /* 相对定位 */
+}
+
+/* 图片样式 */
+.c-viewer__image {
+  width: auto; /* 宽度自适应 */
+  height: 100%; /* 高度和容器一致 */
+  object-fit: cover; /* 保持图片比例 */
+  transition: transform 0.3s ease; /* 添加过渡效果 */
+}
+
+/* 悬浮效果 */
+.c-viewer__image:hover {
+  transform: scale(1.1); /* 悬浮时放大 */
+  cursor: pointer; /* 鼠标指针变为手型 */
+}
+
+/* 放大效果 */
+.c-viewer__image.zoomed {
+  transform: scale(2); /* 点击后放大 */
+  position: fixed; /* 固定定位 */
+  top: 50%; /* 居中 */
+  left: 50%; /* 居中 */
+  transform: translate(-50%, -50%) scale(2); /* 居中并放大 */
+  z-index: 1000; /* 确保在最上层 */
 }

@@ -78,14 +78,14 @@ Current Research
 <hr>
 
 
-Project & Intern Experience
+Projects & Intern Experience
 ======
 <div class="projects">
   <div class="project-item">
     <div class="project-content">
       <h3><a href="https://onehfr.github.io/portfolio/portfolio-1/"> Multi-Source Time Series Prediction for Urban Infrastructure Health</a></h3>
       <div class="project-meta">
-        <span class="role">Team leader</span>
+        <span class="role">Intern team leader</span>
         <span class="supervisor">supervised by <a href="https://scholar.google.com/citations?user=HRdSfmkAAAAJ&hl=en">Prof. Jiazeng Shan</a> in <a href="https://www.glodon.com/en/">Glodon</a></span>
         <span class="date">Mar 2023 - Apr 2024</span>
       </div>
@@ -108,6 +108,7 @@ Project & Intern Experience
           [<a href="https://onehfr.github.io/portfolio/">Works</a>]
           [<a href="https://docs.google.com/presentation/d/12NBXRfv-bkYV1_H_B_a9v2MSho-ZQoks/edit?usp=drive_link&ouid=104071984654367651910&rtpof=true&sd=true">PPT</a>]
           [<a href="https://drive.google.com/file/d/1i1cccV4Z0L-QA_X-vGSDULjoMEMeWuiT/view?usp=drive_link">Paper</a>]
+          [<a href="[href{https://www.youtube.com/@oneHFR](https://www.youtube.com/watch?v=OVn4TF5swNw&t=11s)">Video</a>]
         </span>
         <span class="supervisor">hosted by <a href="https://www.linkedin.com/company/americansocietyofcivilengineers" target="_blank">ASCE</a> in Sacramento, CA</span>
         <span class="date">May 2022 - Apr 2024</span>
@@ -155,9 +156,9 @@ Project & Intern Experience
 
 <div class="c-viewer viewer-container">
   <iframe 
-    title="2024ASCE-Tongji 3D model - Sketchfab" 
+    title="Canoe2024-Tongji-Yangtze 3D model - Sketchfab" 
     class="c-viewer__iframe" 
-    src="https://sketchfab.com/models/f1fb11c7c3bf475096fb1eab2826c06f/embed?autostart=1&amp;internal=1&amp;tracking=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_theatre=1&amp;ui_watermark=0" 
+    src="https://sketchfab.com/models/8775df6e6d034f1ebfdcba0f3ba1b717/versions/396a5004aec5489885a94725fa55f00a/embed?autostart=1&amp;internal=1&amp;tracking=0&amp;ui_ar=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_theatre=1&amp;ui_watermark=0"
     id="api-frame" 
     allow="autoplay; fullscreen; xr-spatial-tracking" 
     xr-spatial-tracking="true" 
@@ -166,8 +167,13 @@ Project & Intern Experience
     web-share="true" 
     allowfullscreen="">
   </iframe>
+  <div class="image-container">
+      <img src="/images/p4-poster.png" alt="p4-poster" class="c-viewer__image">
+  </div>
 </div>
 
+
+<hr>
 
 
 Achievements
