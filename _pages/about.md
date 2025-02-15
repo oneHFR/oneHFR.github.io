@@ -62,6 +62,17 @@ Current Research
 </div>
 
 
+
+
+
+
+
+
+
+
+
+
+
 Project & Intern Experience
 ======
 <div class="projects">
@@ -73,13 +84,9 @@ Project & Intern Experience
         <span class="supervisor">supervised by <a href="https://www.researchgate.net/profile/Rujin-Ma">Prof. Rujin Ma</a></span>
         <span class="date">Feb 2022 - Mar 2023</span>
       </div>
-      <ul>
-        <li>Developed a mobile robot-based vision system for real-time damage detection using Python and OpenCV</li>
-        <li>Implemented YOLOv5 for automated structural defect detection to enhance inspection safety</li>
-      </ul>
     </div>
     <div class="project-image">
-      <img src="/images/p1.png" alt="Bridge Deck Inspection System">
+      <img src="/images/p1.png" alt="LSTM">
     </div>
   </div>
 </div>
@@ -94,33 +101,15 @@ Project & Intern Experience
       <span class="date">Hosted by <a href="https://www.linkedin.com/company/americansocietyofcivilengineers" target="_blank">ASCE</a> in Sacramento, CA</span>
       <span class="date">May 2022 - Apr 2024</span>
     </div>
-    <p>
-      Performed 3D reconstruction of the hull canoe using Colmap and CloudCompare to extract a surface envelope point set, controlling construction errors and ensuring surface form quality.
-    </p>
-    <p>
-      Analyzed hull hydrodynamics via CFD simulation in Ansys Fluent based on Rhino-modeled geometry to optimize streamlined hull design.
-    </p>
-    <p>
-      Validated navigation data using 3D-printed prototypes with IMU-motor setups.
-    </p>
     <!-- 新增查看详情按钮 -->
     <div class="view-details">
       <a href="https://onehfr.github.io/portfolio/portfolio-2/" class="view-details-btn">查看详情</a>
     </div>
   </div>
-
   <div class="project-image">
     <img src="/images/p4.png" alt="Concrete Canoe" class="full-width">
   </div>
 </div>
-
-
-
-
-
-
-
-
 
 
 

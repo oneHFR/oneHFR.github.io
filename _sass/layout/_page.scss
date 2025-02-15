@@ -660,8 +660,8 @@
       position: absolute;
       opacity: 0;
       cursor: pointer;
-      height: 0;
-      width: 0;
+      height: 22px; /* 设置可见的尺寸 */
+      width: 22px;
     }
 
     label {
