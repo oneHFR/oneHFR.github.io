@@ -23,6 +23,9 @@ My research interests currently lie in **open-set understanding for 3D scenes** 
 
 Through developing scalable and efficient methods, I strive to bridge the gap between real-world data and AIGC, pushing the boundaries of 3D content generation and 3D scene understanding for both academic and industrial applications.
 
+---
+
+
 Current Research
 ======
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
@@ -72,6 +75,8 @@ Current Research
 
 
 
+---
+
 
 Project & Intern Experience
 ======
@@ -91,27 +96,31 @@ Project & Intern Experience
   </div>
 </div>
 
-
-<div class="project-item">
-  <div class="project-content">
-    <h4>American Society of Civil Engineers Concrete Canoe Competition</h4>
-    <div class="project-meta">
-      <span class="role">Hull designer</span>
-      <span class="supervisor">[Works] [PPT] [Paper]</span> 
-      <span class="date">Hosted by <a href="https://www.linkedin.com/company/americansocietyofcivilengineers" target="_blank">ASCE</a> in Sacramento, CA</span>
-      <span class="date">May 2022 - Apr 2024</span>
+<div class="projects">
+  <div class="project-item">
+    <div class="project-content">
+      <h3>American Society of Civil Engineers Concrete Canoe Competition</h3>
+      <div class="project-meta">
+        <div class="project-meta">
+          <span class="role">Hull designer</span>
+          <span class="supervisor">[Works] [PPT] [Paper]</span> 
+          <span class="date">Hosted by <a href="https://www.linkedin.com/company/americansocietyofcivilengineers" target="_blank">ASCE</a> in Sacramento, CA</span>
+          <span class="date">May 2022 - Apr 2024</span>
+        </div>
+      </div>
+      <!-- 新增查看详情按钮 -->
+      <div class="view-details">
+        <a href="https://onehfr.github.io/portfolio/portfolio-2/" class="view-details-btn">查看详情</a>
+      </div>
     </div>
-    <!-- 新增查看详情按钮 -->
-    <div class="view-details">
-      <a href="https://onehfr.github.io/portfolio/portfolio-2/" class="view-details-btn">查看详情</a>
+    <div class="project-image">
+      <img src="/images/p4.png" alt="Concrete Canoe" class="full-width">
     </div>
-  </div>
-  <div class="project-image">
-    <img src="/images/p4.png" alt="Concrete Canoe" class="full-width">
   </div>
 </div>
 
 
+---
 
 
 Achievements
@@ -148,6 +157,9 @@ Achievements
     </div>
   </div>
 </div>
+
+
+---
 
 
 Ma
