@@ -50,9 +50,14 @@
 
 .page__content {
 
+  // h2 {
+  //   padding-bottom: 0.5em;
+  //   border-bottom: 1px solid var(--global-border-color);
+  // }
   h2 {
-    padding-bottom: 0.5em;
-    border-bottom: 1px solid var(--global-border-color);
+    padding-bottom: 0.5em; 
+    border-bottom: 2px solid #ccc;  // 改成更粗的分割线
+    margin-bottom: 1em;  // 在分割线和下方内容之间添加间距
   }
 
   p, li, dl {
@@ -449,10 +454,10 @@
 .projects {
   margin-top: 2em;
 
-  h3 {
+  h4 {
     color: #333;
     margin: 0 0 0.5em;
-    font-size: 1.3em;
+    font-size: 1.1em;
   }
 
   .project-item {
@@ -535,7 +540,34 @@
       }
     }
   }
+
+  /* 新增的 .full-width 类，用于占据整个页面宽度的图片 */
+  .project-image.full-width {
+    @media (min-width: 768px) {
+      width: 100%; /* 在大屏幕下图片宽度为100% */
+    }
+
+    img {
+      width: 100%; /* 图片占满整个宽度 */
+      height: auto;
+    }
+  }
+
+  .project-image.full-width {
+    width: 100%;
+    height: 500px; /* 可以根据需要调整高度 */
+    margin-top: 2em;
+  
+    .c-viewer__iframe {
+      width: 100%;
+      height: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  }
+  
 }
+
 .cv-button {
   background-color: white; 
   border: 2px solid #888; 
@@ -555,7 +587,7 @@
   &:focus,
   &:active,
   &:visited {  // 添加所有链接状态的样式
-    background-color: #f0f0f0;
+    background-color: #fafafa;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
     transform: scale(1.05);
     text-decoration: none !important;
