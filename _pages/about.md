@@ -11,7 +11,6 @@ Hi there!👋
 
 I am currently a [Computer Science](https://see-en.tongji.edu.cn/info/1010/1271.htm) junior student in [Tongji University](https://en.tongji.edu.cn/p/). During my first three years of university, I majored in [Intelligent Construction](https://civileng.tongji.edu.cn/civilengen/18034/list.htm), in the [College of Civil Engineering](https://civileng.tongji.edu.cn/civilengen/main.htm). Driven by research interests, I have transferred to CS major and will receive my Bachelor's degree in 2026 and actively seek 26fall PhD opportunities!🎓
 
-<!-- Here is my CV 📄 -->
 
 <a href="/files/cv.pdf" class="cv-button" target="_blank"> 
   Here is my CV 📄
@@ -59,13 +58,12 @@ Current Research
 
 Project & Intern Experience
 ======
-
 {: style="color: black; text-align: left;"}
 
 <div class="projects" markdown="1">
 <div class="project-item">
-  <div class="project-content">
-    ## Bridge Deck Inspection through Multi-Camera Vision
+  <div class="project-content" markdown="1">
+    ### Bridge Deck Inspection through Multi-Camera Vision
     **Team member** *supervised by [Prof. Rujin Ma](https://www.researchgate.net/profile/Rujin-Ma)*  
     *Feb 2022 - Mar 2023*
 
@@ -73,13 +71,13 @@ Project & Intern Experience
     * Implemented YOLOv5 for automated structural defect detection to enhance inspection safety
   </div>
   <div class="project-image">
-    <img src="/images/p1.jpg" alt="Bridge Deck Inspection System">
+    <img src="/images/p1.png" alt="Bridge Deck Inspection System">
   </div>
 </div>
 
 <div class="project-item">
-  <div class="project-content">
-    ## Multi-Source Time Series Prediction for Urban Infrastructure Health
+  <div class="project-content" markdown="1">
+    ### Multi-Source Time Series Prediction for Urban Infrastructure Health
     **Team leader** *supervised by [Prof. Jiazeng Shan](https://scholar.google.com/citations?user=HRdSfmkAAAAJ&hl=en) in [Glodon](https://www.glodon.com/en/)*  
     *Mar 2023 - Apr 2024*
 
@@ -87,13 +85,13 @@ Project & Intern Experience
     * Accomplished project deliverables resulting in one patent application and published a survey paper
   </div>
   <div class="project-image">
-    <img src="/images/p2.jpg" alt="Time Series Prediction">
+    <img src="/images/p2.png" alt="Time Series Prediction">
   </div>
 </div>
 
 <div class="project-item">
-  <div class="project-content">
-    ## American Society of Civil Engineers Concrete Canoe Competition
+  <div class="project-content" markdown="1">
+    ### American Society of Civil Engineers Concrete Canoe Competition
     **Hull designer [[Works]](https://onehfr.github.io/portfolio/) [[PPT]](https://docs.google.com/presentation/d/12NBXRfv-bkYV1_H_B_a9v2MSho-ZQoks/edit) [[Paper]](https://drive.google.com/file/d/1i1cccV4Z0L-QA_X-vGSDULjoMEMeWuiT/view)** *hosted by [ASCE](https://www.linkedin.com/company/americansocietyofcivilengineers) in Sacramento, CA*  
     *May 2022 - Apr 2024*
 
@@ -102,13 +100,13 @@ Project & Intern Experience
     * Validated navigation data using 3D-printed prototypes with IMU-motor setups
   </div>
   <div class="project-image">
-    <img src="/images/p3.jpg" alt="Concrete Canoe">
+    <img src="/images/p3.png" alt="Concrete Canoe">
   </div>
 </div>
 
 <div class="project-item">
-  <div class="project-content">
-    ## 3D Reconstruction for CAD Model Generation Based on Panoramic Images
+  <div class="project-content" markdown="1">
+    ### 3D Reconstruction for CAD Model Generation Based on Panoramic Images
     **Lab member** *supervised by [Prof. Yujie Lu](https://scholar.google.com/citations?user=NK7jwuUAAAAJ&hl=en) in [AI Construction lab](https://structure.tongji.edu.cn/info/1630/5443.htm)*  
     *Nov 2023 - Apr 2024*
 
@@ -116,7 +114,7 @@ Project & Intern Experience
     * Implemented algorithms for point cloud optimization and feature extraction to enable automated 3D-to-2D CAD model conversion
   </div>
   <div class="project-image">
-    <img src="/images/p4.jpg" alt="3D Reconstruction">
+    <img src="/images/p4.png" alt="3D Reconstruction">
   </div>
 </div>
 </div>
@@ -137,12 +135,53 @@ Project & Intern Experience
 
 Achievements
 ======
-- [x] National Scholarship / TianXiang Scholarship (2 slots one college)  
-- [x] Interdisciplinary Contest In Modeling hosted by COMAP Finalist Prize 2023  
-- [x] National Undergraduate Mathematics/Physics Competition: Third Prize/Second Prize 2022  
-- [x] International Concrete Dragon Boat Competition 2nd Prize 2022  
-- [x] ASCE Concrete Canoe Competition (2nd Place in California Section) 2024  
+ [x] National Scholarship (Top 1.5%) / TianXiang Scholarship (2 slots one college)  
+ [x] Interdisciplinary Contest In Modeling hosted by COMAP Finalist Prize 2023  
+ [x] National Undergraduate Mathematics/Physics Competition: Third Prize/Second Prize 2022  
+ [x] International Concrete Dragon Boat Competition 2nd Prize 2022  
+ [x] ASCE Concrete Canoe Competition (2nd Place in California Section) 2024  
 
+# Achievements
+{: style="color: black; text-align: left;"}
+
+<div class="achievements" markdown="1">
+
+<div class="achievement-item">
+  <div class="custom-checkbox">
+    <input type="checkbox" id="achievement1" checked disabled>
+    <label for="achievement1">National Scholarship (Top 1.5%) / TianXiang Scholarship (2 slots one college)  </label>
+  </div>
+</div>
+
+<div class="achievement-item">
+  <div class="custom-checkbox">
+    <input type="checkbox" id="achievement2" checked disabled>
+    <label for="achievement2">Interdisciplinary Contest In Modeling hosted by COMAP Finalist Prize 2023</label>
+  </div>
+</div>
+
+<div class="achievement-item">
+  <div class="custom-checkbox">
+    <input type="checkbox" id="achievement3" checked disabled>
+    <label for="achievement3">National Undergraduate Mathematics/Physics Competition: Third Prize/Second Prize 2022</label>
+  </div>
+</div>
+
+<div class="achievement-item">
+  <div class="custom-checkbox">
+    <input type="checkbox" id="achievement4" checked disabled>
+    <label for="achievement4">International Concrete Dragon Boat Competition 2nd Prize 2022</label>
+  </div>
+</div>
+
+<div class="achievement-item">
+  <div class="custom-checkbox">
+    <input type="checkbox" id="achievement5" checked disabled>
+    <label for="achievement5">ASCE Concrete Canoe Competition (2nd Place in California Section) 2024</label>
+  </div>
+</div>
+
+</div>
 
 Ma
 ======
