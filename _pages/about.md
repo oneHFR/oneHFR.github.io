@@ -101,21 +101,26 @@ Projects & Intern Experience
 <div class="projects">
   <div class="project-item">
     <div class="project-content">
-      <h3><a href="https://onehfr.github.io/portfolio/portfolio-2/">American Society of Civil Engineers Concrete Canoe Competition</a></h3>
+      <h3>2023-2024 Object Oriented Programming Homework @Tongji</h3>
       <div class="project-meta">
-        <span class="role">Hull designer</span>
+        <span class="role">Code course</span>
         <span class="links">
-          [<a href="https://onehfr.github.io/portfolio/">Works</a>]
-          [<a href="https://docs.google.com/presentation/d/12NBXRfv-bkYV1_H_B_a9v2MSho-ZQoks/edit?usp=drive_link&ouid=104071984654367651910&rtpof=true&sd=true">PPT</a>]
-          [<a href="https://drive.google.com/file/d/1i1cccV4Z0L-QA_X-vGSDULjoMEMeWuiT/view?usp=drive_link">Paper</a>]
-          [<a href="[href{https://www.youtube.com/@oneHFR](https://www.youtube.com/watch?v=OVn4TF5swNw&t=11s)">Video</a>]
+          [<a href="https://github.com/oneHFR/24-25-OOP">Code</a>]
         </span>
-        <span class="supervisor">hosted by <a href="https://www.linkedin.com/company/americansocietyofcivilengineers" target="_blank">ASCE</a> in Sacramento, CA</span>
-        <span class="date">May 2022 - Apr 2024</span>
+        <span class="supervisor">instructed by Jian Shen</span>
+        <span class="date">Sep 2024 - Jan 2025</span>
       </div>
     </div>
     <div class="project-image">
-      <img src="/images/p1.png" alt="Concrete Canoe">
+      <video 
+        autoplay 
+        loop 
+        muted 
+        controls
+        playsinline
+        style="width: 100%; border-radius: 8px;">
+        <source src="/images/p3-video.mp4" type="video/mp4">
+      </video>
     </div>
   </div>
 </div>
@@ -171,7 +176,6 @@ Projects & Intern Experience
       <img src="/images/p4-poster.png" alt="p4-poster" class="c-viewer__image">
   </div>
 </div>
-
 
 <hr>
 
