@@ -128,14 +128,59 @@ Project & Intern Experience
   <!-- Sketchfab 3D model embed section -->
   <div class="project-image full-width">
     <div class="c-viewer viewer-container">
-      <iframe title="just a test 3D model - Sketchfab" class="c-viewer__iframe" src="https://sketchfab.com/models/bc10ab5470a449c5b100b739b3c1a761/embed?autostart=1&amp;internal=1&amp;tracking=0&amp;ui_ar=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_theatre=1&amp;ui_watermark=0" id="api-frame" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking="true" execution-while-out-of-viewport="true" execution-while-not-rendered="true" web-share="true" allowfullscreen=""></iframe>
+      <iframe 
+        title="just a test 3D model - Sketchfab" 
+        class="c-viewer__iframe" 
+        src="https://sketchfab.com/models/bc10ab5470a449c5b100b739b3c1a761/embed?autostart=1&amp;internal=1&amp;tracking=0&amp;ui_ar=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_theatre=1&amp;ui_watermark=0" 
+        id="api-frame" 
+        allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking="true" 
+        execution-while-out-of-viewport="true" execution-while-not-rendered="true" 
+        web-share="true" 
+        allowfullscreen="">
+      </iframe>
     </div>
   </div>
 </div>
 
 
 
+<!-- 将代码放在这里，确保页面其他元素加载完成后再执行 -->
+<script>
+  var iframe = document.getElementById('api-frame');
+  var client = new Sketchfab(iframe);
 
+  client.init().then(function(api) {
+    // 设置初始视角
+    api.setCameraView({
+      fov: 50, // 初始视场角
+      position: [0, 0, 3], // 初始相机位置
+      orientation: [0, 0, 0] // 初始相机旋转
+    });
+
+    // 自动放大效果：每隔一定时间逐渐改变视角
+    var zoomLevel = 3; // 初始的相机距离（放大）
+    var fovValue = 50; // 初始视场角
+    var zoomInterval = setInterval(function() {
+      zoomLevel -= 0.05; // 每次减少相机的 Z 值（即逐渐放大）
+      fovValue -= 0.5;  // 每次减少视场角（增大模型）
+      
+      // 调整相机视角
+      api.setCameraView({
+        fov: fovValue,
+        position: [0, 0, zoomLevel],
+        orientation: [0, 0, 0]
+      });
+
+      // 停止放大过程：当相机位置足够近时停止
+      if (zoomLevel <= 1.5) {
+        clearInterval(zoomInterval);
+      }
+    }, 50); // 每 50 毫秒更新一次视角，调整放大的速度
+    
+  }).catch(function(error) {
+    console.log('Error loading Sketchfab model:', error);
+  });
+</script>
 
 
 Achievements
@@ -146,35 +191,35 @@ Achievements
 
 <div class="achievement-item">
   <div class="custom-checkbox">
-    <input type="checkbox" id="achievement1" check>
+    <input type="checkbox" id="achievement1" checked>
     <label for="achievement1">National Scholarship (Top 1.5%) / TianXiang Scholarship (2 slots one college)  </label>
   </div>
 </div>
 
 <div class="achievement-item">
   <div class="custom-checkbox">
-    <input type="checkbox" id="achievement2" check>
+    <input type="checkbox" id="achievement2" checked>
     <label for="achievement2">Interdisciplinary Contest In Modeling hosted by COMAP Finalist Prize 2023</label>
   </div>
 </div>
 
 <div class="achievement-item">
   <div class="custom-checkbox">
-    <input type="checkbox" id="achievement3" check>
+    <input type="checkbox" id="achievement3" checked>
     <label for="achievement3">National Undergraduate Mathematics/Physics Competition: Third Prize/Second Prize 2022</label>
   </div>
 </div>
 
 <div class="achievement-item">
   <div class="custom-checkbox">
-    <input type="checkbox" id="achievement4" check>
+    <input type="checkbox" id="achievement4" checked>
     <label for="achievement4">International Concrete Dragon Boat Competition 2nd Prize 2022</label>
   </div>
 </div>
 
 <div class="achievement-item">
   <div class="custom-checkbox">
-    <input type="checkbox" id="achievement5" check>
+    <input type="checkbox" id="achievement5" checked>
     <label for="achievement5">ASCE Concrete Canoe Competition (2nd Place in California Section) 2024</label>
   </div>
 </div>
