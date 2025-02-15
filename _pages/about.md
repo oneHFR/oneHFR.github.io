@@ -13,33 +13,10 @@ I am currently a [Computer Science](https://see-en.tongji.edu.cn/info/1010/1271.
 
 <!-- Here is my CV 📄 -->
 
-<a href="/files/cv.pdf" class="cv-button" target="_blank">
+<a href="/files/cv.pdf" class="cv-button" target="_blank"> 
   Here is my CV 📄
 </a>
 
-<style>
-.cv-button {
-    background-color: white; 
-    border: 2px solid #888; 
-    padding: 8px 16px; 
-    text-align: center; 
-    text-decoration: none; 
-    display: inline-block; 
-    font-weight: bold; 
-    margin: 2px 1px; 
-    cursor: pointer; 
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-}
-
-.cv-button:hover {
-  background-color: #f0f0f0;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-  transform: scale(1.05);
-  text-decoration: none;
-}
-</style>
 
 Research Interests
 ======
@@ -86,44 +63,85 @@ Project & Intern Experience
 {: style="color: black; text-align: left;"}
 
 <div class="projects" markdown="1">
-## Bridge Deck Inspection through Multi-Camera Vision
-**Team member** *supervised by [Prof. Rujin Ma](https://www.researchgate.net/profile/Rujin-Ma)*  
-*Feb 2022 - Mar 2023*
+<div class="project-item">
+  <div class="project-content">
+    ## Bridge Deck Inspection through Multi-Camera Vision
+    **Team member** *supervised by [Prof. Rujin Ma](https://www.researchgate.net/profile/Rujin-Ma)*  
+    *Feb 2022 - Mar 2023*
 
-* Developed a mobile robot-based vision system for real-time damage detection using Python and OpenCV
-* Implemented YOLOv5 for automated structural defect detection to enhance inspection safety
-
-## Multi-Source Time Series Prediction for Urban Infrastructure Health
-**Team leader** *supervised by [Prof. Jiazeng Shan](https://scholar.google.com/citations?user=HRdSfmkAAAAJ&hl=en) in [Glodon](https://www.glodon.com/en/)*  
-*Mar 2023 - Apr 2024*
-
-* Developed deep learning models (clustering, LSTM, and Transformer) for urban infrastructure time series prediction using Glodon's datasets
-* Accomplished project deliverables resulting in one patent application and published a survey paper
-
-## American Society of Civil Engineers Concrete Canoe Competition
-**Hull designer [[Works]](https://onehfr.github.io/portfolio/) [[PPT]](https://docs.google.com/presentation/d/12NBXRfv-bkYV1_H_B_a9v2MSho-ZQoks/edit) [[Paper]](https://drive.google.com/file/d/1i1cccV4Z0L-QA_X-vGSDULjoMEMeWuiT/view)** *hosted by [ASCE](https://www.linkedin.com/company/americansocietyofcivilengineers) in Sacramento, CA*  
-*May 2022 - Apr 2024*
-
-* Performed 3D reconstruction of the hull canoe using Colmap and CloudCompare to extract a surface envelope point set, controlling construction errors and ensuring surface form quality
-* Analyzed hull hydrodynamics via CFD simulation in Ansys Fluent based on Rhino-modeled geometry to optimize streamlined hull design
-* Validated navigation data using 3D-printed prototypes with IMU-motor setups
-
-## 3D Reconstruction for CAD Model Generation Based on Panoramic Images
-**Lab member** *supervised by [Prof. Yujie Lu](https://scholar.google.com/citations?user=NK7jwuUAAAAJ&hl=en) in [AI Construction lab](https://structure.tongji.edu.cn/info/1630/5443.htm)*  
-*Nov 2023 - Apr 2024*
-
-* Developed an end-to-end pipeline for indoor 3D spatial mapping using Insta360 panoramic images, enabling rapid and lightweight 3D spatial mapping
-* Implemented algorithms for point cloud optimization and feature extraction to enable automated 3D-to-2D CAD model conversion
+    * Developed a mobile robot-based vision system for real-time damage detection using Python and OpenCV
+    * Implemented YOLOv5 for automated structural defect detection to enhance inspection safety
+  </div>
+  <div class="project-image">
+    <img src="/images/p1.jpg" alt="Bridge Deck Inspection System">
+  </div>
 </div>
+
+<div class="project-item">
+  <div class="project-content">
+    ## Multi-Source Time Series Prediction for Urban Infrastructure Health
+    **Team leader** *supervised by [Prof. Jiazeng Shan](https://scholar.google.com/citations?user=HRdSfmkAAAAJ&hl=en) in [Glodon](https://www.glodon.com/en/)*  
+    *Mar 2023 - Apr 2024*
+
+    * Developed deep learning models (clustering, LSTM, and Transformer) for urban infrastructure time series prediction using Glodon's datasets
+    * Accomplished project deliverables resulting in one patent application and published a survey paper
+  </div>
+  <div class="project-image">
+    <img src="/images/p2.jpg" alt="Time Series Prediction">
+  </div>
+</div>
+
+<div class="project-item">
+  <div class="project-content">
+    ## American Society of Civil Engineers Concrete Canoe Competition
+    **Hull designer [[Works]](https://onehfr.github.io/portfolio/) [[PPT]](https://docs.google.com/presentation/d/12NBXRfv-bkYV1_H_B_a9v2MSho-ZQoks/edit) [[Paper]](https://drive.google.com/file/d/1i1cccV4Z0L-QA_X-vGSDULjoMEMeWuiT/view)** *hosted by [ASCE](https://www.linkedin.com/company/americansocietyofcivilengineers) in Sacramento, CA*  
+    *May 2022 - Apr 2024*
+
+    * Performed 3D reconstruction of the hull canoe using Colmap and CloudCompare to extract a surface envelope point set, controlling construction errors and ensuring surface form quality
+    * Analyzed hull hydrodynamics via CFD simulation in Ansys Fluent based on Rhino-modeled geometry to optimize streamlined hull design
+    * Validated navigation data using 3D-printed prototypes with IMU-motor setups
+  </div>
+  <div class="project-image">
+    <img src="/images/p3.jpg" alt="Concrete Canoe">
+  </div>
+</div>
+
+<div class="project-item">
+  <div class="project-content">
+    ## 3D Reconstruction for CAD Model Generation Based on Panoramic Images
+    **Lab member** *supervised by [Prof. Yujie Lu](https://scholar.google.com/citations?user=NK7jwuUAAAAJ&hl=en) in [AI Construction lab](https://structure.tongji.edu.cn/info/1630/5443.htm)*  
+    *Nov 2023 - Apr 2024*
+
+    * Developed an end-to-end pipeline for indoor 3D spatial mapping using Insta360 panoramic images, enabling rapid and lightweight 3D spatial mapping
+    * Implemented algorithms for point cloud optimization and feature extraction to enable automated 3D-to-2D CAD model conversion
+  </div>
+  <div class="project-image">
+    <img src="/images/p4.jpg" alt="3D Reconstruction">
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Achievements
 ======
-National Scholarship 2021-2022  
-TianXiang Scholarship (2 slots one college) 2022-2023  
-Interdisciplinary Contest In Modeling hosted by COMAP Finalist Prize 2023  
-National Undergraduate Mathematics/Physics Competition: Third Prize/Second Prize 2022  
-International Concrete Dragon Boat Competition 2nd Prize 2022  
-ASCE Concrete Canoe Competition (2nd Place in California Section) 2024  
+- [x] National Scholarship / TianXiang Scholarship (2 slots one college)  
+- [x] Interdisciplinary Contest In Modeling hosted by COMAP Finalist Prize 2023  
+- [x] National Undergraduate Mathematics/Physics Competition: Third Prize/Second Prize 2022  
+- [x] International Concrete Dragon Boat Competition 2nd Prize 2022  
+- [x] ASCE Concrete Canoe Competition (2nd Place in California Section) 2024  
 
 
 Ma

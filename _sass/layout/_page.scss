@@ -404,12 +404,54 @@
 /*
    Self-Project
    ========================================================================== */
+// .projects {
+//   margin-top: 2em;
+  
+//   h2 {
+//     color: #333;
+//     margin-top: 1.5em;
+//     margin-bottom: 0.5em;
+//     font-size: 1.3em;
+//   }
+  
+//   p {
+//     margin-bottom: 0.8em;
+//   }
+  
+//   ul {
+//     margin-left: 1.5em;
+//     margin-bottom: 1.5em;
+//   }
+  
+//   li {
+//     margin-bottom: 0.5em;
+//     line-height: 1.6;
+//   }
+  
+//   a {
+//     color: #0366d6;
+//     text-decoration: none;
+    
+//     &:hover {
+//       text-decoration: underline;
+//     }
+//   }
+  
+//   strong {
+//     color: #1a1a1a;
+//   }
+  
+//   em {
+//     color: #666;
+//   }
+// }
+
 .projects {
   margin-top: 2em;
   
-  h2 {
+  h3 {
     color: #333;
-    margin-top: 1.5em;
+    margin-top: 0;
     margin-bottom: 0.5em;
     font-size: 1.3em;
   }
@@ -444,4 +486,71 @@
   em {
     color: #666;
   }
+
+  // 新增的项目布局样式
+  .project-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-bottom: 3em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #eee;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  }
+
+  .project-content {
+    flex: 1;
+    min-width: 0; // 防止文本溢出
+    
+    @media (min-width: 768px) {
+      width: 50%;
+    }
+  }
+
+  .project-image {
+    flex: 1;
+    
+    @media (min-width: 768px) {
+      width: 50%;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.02);
+      }
+    }
+  }
+}
+
+.cv-button {
+  background-color: white; 
+  border: 2px solid #888; 
+  padding: 8px 16px; 
+  text-align: center; 
+  text-decoration: none;  /* Remove underline */
+  color: inherit; /* Inherit color from parent */
+  display: inline-block; 
+  font-weight: bold; 
+  margin: 2px 1px; 
+  cursor: pointer; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.cv-button:hover {
+  background-color: #f0f0f0;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+  text-decoration: none;  /* Ensure no underline on hover */
 }
