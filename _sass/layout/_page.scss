@@ -417,6 +417,16 @@
     margin: 0 0 0.5em;
     font-size: 1.1em;
     font-weight: bold;
+
+    a {
+      color: inherit;  // 继承h3的颜色
+      text-decoration: none;  // 移除下划线
+      
+      &:hover {
+        color: inherit;  // 悬浮时保持颜色
+        text-decoration: none;  // 悬浮时保持无下划线
+      }
+    }
   }
 
   .project-item {

@@ -83,7 +83,7 @@ Project & Intern Experience
 <div class="projects">
   <div class="project-item">
     <div class="project-content">
-      <h3>Multi-Source Time Series Prediction for Urban Infrastructure Health</h3>
+      <h3><a href="https://onehfr.github.io/portfolio/portfolio-1/"> Multi-Source Time Series Prediction for Urban Infrastructure Health</a></h3>
       <div class="project-meta">
         <span class="role">Team leader</span>
         <span class="supervisor">supervised by <a href="https://scholar.google.com/citations?user=HRdSfmkAAAAJ&hl=en">Prof. Jiazeng Shan</a> in <a href="https://www.glodon.com/en/">Glodon</a></span>
@@ -101,7 +101,7 @@ Project & Intern Experience
 <div class="projects">
   <div class="project-item">
     <div class="project-content">
-      <h3>American Society of Civil Engineers Concrete Canoe Competition</h3>
+      <h3><a href="https://onehfr.github.io/portfolio/portfolio-2/">American Society of Civil Engineers Concrete Canoe Competition</a></h3>
       <div class="project-meta">
         <span class="role">Hull designer</span>
         <span class="links">
@@ -119,10 +119,12 @@ Project & Intern Experience
   </div>
 </div>
 
+<hr>
+
 <div class="projects">
   <div class="project-item">
     <div class="project-content">
-      <h3>American Society of Civil Engineers Concrete Canoe Competition</h3>
+      <h3><a href="https://onehfr.github.io/portfolio/portfolio-3/">American Society of Civil Engineers Concrete Canoe Competition</a></h3>
       <div class="project-meta">
         <span class="role">Hull designer</span>
         <span class="links">
@@ -150,6 +152,8 @@ Project & Intern Experience
 </div>
 
 <hr>
+
+
 
 
 Achievements
