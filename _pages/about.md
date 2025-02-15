@@ -83,18 +83,24 @@ Project & Intern Experience
 <div class="projects">
   <div class="project-item">
     <div class="project-content">
-      <h3>Bridge Deck Inspection through Multi-Camera Vision</h3>
+      <h3>Multi-Source Time Series Prediction for Urban Infrastructure Health</h3>
       <div class="project-meta">
-        <span class="role">Team member</span>
-        <span class="supervisor">supervised by <a href="https://www.researchgate.net/profile/Rujin-Ma">Prof. Rujin Ma</a></span>
-        <span class="date">Feb 2022 - Mar 2023</span>
+        <span class="role">Team leader</span>
+        <span class="supervisor">supervised by <a href="https://scholar.google.com/citations?user=HRdSfmkAAAAJ&hl=en">Prof. Jiazeng Shan</a> in <a href="https://www.glodon.com/en/">Glodon</a></span>
+        <span class="date">Mar 2023 - Apr 2024</span>
       </div>
+      <ul class="project-achievements">
+        <li>Developed deep learning models (clustering, LSTM, and Transformer) for urban infrastructure time series prediction using Glodon's datasets.</li>
+        <li>Accomplished project deliverables resulting in one patent application and published a survey paper.</li>
+      </ul>
     </div>
     <div class="project-image">
       <img src="/images/p1.png" alt="LSTM">
     </div>
   </div>
 </div>
+
+<hr>
 
 <div class="projects">
   <div class="project-item">
@@ -167,7 +173,7 @@ Achievements
 
 <hr>
 
-
+<!-- 
 Ma
 ======
-Th
+Th -->

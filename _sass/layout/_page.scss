@@ -416,7 +416,7 @@
     color: #333;
     margin: 0 0 0.5em;
     font-size: 1.1em;
-    font-weight: bold;  /* 增强标题的视觉效果 */
+    font-weight: bold;
   }
 
   .project-item {
@@ -426,22 +426,20 @@
     margin-bottom: 3em;
     padding-bottom: 2em;
     border-bottom: 1px solid #eee;
-    border-radius: 8px; /* 为每个项目添加圆角效果 */
-    transition: box-shadow 0.3s ease; /* 增加鼠标悬停时的过渡效果 */
-
-    &:hover {
-      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* 鼠标悬停时加大阴影效果 */
-    }
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
 
     @media (min-width: 768px) {
       flex-direction: row;
       align-items: flex-start;
+      gap: 3em; // 增加左右间距
     }
   }
 
   .project-content {
     flex: 1;
     min-width: 0;
+    padding-top: 2em; // 添加上边距使文本内容整体下移
   }
 
   .project-meta {
@@ -466,30 +464,10 @@
     }
   }
 
-  ul {
-    margin: 1em 0 1.5em 1.5em;
-    padding: 0;
-  }
-
-  li {
-    margin-bottom: 0.5em;
-    line-height: 1.6;
-    color: #333;
-  }
-
-  a {
-    color: #0366d6;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-
   .project-image {
     flex: 1;
-    margin-top: 1.5em; /* 项目图像与内容之间的间距 */
-
+    margin-top: 0; // 移除顶部边距
+    
     @media (min-width: 768px) {
       width: 50%;
     }
@@ -502,94 +480,12 @@
       transition: transform 0.3s ease;
 
       &:hover {
-        transform: scale(1.05); /* 悬浮时稍微增加放大效果 */
+        transform: scale(1.05);
       }
     }
   }
-
-  /* 新增的 .full-width 类，用于占据整个页面宽度的图片 */
-  .project-image.full-width {
-    @media (min-width: 768px) {
-      width: 100%;
-    }
-
-    img {
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s ease;
-    }
-
-    img:hover {
-      transform: scale(1.05); /* 增加悬浮时的放大效果 */
-    }
-  }
-
-  .project-image.full-width {
-    width: 100%;
-    height: 500px;
-    margin-top: 2em;
-
-    .c-viewer__iframe {
-      width: 100%;
-      height: 100%;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-  }
-
-  /* 确保 iframe 在 full-width 容器中占据100%的宽度和高度 */
-  .project-image.full-width iframe {
-    width: 100%;   /* iframe 宽度占满容器 */
-    height: 100%;  /* iframe 高度占满容器 */
-    border-radius: 8px;  /* 圆角效果 */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* 阴影效果 */
-  }
-
-  /* 新增按钮样式 */
-  .project-button {
-    display: inline-block;
-    background-color: #0366d6;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    margin-top: 1.5em;
-    transition: background-color 0.3s ease;
-    
-    &:hover {
-      background-color: #0056b3;
-    }
-  }
 }
 
-/* 查看详情按钮的样式 */
-.view-details {
-  margin-top: 1.5em;
-}
-
-.view-details-btn {
-  display: inline-block;
-  padding: 0.8em 1.5em;
-  background-color: #0366d6;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 4px;
-  text-align: center;
-  transition: background-color 0.3s ease;
-}
-
-.view-details-btn:hover {
-  background-color: #0354a1;  /* 按钮悬浮时颜色 */
-}
-
-.project-item .project-content p {
-  margin-bottom: 1em;  /* 保证文字和按钮之间有空隙 */
-}
 
 /* 重新定义项目中的图片样式 */
 .project-image {
