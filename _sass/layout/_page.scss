@@ -412,10 +412,11 @@
 .projects {
   margin-top: 2em;
 
-  h4 {
+  h3 {
     color: #333;
     margin: 0 0 0.5em;
     font-size: 1.1em;
+    font-weight: bold;  /* 增强标题的视觉效果 */
   }
 
   .project-item {
@@ -425,6 +426,12 @@
     margin-bottom: 3em;
     padding-bottom: 2em;
     border-bottom: 1px solid #eee;
+    border-radius: 8px; /* 为每个项目添加圆角效果 */
+    transition: box-shadow 0.3s ease; /* 增加鼠标悬停时的过渡效果 */
+
+    &:hover {
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* 鼠标悬停时加大阴影效果 */
+    }
 
     @media (min-width: 768px) {
       flex-direction: row;
@@ -439,18 +446,18 @@
 
   .project-meta {
     margin-bottom: 1em;
-    
+
     .role {
       font-weight: bold;
       color: #1a1a1a;
     }
-    
+
     .supervisor {
       color: #666;
       font-style: italic;
       margin-left: 0.5em;
     }
-    
+
     .date {
       display: block;
       color: #666;
@@ -473,7 +480,7 @@
   a {
     color: #0366d6;
     text-decoration: none;
-    
+
     &:hover {
       text-decoration: underline;
     }
@@ -481,7 +488,8 @@
 
   .project-image {
     flex: 1;
-    
+    margin-top: 1.5em; /* 项目图像与内容之间的间距 */
+
     @media (min-width: 768px) {
       width: 50%;
     }
@@ -494,7 +502,7 @@
       transition: transform 0.3s ease;
 
       &:hover {
-        transform: scale(1.02);
+        transform: scale(1.05); /* 悬浮时稍微增加放大效果 */
       }
     }
   }
@@ -502,41 +510,66 @@
   /* 新增的 .full-width 类，用于占据整个页面宽度的图片 */
   .project-image.full-width {
     @media (min-width: 768px) {
-      width: 100%; /* 在大屏幕下图片宽度为100% */
+      width: 100%;
     }
 
     img {
-      width: 100%; /* 图片占满整个宽度 */
+      width: 100%;
       height: auto;
-      border-radius: 8px; /* 圆角效果 */
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 阴影效果 */
-      transition: transform 0.3s ease;  /* 悬浮时的变换效果 */
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
     }
 
     img:hover {
-      transform: scale(1.02);  /* 悬浮时的放大效果 */
+      transform: scale(1.05); /* 增加悬浮时的放大效果 */
     }
   }
 
   .project-image.full-width {
     width: 100%;
-    height: 500px; /* 可以根据需要调整高度 */
+    height: 500px;
     margin-top: 2em;
-  
+
     .c-viewer__iframe {
       width: 100%;
       height: 100%;
-      border-radius: 8px;  /* 圆角效果 */
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* 阴影效果 */
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  /* 确保 iframe 在 full-width 容器中占据100%的宽度和高度 */
+  .project-image.full-width iframe {
+    width: 100%;   /* iframe 宽度占满容器 */
+    height: 100%;  /* iframe 高度占满容器 */
+    border-radius: 8px;  /* 圆角效果 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* 阴影效果 */
+  }
+
+  /* 新增按钮样式 */
+  .project-button {
+    display: inline-block;
+    background-color: #0366d6;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 1.5em;
+    transition: background-color 0.3s ease;
+    
+    &:hover {
+      background-color: #0056b3;
     }
   }
 }
 
 
-
 .cv-button {
   background-color: #fafafa;
-  border: 2px solid #ffffff; 
+  border: 2px solid #fafafa;
   padding: 8px 16px; 
   text-align: center; 
   text-decoration: none !important;  // 添加 !important
@@ -554,7 +587,7 @@
   &:active,
   &:visited {  // 添加所有链接状态的样式
     background-color: #fafafa;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
     transform: scale(1.05);
     text-decoration: none !important;
   }
