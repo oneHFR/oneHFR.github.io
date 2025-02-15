@@ -42,6 +42,8 @@ Current Research
    </div>
 </div>
 
+<hr>
+
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
    <div style="flex: 0 0 45%; margin-right: 20px;">
        <img src="../images/Universe_pre.png" style="width: 100%; height: auto;"/>
@@ -49,6 +51,10 @@ Current Research
    <div style="flex: 0 0 50%;">
        <h3 style="margin-top: 0;"><img src="..\images\universe.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;"><strong>Universe</strong>: Unleashing the Consistent Prior of Video Diffusion Models for Robust Reconstruction</h3>
        <p><em>Preparing for ICCV 2025</em></p>
+       <p>
+           <a href="#">[PPT]</a>
+           <!-- <a href="#">[Video]</a> -->
+       </p>
        <p>
            The full details will be presented in an interview/online chat with you!
        </p>
@@ -121,8 +127,6 @@ Project & Intern Experience
 
 Achievements
 ======
-{: style="text-align: left;"}
-
 <div class="achievements" style="text-align: left;">
   <div class="achievement-item">
     <div class="custom-checkbox">
@@ -130,28 +134,24 @@ Achievements
       <label for="achievement1">National Scholarship (Top 1.5%) / TianXiang Scholarship (2 slots one college)</label>
     </div>
   </div>
-
   <div class="achievement-item">
     <div class="custom-checkbox">
       <input type="checkbox" id="achievement2" checked>
       <label for="achievement2">Interdisciplinary Contest In Modeling hosted by COMAP Finalist Prize 2023</label>
     </div>
   </div>
-
   <div class="achievement-item">
     <div class="custom-checkbox">
       <input type="checkbox" id="achievement3" checked>
       <label for="achievement3">National Undergraduate Mathematics/Physics Competition: Third Prize/Second Prize 2022</label>
     </div>
   </div>
-
   <div class="achievement-item">
     <div class="custom-checkbox">
       <input type="checkbox" id="achievement4" checked>
       <label for="achievement4">International Concrete Dragon Boat Competition 2nd Prize 2022</label>
     </div>
   </div>
-
   <div class="achievement-item">
     <div class="custom-checkbox">
       <input type="checkbox" id="achievement5" checked>
