@@ -153,6 +153,20 @@ Project & Intern Experience
 
 <hr>
 
+<div class="c-viewer viewer-container">
+  <iframe 
+    title="2024ASCE-Tongji 3D model - Sketchfab" 
+    class="c-viewer__iframe" 
+    src="https://sketchfab.com/models/f1fb11c7c3bf475096fb1eab2826c06f/embed?autostart=1&amp;internal=1&amp;tracking=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_theatre=1&amp;ui_watermark=0" 
+    id="api-frame" 
+    allow="autoplay; fullscreen; xr-spatial-tracking" 
+    xr-spatial-tracking="true" 
+    execution-while-out-of-viewport="true" 
+    execution-while-not-rendered="true" 
+    web-share="true" 
+    allowfullscreen="">
+  </iframe>
+</div>
 
 
 

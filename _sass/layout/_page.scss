@@ -625,3 +625,17 @@
     }
   }
 }
+
+/* 确保 iframe 的容器占满全宽 */
+.c-viewer.viewer-container {
+  width: 100%;  /* 设置为全宽 */
+  height: 500px; /* 可以根据需要调整高度 */
+  margin-top: 2em; /* 可以设置一些间距 */
+}
+
+/* 确保 iframe 占满容器的宽度并且自适应高度 */
+.c-viewer__iframe {
+  width: 100%;  /* 占满容器宽度 */
+  height: 100%; /* 高度和容器一致 */
+  border: none; /* 去除 iframe 边框 */
+}
