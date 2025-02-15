@@ -59,11 +59,7 @@ Current Research
        <h3 style="margin-top: 0;"><img src="..\images\universe.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;"><strong>Universe</strong>: Unleashing the Consistent Prior of Video Diffusion Models for Robust Reconstruction</h3>
        <p><em>Preparing for ICCV 2025</em></p>
        <p>
-           <a href="#">[PPT]</a>
-           <!-- <a href="#">[Video]</a> -->
-       </p>
-       <p>
-           The full details will be presented in an interview/online chat with you!
+           <a href="#">[PPT]</a> The full details will be presented in an interview/online chat with you!
        </p>
    </div>
 </div>
@@ -99,8 +95,6 @@ Projects & Intern Experience
     </div>
   </div>
 </div>
-
-
 <div class="projects">
   <div class="project-item">
     <div class="project-content">
@@ -126,8 +120,6 @@ Projects & Intern Experience
     </div>
   </div>
 </div>
-
-
 <div class="projects">
   <div class="project-item">
     <div class="project-content">
@@ -144,7 +136,6 @@ Projects & Intern Experience
       </div>
     </div>
     <div class="project-image">
-      <!-- <img src="/images/p1.png" alt="Concrete Canoe"> -->
       <video 
         autoplay 
         loop 
@@ -157,8 +148,6 @@ Projects & Intern Experience
     </div>
   </div>
 </div>
-
-
 <div class="c-viewer viewer-container">
   <iframe 
     title="Canoe2024-Tongji-Yangtze 3D model - Sketchfab" 
