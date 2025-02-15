@@ -30,7 +30,9 @@ Current Research
 ======
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
    <div style="flex: 0 0 45%; margin-right: 20px;">
-       <img src="../images/MOSS_Homepage.png" style="width: 100%; height: auto;"/>
+       <div class="image-hover-container">
+           <img src="../images/MOSS_Homepage.png" style="width: 100%; height: auto;"/>
+       </div>
    </div>
    <div style="flex: 0 0 50%;">
        <h3 style="margin-top: 0;"><img src="..\images\favicon-192x192.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;">MOSS: Mask-Oriented Open-Set for 3D Scene Segmentation using Superpoint</h3>
@@ -49,7 +51,9 @@ Current Research
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
    <div style="flex: 0 0 45%; margin-right: 20px;">
-       <img src="../images/Universe_pre.png" style="width: 100%; height: auto;"/>
+       <div class="image-hover-container">
+           <img src="../images/Universe_pre.png" style="width: 100%; height: auto;"/>
+       </div>
    </div>
    <div style="flex: 0 0 50%;">
        <h3 style="margin-top: 0;"><img src="..\images\universe.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;"><strong>Universe</strong>: Unleashing the Consistent Prior of Video Diffusion Models for Robust Reconstruction</h3>
@@ -96,18 +100,16 @@ Projects & Intern Experience
   </div>
 </div>
 
-<hr>
 
 <div class="projects">
   <div class="project-item">
     <div class="project-content">
-      <h3>2023-2024 Object Oriented Programming Homework @Tongji</h3>
+      <h3><a href="https://github.com/oneHFR/24-25-OOP">2023-2024 Object Oriented Programming Homework @Tongji</a></h3>
       <div class="project-meta">
         <span class="role">Code course</span>
         <span class="links">
           [<a href="https://github.com/oneHFR/24-25-OOP">Code</a>]
         </span>
-        <span class="supervisor">instructed by Jian Shen</span>
         <span class="date">Sep 2024 - Jan 2025</span>
       </div>
     </div>
@@ -125,7 +127,6 @@ Projects & Intern Experience
   </div>
 </div>
 
-<hr>
 
 <div class="projects">
   <div class="project-item">
@@ -157,7 +158,6 @@ Projects & Intern Experience
   </div>
 </div>
 
-<hr>
 
 <div class="c-viewer viewer-container">
   <iframe 
@@ -176,6 +176,9 @@ Projects & Intern Experience
       <img src="/images/p4-poster.png" alt="p4-poster" class="c-viewer__image">
   </div>
 </div>
+
+
+
 
 <hr>
 
