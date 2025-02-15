@@ -79,71 +79,43 @@ Project & Intern Experience
 </div>
 
 
-<div class="projects">
-  <div class="project-item">
-    <div class="project-content">
-      <h3>American Society of Civil Engineers Concrete Canoe Competition</h3>
-      <div class="project-meta">
-        <span class="role">Hull designer</span>
-        <span class="supervisor">[Works] [PPT] [Paper]</span>
-        <span class="date">Hosted by <a href="https://www.linkedin.com/company/americansocietyofcivilengineers" target="_blank">ASCE</a> in Sacramento, CA</span>
-        <span class="date">May 2022 - Apr 2024</span>
-      </div>
-      <p>
-        Performed 3D reconstruction of the hull canoe using Colmap and CloudCompare to extract a surface envelope point set, controlling construction errors and ensuring surface form quality.
-      </p>
-      <p>
-        Analyzed hull hydrodynamics via CFD simulation in Ansys Fluent based on Rhino-modeled geometry to optimize streamlined hull design.
-      </p>
-      <p>
-        Validated navigation data using 3D-printed prototypes with IMU-motor setups.
-      </p>
+<div class="project-item">
+  <div class="project-content">
+    <h4>American Society of Civil Engineers Concrete Canoe Competition</h4>
+    <div class="project-meta">
+      <span class="role">Hull designer</span>
+      <span class="supervisor">[Works] [PPT] [Paper]</span> 
+      <span class="date">Hosted by <a href="https://www.linkedin.com/company/americansocietyofcivilengineers" target="_blank">ASCE</a> in Sacramento, CA</span>
+      <span class="date">May 2022 - Apr 2024</span>
     </div>
-
-<div class="project-image full-width">
-      <img src="/images/p4.png" alt="Concrete Canoe">
+    <p>
+      Performed 3D reconstruction of the hull canoe using Colmap and CloudCompare to extract a surface envelope point set, controlling construction errors and ensuring surface form quality.
+    </p>
+    <p>
+      Analyzed hull hydrodynamics via CFD simulation in Ansys Fluent based on Rhino-modeled geometry to optimize streamlined hull design.
+    </p>
+    <p>
+      Validated navigation data using 3D-printed prototypes with IMU-motor setups.
+    </p>
+    <!-- 新增查看详情按钮 -->
+    <div class="view-details">
+      <a href="https://onehfr.github.io/portfolio/portfolio-2/" class="view-details-btn">查看详情</a>
     </div>
   </div>
 
-  <div class="project-item">
-    <div class="project-content">
-      <h3>American Society of Civil Engineers Concrete Canoe Competition</h3>
-      <div class="project-meta">
-        <span class="role">Hull designer</span>
-        <span class="supervisor">[Works] [PPT] [Paper]</span>
-        <span class="date">Hosted by <a href="https://www.linkedin.com/company/americansocietyofcivilengineers" target="_blank">ASCE</a> in Sacramento, CA</span>
-        <span class="date">May 2022 - Apr 2024</span>
-      </div>
-      <p>
-        Performed 3D reconstruction of the hull canoe using Colmap and CloudCompare to extract a surface envelope point set, controlling construction errors and ensuring surface form quality.
-      </p>
-      <p>
-        Analyzed hull hydrodynamics via CFD simulation in Ansys Fluent based on Rhino-modeled geometry to optimize streamlined hull design.
-      </p>
-      <p>
-        Validated navigation data using 3D-printed prototypes with IMU-motor setups.
-      </p>
-    </div>
-
-<!-- Sketchfab 3D model embed section -->
-<div class="project-image full-width">
-      <div class="c-viewer viewer-container">
-        <iframe 
-          title="just a test 3D model - Sketchfab" 
-          class="c-viewer__iframe" 
-          src="https://sketchfab.com/models/bc10ab5470a449c5b100b739b3c1a761/embed?autostart=1&amp;internal=1&amp;tracking=0&amp;ui_ar=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_theatre=1&amp;ui_watermark=0" 
-          id="api-frame" 
-          allow="autoplay; fullscreen; xr-spatial-tracking" 
-          xr-spatial-tracking="true" 
-          execution-while-out-of-viewport="true" 
-          execution-while-not-rendered="true" 
-          web-share="true" 
-          allowfullscreen="">
-        </iframe>
-      </div>
-    </div>
+  <div class="project-image">
+    <img src="/images/p4.png" alt="Concrete Canoe" class="full-width">
   </div>
 </div>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -151,44 +123,43 @@ Achievements
 ======
 {: style="text-align: left;"}
 
-<div class="achievements" markdown="1">
+<div class="achievements" style="text-align: left;">
+  <div class="achievement-item">
+    <div class="custom-checkbox">
+      <input type="checkbox" id="achievement1" checked>
+      <label for="achievement1">National Scholarship (Top 1.5%) / TianXiang Scholarship (2 slots one college)</label>
+    </div>
+  </div>
 
-	<div class="achievement-item">
-		<div class="custom-checkbox">
-			<input type="checkbox" id="achievement1" checked>
-			<label for="achievement1">National Scholarship (Top 1.5%) / TianXiang Scholarship (2 slots one college)  </label>
-		</div>
-	</div>
+  <div class="achievement-item">
+    <div class="custom-checkbox">
+      <input type="checkbox" id="achievement2" checked>
+      <label for="achievement2">Interdisciplinary Contest In Modeling hosted by COMAP Finalist Prize 2023</label>
+    </div>
+  </div>
 
-	<div class="achievement-item">
-		<div class="custom-checkbox">
-			<input type="checkbox" id="achievement2" checked>
-			<label for="achievement2">Interdisciplinary Contest In Modeling hosted by COMAP Finalist Prize 2023</label>
-		</div>
-	</div>
+  <div class="achievement-item">
+    <div class="custom-checkbox">
+      <input type="checkbox" id="achievement3" checked>
+      <label for="achievement3">National Undergraduate Mathematics/Physics Competition: Third Prize/Second Prize 2022</label>
+    </div>
+  </div>
 
-	<div class="achievement-item">
-		<div class="custom-checkbox">
-			<input type="checkbox" id="achievement3" checked>
-			<label for="achievement3">National Undergraduate Mathematics/Physics Competition: Third Prize/Second Prize 2022</label>
-		</div>
-	</div>
+  <div class="achievement-item">
+    <div class="custom-checkbox">
+      <input type="checkbox" id="achievement4" checked>
+      <label for="achievement4">International Concrete Dragon Boat Competition 2nd Prize 2022</label>
+    </div>
+  </div>
 
-	<div class="achievement-item">
-		<div class="custom-checkbox">
-			<input type="checkbox" id="achievement4" checked>
-			<label for="achievement4">International Concrete Dragon Boat Competition 2nd Prize 2022</label>
-		</div>
-	</div>
-
-	<div class="achievement-item">
-		<div class="custom-checkbox">
-			<input type="checkbox" id="achievement5" checked>
-			<label for="achievement5">ASCE Concrete Canoe Competition (2nd Place in California Section) 2024</label>
-		</div>
-	</div>
-
+  <div class="achievement-item">
+    <div class="custom-checkbox">
+      <input type="checkbox" id="achievement5" checked>
+      <label for="achievement5">ASCE Concrete Canoe Competition (2nd Place in California Section) 2024</label>
+    </div>
+  </div>
 </div>
+
 
 Ma
 ======
