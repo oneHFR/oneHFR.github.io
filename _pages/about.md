@@ -58,71 +58,25 @@ Current Research
 
 Project & Intern Experience
 ======
-{: style="color: black; text-align: left;"}
-
-<div class="projects" markdown="1">
-<div class="project-item">
-  <div class="project-content" markdown="1">
-    ### Bridge Deck Inspection through Multi-Camera Vision
-    **Team member** *supervised by [Prof. Rujin Ma](https://www.researchgate.net/profile/Rujin-Ma)*  
-    *Feb 2022 - Mar 2023*
-
-    * Developed a mobile robot-based vision system for real-time damage detection using Python and OpenCV
-    * Implemented YOLOv5 for automated structural defect detection to enhance inspection safety
-  </div>
-  <div class="project-image">
-    <img src="/images/p1.png" alt="Bridge Deck Inspection System">
-  </div>
-</div>
-
-<div class="project-item">
-  <div class="project-content" markdown="1">
-    ### Multi-Source Time Series Prediction for Urban Infrastructure Health
-    **Team leader** *supervised by [Prof. Jiazeng Shan](https://scholar.google.com/citations?user=HRdSfmkAAAAJ&hl=en) in [Glodon](https://www.glodon.com/en/)*  
-    *Mar 2023 - Apr 2024*
-
-    * Developed deep learning models (clustering, LSTM, and Transformer) for urban infrastructure time series prediction using Glodon's datasets
-    * Accomplished project deliverables resulting in one patent application and published a survey paper
-  </div>
-  <div class="project-image">
-    <img src="/images/p2.png" alt="Time Series Prediction">
+<div class="projects">
+  <div class="project-item">
+    <div class="project-content">
+      <h3>Bridge Deck Inspection through Multi-Camera Vision</h3>
+      <div class="project-meta">
+        <span class="role">Team member</span>
+        <span class="supervisor">supervised by <a href="https://www.researchgate.net/profile/Rujin-Ma">Prof. Rujin Ma</a></span>
+        <span class="date">Feb 2022 - Mar 2023</span>
+      </div>
+      <ul>
+        <li>Developed a mobile robot-based vision system for real-time damage detection using Python and OpenCV</li>
+        <li>Implemented YOLOv5 for automated structural defect detection to enhance inspection safety</li>
+      </ul>
+    </div>
+    <div class="project-image">
+      <img src="/images/p1.png" alt="Bridge Deck Inspection System">
+    </div>
   </div>
 </div>
-
-<div class="project-item">
-  <div class="project-content" markdown="1">
-    ### American Society of Civil Engineers Concrete Canoe Competition
-    **Hull designer [[Works]](https://onehfr.github.io/portfolio/) [[PPT]](https://docs.google.com/presentation/d/12NBXRfv-bkYV1_H_B_a9v2MSho-ZQoks/edit) [[Paper]](https://drive.google.com/file/d/1i1cccV4Z0L-QA_X-vGSDULjoMEMeWuiT/view)** *hosted by [ASCE](https://www.linkedin.com/company/americansocietyofcivilengineers) in Sacramento, CA*  
-    *May 2022 - Apr 2024*
-
-    * Performed 3D reconstruction of the hull canoe using Colmap and CloudCompare to extract a surface envelope point set, controlling construction errors and ensuring surface form quality
-    * Analyzed hull hydrodynamics via CFD simulation in Ansys Fluent based on Rhino-modeled geometry to optimize streamlined hull design
-    * Validated navigation data using 3D-printed prototypes with IMU-motor setups
-  </div>
-  <div class="project-image">
-    <img src="/images/p3.png" alt="Concrete Canoe">
-  </div>
-</div>
-
-<div class="project-item">
-  <div class="project-content" markdown="1">
-    ### 3D Reconstruction for CAD Model Generation Based on Panoramic Images
-    **Lab member** *supervised by [Prof. Yujie Lu](https://scholar.google.com/citations?user=NK7jwuUAAAAJ&hl=en) in [AI Construction lab](https://structure.tongji.edu.cn/info/1630/5443.htm)*  
-    *Nov 2023 - Apr 2024*
-
-    * Developed an end-to-end pipeline for indoor 3D spatial mapping using Insta360 panoramic images, enabling rapid and lightweight 3D spatial mapping
-    * Implemented algorithms for point cloud optimization and feature extraction to enable automated 3D-to-2D CAD model conversion
-  </div>
-  <div class="project-image">
-    <img src="/images/p4.png" alt="3D Reconstruction">
-  </div>
-</div>
-</div>
-
-
-
-
-
 
 
 
@@ -135,48 +89,41 @@ Project & Intern Experience
 
 Achievements
 ======
- [x] National Scholarship (Top 1.5%) / TianXiang Scholarship (2 slots one college)  
- [x] Interdisciplinary Contest In Modeling hosted by COMAP Finalist Prize 2023  
- [x] National Undergraduate Mathematics/Physics Competition: Third Prize/Second Prize 2022  
- [x] International Concrete Dragon Boat Competition 2nd Prize 2022  
- [x] ASCE Concrete Canoe Competition (2nd Place in California Section) 2024  
-
-# Achievements
 {: style="color: black; text-align: left;"}
 
 <div class="achievements" markdown="1">
 
 <div class="achievement-item">
   <div class="custom-checkbox">
-    <input type="checkbox" id="achievement1" checked disabled>
+    <input type="checkbox" id="achievement1">
     <label for="achievement1">National Scholarship (Top 1.5%) / TianXiang Scholarship (2 slots one college)  </label>
   </div>
 </div>
 
 <div class="achievement-item">
   <div class="custom-checkbox">
-    <input type="checkbox" id="achievement2" checked disabled>
+    <input type="checkbox" id="achievement2">
     <label for="achievement2">Interdisciplinary Contest In Modeling hosted by COMAP Finalist Prize 2023</label>
   </div>
 </div>
 
 <div class="achievement-item">
   <div class="custom-checkbox">
-    <input type="checkbox" id="achievement3" checked disabled>
+    <input type="checkbox" id="achievement3">
     <label for="achievement3">National Undergraduate Mathematics/Physics Competition: Third Prize/Second Prize 2022</label>
   </div>
 </div>
 
 <div class="achievement-item">
   <div class="custom-checkbox">
-    <input type="checkbox" id="achievement4" checked disabled>
+    <input type="checkbox" id="achievement4">
     <label for="achievement4">International Concrete Dragon Boat Competition 2nd Prize 2022</label>
   </div>
 </div>
 
 <div class="achievement-item">
   <div class="custom-checkbox">
-    <input type="checkbox" id="achievement5" checked disabled>
+    <input type="checkbox" id="achievement5">
     <label for="achievement5">ASCE Concrete Canoe Competition (2nd Place in California Section) 2024</label>
   </div>
 </div>
