@@ -89,10 +89,6 @@ Project & Intern Experience
         <span class="supervisor">supervised by <a href="https://scholar.google.com/citations?user=HRdSfmkAAAAJ&hl=en">Prof. Jiazeng Shan</a> in <a href="https://www.glodon.com/en/">Glodon</a></span>
         <span class="date">Mar 2023 - Apr 2024</span>
       </div>
-      <ul class="project-achievements">
-        <li>Developed deep learning models (clustering, LSTM, and Transformer) for urban infrastructure time series prediction using Glodon's datasets.</li>
-        <li>Accomplished project deliverables resulting in one patent application and published a survey paper.</li>
-      </ul>
     </div>
     <div class="project-image">
       <img src="/images/p1.png" alt="LSTM">
@@ -107,33 +103,54 @@ Project & Intern Experience
     <div class="project-content">
       <h3>American Society of Civil Engineers Concrete Canoe Competition</h3>
       <div class="project-meta">
-        <div class="project-meta">
-          <span class="role">Hull designer</span>
-          <span class="supervisor">[Works] [PPT] [Paper]</span> 
-          <span class="date">Hosted by <a href="https://www.linkedin.com/company/americansocietyofcivilengineers" target="_blank">ASCE</a> in Sacramento, CA</span>
-          <span class="date">May 2022 - Apr 2024</span>
-        </div>
+        <span class="role">Hull designer</span>
+        <span class="links">
+          [<a href="https://onehfr.github.io/portfolio/">Works</a>]
+          [<a href="https://docs.google.com/presentation/d/12NBXRfv-bkYV1_H_B_a9v2MSho-ZQoks/edit?usp=drive_link&ouid=104071984654367651910&rtpof=true&sd=true">PPT</a>]
+          [<a href="https://drive.google.com/file/d/1i1cccV4Z0L-QA_X-vGSDULjoMEMeWuiT/view?usp=drive_link">Paper</a>]
+        </span>
+        <span class="supervisor">hosted by <a href="https://www.linkedin.com/company/americansocietyofcivilengineers" target="_blank">ASCE</a> in Sacramento, CA</span>
+        <span class="date">May 2022 - Apr 2024</span>
       </div>
     </div>
-    <div class="c-viewer viewer-container">
-      <iframe 
-        title="just a test 3D model - Sketchfab" 
-        class="c-viewer__iframe" 
-        src="https://sketchfab.com/models/bc10ab5470a449c5b100b739b3c1a761/embed?autostart=1&internal=1&tracking=0&ui_ar=0&ui_infos=0&ui_snapshots=1&ui_stop=0&ui_theatre=1&ui_watermark=0" 
-        id="api-frame" 
-        allow="autoplay; fullscreen; xr-spatial-tracking" 
-        xr-spatial-tracking="true" 
-        execution-while-out-of-viewport="true" 
-        execution-while-not-rendered="true" 
-        web-share="true" 
-        allowfullscreen="">
-      </iframe>
+    <div class="project-image">
+      <img src="/images/p1.png" alt="Concrete Canoe">
     </div>
   </div>
 </div>
 
+<div class="projects">
+  <div class="project-item">
+    <div class="project-content">
+      <h3>American Society of Civil Engineers Concrete Canoe Competition</h3>
+      <div class="project-meta">
+        <span class="role">Hull designer</span>
+        <span class="links">
+          [<a href="https://onehfr.github.io/portfolio/">Works</a>]
+          [<a href="https://docs.google.com/presentation/d/12NBXRfv-bkYV1_H_B_a9v2MSho-ZQoks/edit?usp=drive_link&ouid=104071984654367651910&rtpof=true&sd=true">PPT</a>]
+          [<a href="https://drive.google.com/file/d/1i1cccV4Z0L-QA_X-vGSDULjoMEMeWuiT/view?usp=drive_link">Paper</a>]
+        </span>
+        <span class="supervisor">hosted by <a href="https://www.linkedin.com/company/americansocietyofcivilengineers" target="_blank">ASCE</a> in Sacramento, CA</span>
+        <span class="date">May 2022 - Apr 2024</span>
+      </div>
+    </div>
+    <div class="project-image">
+      <!-- <img src="/images/p1.png" alt="Concrete Canoe"> -->
+      <video 
+        autoplay 
+        loop 
+        muted 
+        controls
+        playsinline
+        style="width: 100%; border-radius: 8px;">
+        <source src="/images/p4-video.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</div>
 
 <hr>
+
 
 Achievements
 ======
