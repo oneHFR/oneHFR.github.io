@@ -13,10 +13,14 @@ I am currently a [Computer Science](https://see-en.tongji.edu.cn/info/1010/1271.
 
 <!-- Here is my CV 📄 -->
 
-<button style="
+<a href="/files/cv.pdf" class="cv-button" target="_blank">
+  Here is my CV 📄
+</a>
+
+<style>
+.cv-button {
     background-color: white; 
     border: 2px solid #888; 
-    color: black; 
     padding: 8px 16px; 
     text-align: center; 
     text-decoration: none; 
@@ -27,21 +31,15 @@ I am currently a [Computer Science](https://see-en.tongji.edu.cn/info/1010/1271.
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-">
-    Here is my CV 📄
-</button>
+}
 
-<!-- Hover effects -->
-<style>
-    button:hover {
-        background-color: #f0f0f0; /* Light grey background on hover */
-        color: black;  /* Text remains black */
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-        transform: scale(1.05);  /* Adds a slight zoom effect */
-    }
+.cv-button:hover {
+  background-color: #f0f0f0;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+  text-decoration: none;
+}
 </style>
-
-
 
 Research Interests
 ======
@@ -67,7 +65,6 @@ Current Research
        </p>
    </div>
 </div>
-<hr>
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
    <div style="flex: 0 0 45%; margin-right: 20px;">
@@ -85,7 +82,10 @@ Current Research
 
 Project & Intern Experience
 ======
-<div class="projects">
+
+{: style="color: black; text-align: left;"}
+
+<div class="projects" markdown="1">
 ## Bridge Deck Inspection through Multi-Camera Vision
 **Team member** *supervised by [Prof. Rujin Ma](https://www.researchgate.net/profile/Rujin-Ma)*  
 *Feb 2022 - Mar 2023*
@@ -114,7 +114,8 @@ Project & Intern Experience
 
 * Developed an end-to-end pipeline for indoor 3D spatial mapping using Insta360 panoramic images, enabling rapid and lightweight 3D spatial mapping
 * Implemented algorithms for point cloud optimization and feature extraction to enable automated 3D-to-2D CAD model conversion
-  
+</div>
+
 Achievements
 ======
 National Scholarship 2021-2022  
@@ -123,7 +124,7 @@ Interdisciplinary Contest In Modeling hosted by COMAP Finalist Prize 2023
 National Undergraduate Mathematics/Physics Competition: Third Prize/Second Prize 2022  
 International Concrete Dragon Boat Competition 2nd Prize 2022  
 ASCE Concrete Canoe Competition (2nd Place in California Section) 2024  
-</div>
+
 
 Ma
 ======

@@ -405,28 +405,21 @@
    Self-Project
    ========================================================================== */
 .projects {
+  margin-top: 2em;
+  
   h2 {
     color: #333;
-    border-bottom: 2px solid #f2f2f2;
-    padding-bottom: 0.5em;
-    margin-bottom: 1em;
-  }
-  
-  h3 {
-    color: #2a2a2a;
     margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    font-size: 1.3em;
   }
   
-  strong {
-    color: #1a1a1a;
-  }
-  
-  em {
-    color: #666;
+  p {
+    margin-bottom: 0.8em;
   }
   
   ul {
-    margin-top: 0.5em;
+    margin-left: 1.5em;
     margin-bottom: 1.5em;
   }
   
@@ -442,5 +435,13 @@
     &:hover {
       text-decoration: underline;
     }
+  }
+  
+  strong {
+    color: #1a1a1a;
+  }
+  
+  em {
+    color: #666;
   }
 }
