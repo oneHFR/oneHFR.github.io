@@ -75,7 +75,7 @@ Current Research
 
 
 
----
+<hr>
 
 
 Project & Intern Experience
@@ -108,20 +108,26 @@ Project & Intern Experience
           <span class="date">May 2022 - Apr 2024</span>
         </div>
       </div>
-      <!-- 新增查看详情按钮 -->
-      <div class="view-details">
-        <a href="https://onehfr.github.io/portfolio/portfolio-2/" class="view-details-btn">查看详情</a>
-      </div>
     </div>
-    <div class="project-image">
-      <img src="/images/p4.png" alt="Concrete Canoe" class="full-width">
+    <div class="c-viewer viewer-container">
+      <iframe 
+        title="just a test 3D model - Sketchfab" 
+        class="c-viewer__iframe" 
+        src="https://sketchfab.com/models/bc10ab5470a449c5b100b739b3c1a761/embed?autostart=1&internal=1&tracking=0&ui_ar=0&ui_infos=0&ui_snapshots=1&ui_stop=0&ui_theatre=1&ui_watermark=0" 
+        id="api-frame" 
+        allow="autoplay; fullscreen; xr-spatial-tracking" 
+        xr-spatial-tracking="true" 
+        execution-while-out-of-viewport="true" 
+        execution-while-not-rendered="true" 
+        web-share="true" 
+        allowfullscreen="">
+      </iframe>
     </div>
   </div>
 </div>
 
 
----
-
+<hr>
 
 Achievements
 ======
@@ -159,7 +165,7 @@ Achievements
 </div>
 
 
----
+<hr>
 
 
 Ma
