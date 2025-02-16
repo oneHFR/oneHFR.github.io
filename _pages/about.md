@@ -42,7 +42,7 @@ Current Research
        <p><em>Preparing for ICCV 2025</em></p>
        <p>
            <a href="../files/MOSS_pre.pdf">[PPT]</a>
-           <a href="https://youtu.be/bWvvBuXxSN4?feature=shared">[Video]</a>
+           <a href="https://www.youtube.com/watch?v=iVQH0lNJSas">[Video]</a>
        </p>
        <p>
            The full details will be presented in an interview/online chat with you!
@@ -150,6 +150,10 @@ Projects & Intern Experience
   </div>
 </div>
 
+<hr>
+<hr>
+
+
 <div class="projects">
   <div class="project-item">
     <div class="project-content">
@@ -177,8 +181,7 @@ Projects & Intern Experience
   </div>
 </div>
 
-<hr>
-<hr>
+
 
 
 Achievements
