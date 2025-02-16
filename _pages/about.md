@@ -9,7 +9,7 @@ redirect_from:
 
 Hi there!👋
 
-I am currently a [Computer Science](https://see-en.tongji.edu.cn/info/1010/1271.htm) junior student in [Tongji University](https://en.tongji.edu.cn/p/). During my first three years of university, I majored in [Intelligent Construction](https://civileng.tongji.edu.cn/civilengen/18034/list.htm), in the [College of Civil Engineering](https://civileng.tongji.edu.cn/civilengen/main.htm). Driven by research interests, I have transferred to CS major and will receive my Bachelor's degree in 2026 and actively seek 26fall PhD opportunities!🎓
+I am currently a [Computer Science](https://see-en.tongji.edu.cn/info/1010/1271.htm) junior student in [Tongji University](https://en.tongji.edu.cn/p/). During my first three years of university, I majored in [Intelligent Construction](https://civileng.tongji.edu.cn/civilengen/18034/list.htm), in the [College of Civil Engineering](https://civileng.tongji.edu.cn/civilengen/main.htm). Driven by research interests, I have transferred to CS major in April 2024 and will receive my Bachelor's degree in 2026 and actively seek 26fall PhD opportunities!🎓
 
 
 <a href="/files/cv.pdf" class="cv-button" target="_blank"> 
@@ -181,7 +181,8 @@ Projects & Intern Experience
   </div>
 </div>
 
-
+<hr>
+<hr>
 
 
 Achievements
