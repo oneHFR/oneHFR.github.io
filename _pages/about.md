@@ -31,7 +31,10 @@ Current Research
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
    <div style="flex: 0 0 45%; margin-right: 20px;">
        <div class="image-hover-container">
-           <img src="../images/MOSS_Homepage.png" style="width: 100%; height: auto;"/>
+           <!-- <img src="../images/MOSS_Homepage.png" style="width: 100%; height: auto;"/> -->
+          <a href="https://youtu.be/bWvvBuXxSN4?feature=shared" target="_blank">
+              <img src="../images/MOSS_Homepage.png" alt="MOSS Homepage" style="width: 100%; height: auto;"/>
+          </a>
        </div>
    </div>
    <div style="flex: 0 0 50%;">
