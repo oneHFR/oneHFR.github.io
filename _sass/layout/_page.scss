@@ -410,13 +410,13 @@
    Self-Project
    ========================================================================== */
 .projects {
-  margin-top: 1em;
+  margin-top: 2em;
 
   h3 {
     color: #333;
     margin: 0 0 0.5em;
     font-weight: bold;
-    padding-left: 0px; /* 确保标题与文本左对齐 */
+    padding-left: -1px; /* 确保标题与文本左对齐 */
 
     a {
       color: inherit;
@@ -680,91 +680,62 @@
 
 
 
+.c-viewer {
+  &.viewer-container {
+    width: 100%;
+    height: 600px;
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
 
-.c-viewer__image {
-  width: 100%;           /* 改为 100% 宽度 */
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.3s ease;
-}
+  &__title {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    
+    .icon {
+      background: #f3f4f6;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      margin-right: 0.5rem;
+    }
+  }
 
-.c-viewer__image:hover {
-  transform: scale(1.1);
-  cursor: pointer;
-}
+  &__model {
+    width: 66.666667%;
+    height: 100%;
+    
+    .content {
+      padding-left: 1rem;
+      height: calc(100% - 3rem);
+    }
+  }
 
-/* 点击放大效果的遮罩层 */
-.image-overlay {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.8);
-  z-index: 1000;
-}
-.c-viewer.viewer-container {
-  width: 100%;
-  height: 300px;
-  margin-top: 2em;
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-}
+  &__poster {
+    width: 33.333333%;
+    height: 100%;
+    
+    .content {
+      padding-left: 1rem;
+      height: calc(100% - 3rem);
+    }
+  }
 
-.c-viewer__iframe {
-  width: 60%;
-  height: 100%;
-  border: none;
+  &__image {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+    
+    &:hover {
+      transform: translateY(-0.5rem);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+    }
+  }
 }
-
-.image-container {
-  width: 40%;
-  height: 100%;
-  position: relative;
-  border-radius: 8px;
-}
-
-.image-hover-container {
-  position: relative;
-  height: 100%;
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-.c-viewer__image {
-  width: auto;
-  height: 100%;
-  object-fit: cover;
-  transition: all 0.3s ease;
-}
-
-/* 移除放大效果，改为悬浮效果 */
-.c-viewer__image:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-}
-
-/* 移除之前的放大相关样式 */
-.image-overlay {
-  display: none;
-}
-
-.c-viewer__image.zoomed {
-  display: none;
-}
-
-/* 继承原有的悬浮容器样式 */
-.image-hover-container {
-  position: relative;
-  overflow: hidden;
-  border-radius: 8px;
-  transition: all 0.3s ease;
-  height: 100%;          /* 确保容器高度 100% */
-}
-
 
 
 

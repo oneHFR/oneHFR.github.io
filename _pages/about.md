@@ -105,8 +105,7 @@ Projects & Intern Experience
           [<a href="https://github.com/oneHFR/24-25-OOP">Code</a>]
           [<a src="/files/Report-magic-ball.pdf">Report</a>]
         </span>
-        <span class="date">💥 PopStar</span>
-        <span class="date">💣 Minesweeper</span>
+        <span class="date">💥 PopStar 💣 Minesweeper</span>
       </div>
     </div>
     <div class="project-image">
@@ -145,11 +144,12 @@ Projects & Intern Experience
         controls
         playsinline
         style="width: 100%; border-radius: 8px;">
-        <source src="/images/p4-video.mp4" type="video/mp4">
+        <source src="/images/p4-video2.mp4" type="video/mp4">
       </video>
     </div>
   </div>
 </div>
+
 <div class="c-viewer viewer-container">
   <div class="c-viewer__model">
     <h3 class="c-viewer__title">🖱️ An interactive 3D visualization window</h3>
