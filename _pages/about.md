@@ -156,7 +156,7 @@ Projects & Intern Experience
     <iframe 
       title="Canoe2024-Tongji-Yangtze 3D model - Sketchfab"
       class="c-viewer__iframe"
-      src="https://sketchfab.com/models/8775df6e6d034f1ebfdcba0f3ba1b717/versions/396a5004aec5489885a94725fa55f00a/embed?autostart=1&amp;internal=1&amp;tracking=0&amp;ui_ar=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_theatre=1&amp;ui_watermark=0"
+      src="https://sketchfab.com/models/8775df6e6d034f1ebfdcba0f3ba1b717/embed?autostart=1&amp;internal=1&amp;tracking=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_watermark=0"
       id="api-frame"
       allow="autoplay; fullscreen; xr-spatial-tracking"
       xr-spatial-tracking="true"
