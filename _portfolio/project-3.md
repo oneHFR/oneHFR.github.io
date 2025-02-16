@@ -7,7 +7,7 @@ excerpt: "Coming soon! <br/>
           muted
           controls
           playsinline
-          style=\"width: 100%; border-radius: 8px;\">
+          style=\"width: 70%; display: block; margin: 0 auto; border-radius: 8px;\">
           <source src=\"/images/p3-video.mp4\" type=\"video/mp4\">
       </video>"
 collection: portfolio

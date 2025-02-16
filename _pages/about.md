@@ -149,27 +149,28 @@ Projects & Intern Experience
       </video>
     </div>
   </div>
-  <div class="c-viewer viewer-container">
-    <h2>🖱️ An interactive 3D visualization window</h2>
+</div>
+<div class="c-viewer viewer-container">
+  <div class="c-viewer__model">
+    <h3 class="c-viewer__title">🖱️ An interactive 3D visualization window</h3>
     <iframe 
-      title="Canoe2024-Tongji-Yangtze 3D model - Sketchfab" 
-      class="c-viewer__iframe" 
+      title="Canoe2024-Tongji-Yangtze 3D model - Sketchfab"
+      class="c-viewer__iframe"
       src="https://sketchfab.com/models/8775df6e6d034f1ebfdcba0f3ba1b717/versions/396a5004aec5489885a94725fa55f00a/embed?autostart=1&amp;internal=1&amp;tracking=0&amp;ui_ar=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_theatre=1&amp;ui_watermark=0"
-      id="api-frame" 
-      allow="autoplay; fullscreen; xr-spatial-tracking" 
-      xr-spatial-tracking="true" 
-      execution-while-out-of-viewport="true" 
-      execution-while-not-rendered="true" 
-      web-share="true" 
+      id="api-frame"
+      allow="autoplay; fullscreen; xr-spatial-tracking"
+      xr-spatial-tracking="true"
+      execution-while-out-of-viewport="true"
+      execution-while-not-rendered="true"
+      web-share="true"
       allowfullscreen="">
     </iframe>
-    <div class="image-container">
-      <h2 className="mb-2 text-lg">🎨 Poster of the competition</h2>
-        <img src="/images/p4-poster.png" alt="p4-poster" class="c-viewer__image">
-    </div>
+  </div>
+  <div class="c-viewer__poster">
+    <h3 class="c-viewer__title">🎨 Poster of the competition</h3>
+    <img src="/images/p4-poster.png" alt="p4-poster" class="c-viewer__image">
   </div>
 </div>
-
 
 
 <hr>

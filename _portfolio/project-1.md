@@ -1,6 +1,17 @@
 ---
 title: "2024 American Society of Civil Engineers Concrete Canoe Competition"
-excerpt: "Coming soon <br/><img src='/images/p4-poster.png'>"
+excerpt: "Coming soon <br/>
+    <iframe 
+      title='Canoe2024-Tongji-Yangtze 3D model - Sketchfab'
+      src='https://sketchfab.com/models/8775df6e6d034f1ebfdcba0f3ba1b717/versions/396a5004aec5489885a94725fa55f00a/embed?autostart=1&internal=1&tracking=0&ui_ar=0&ui_infos=0&ui_snapshots=1&ui_stop=0&ui_theatre=1&ui_watermark=0'
+      allow='autoplay; fullscreen; xr-spatial-tracking'
+      xr-spatial-tracking
+      execution-while-out-of-viewport
+      execution-while-not-rendered
+      web-share
+      allowfullscreen
+      style='width: 100%; height: 400px;'>
+    </iframe>"
 collection: portfolio
 ---
 
