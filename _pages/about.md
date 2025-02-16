@@ -42,7 +42,7 @@ Current Research
        <p><em>Preparing for ICCV 2025</em></p>
        <p>
            <a href="../files/MOSS_pre.pdf">[PPT]</a>
-           <a href="https://www.youtube.com/@oneHFR">[Video]</a>
+           <a href="https://youtu.be/bWvvBuXxSN4?feature=shared">[Video]</a>
        </p>
        <p>
            The full details will be presented in an interview/online chat with you!
@@ -99,32 +99,7 @@ Projects & Intern Experience
     </div>
   </div>
 </div>
-<div class="projects">
-  <div class="project-item">
-    <div class="project-content">
-      <h3><a href="https://onehfr.github.io/portfolio/">2023-2024 Object Oriented Programming Homework @Tongji</a></h3>
-      <div class="project-meta">
-        <span class="role">Code course</span>
-        <span class="links">
-          [<a href="https://github.com/oneHFR/24-25-OOP">Code</a>]
-          [<a href="../files/Report-magic-ball.pdf">Report</a>]
-        </span>
-        <span class="date">💥 PopStar 💣 Minesweeper</span>
-      </div>
-    </div>
-    <div class="project-image">
-      <video 
-        autoplay 
-        loop 
-        muted 
-        controls
-        playsinline
-        style="width: 100%; border-radius: 8px;">
-        <source src="/images/p3-video.mp4" type="video/mp4">
-      </video>
-    </div>
-  </div>
-</div>
+
 <div class="projects">
   <div class="project-item">
     <div class="project-content">
@@ -134,7 +109,7 @@ Projects & Intern Experience
         <span class="links">
           [<a href="https://onehfr.github.io/portfolio/">Works</a>]
           [<a href="https://docs.google.com/presentation/d/12NBXRfv-bkYV1_H_B_a9v2MSho-ZQoks/edit?usp=drive_link&ouid=104071984654367651910&rtpof=true&sd=true">PPT</a>]
-          [<a href="https://drive.google.com/file/d/1i1cccV4Z0L-QA_X-vGSDULjoMEMeWuiT/view?usp=drive_link">Paper</a>]
+          [<a href="../files/p4-paper.pdf">Paper</a>]
         </span>
         <span class="supervisor">hosted by <a href="https://www.linkedin.com/company/americansocietyofcivilengineers" target="_blank">ASCE</a> in Sacramento, CA</span>
         <span class="date">May 2022 - Apr 2024</span>
@@ -175,6 +150,32 @@ Projects & Intern Experience
   </div>
 </div>
 
+<div class="projects">
+  <div class="project-item">
+    <div class="project-content">
+      <h3><a href="https://onehfr.github.io/portfolio/">2023-2024 Object Oriented Programming Homework @Tongji</a></h3>
+      <div class="project-meta">
+        <span class="role">Code course</span>
+        <span class="links">
+          [<a href="https://github.com/oneHFR/24-25-OOP">Code</a>]
+          [<a href="../files/Report-magic-ball.pdf">Report</a>]
+        </span>
+        <span class="date">💥 PopStar 💣 Minesweeper</span>
+      </div>
+    </div>
+    <div class="project-image">
+      <video 
+        autoplay 
+        loop 
+        muted 
+        controls
+        playsinline
+        style="width: 100%; border-radius: 8px;">
+        <source src="/images/p3-video.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</div>
 
 <hr>
 <hr>
