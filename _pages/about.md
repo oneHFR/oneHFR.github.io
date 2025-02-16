@@ -100,6 +100,37 @@ Projects & Intern Experience
   </div>
 </div>
 
+
+<div class="projects">
+  <div class="project-item">
+    <div class="project-content">
+      <h3><a href="https://onehfr.github.io/portfolio/">2023-2024 Object Oriented Programming Homework @Tongji</a></h3>
+      <div class="project-meta">
+        <span class="role">Code course</span>
+        <span class="links">
+          [<a href="https://github.com/oneHFR/24-25-OOP">Code</a>]
+          [<a href="../files/Report-magic-ball.pdf">Report</a>]
+        </span>
+        <span class="date">💥 PopStar 💣 Minesweeper</span>
+      </div>
+    </div>
+    <div class="project-image">
+      <video 
+        autoplay 
+        loop 
+        muted 
+        controls
+        playsinline
+        style="width: 100%; border-radius: 8px;">
+        <source src="/images/p3-video.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</div>
+
+<hr>
+<hr>
+
 <div class="projects">
   <div class="project-item">
     <div class="project-content">
@@ -154,35 +185,6 @@ Projects & Intern Experience
 <hr>
 
 
-<div class="projects">
-  <div class="project-item">
-    <div class="project-content">
-      <h3><a href="https://onehfr.github.io/portfolio/">2023-2024 Object Oriented Programming Homework @Tongji</a></h3>
-      <div class="project-meta">
-        <span class="role">Code course</span>
-        <span class="links">
-          [<a href="https://github.com/oneHFR/24-25-OOP">Code</a>]
-          [<a href="../files/Report-magic-ball.pdf">Report</a>]
-        </span>
-        <span class="date">💥 PopStar 💣 Minesweeper</span>
-      </div>
-    </div>
-    <div class="project-image">
-      <video 
-        autoplay 
-        loop 
-        muted 
-        controls
-        playsinline
-        style="width: 100%; border-radius: 8px;">
-        <source src="/images/p3-video.mp4" type="video/mp4">
-      </video>
-    </div>
-  </div>
-</div>
-
-<hr>
-<hr>
 
 
 Achievements
