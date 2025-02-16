@@ -104,7 +104,7 @@ Projects & Intern Experience
         <span class="role">Code course</span>
         <span class="links">
           [<a href="https://github.com/oneHFR/24-25-OOP">Code</a>]
-          [<a src="../files/Report-magic-ball.pdf">Report</a>]
+          [<a href="../files/Report-magic-ball.pdf">Report</a>]
         </span>
         <span class="date">💥 PopStar 💣 Minesweeper</span>
       </div>
@@ -151,7 +151,7 @@ Projects & Intern Experience
   </div>
 </div>
 
-<div class="c-viewer viewer-container">
+<!-- <div class="c-viewer viewer-container">
   <div class="c-viewer__model">
     <h4 class="c-viewer__title">🖱️ An interactive 3D visualization window</h4>
     <iframe 
@@ -171,7 +171,7 @@ Projects & Intern Experience
     <h4 class="c-viewer__title">🎨 Poster of the competition</h4>
     <img src="/images/p4-poster.png" alt="p4-poster" class="c-viewer__image">
   </div>
-</div>
+</div> -->
 
 
 <hr>
