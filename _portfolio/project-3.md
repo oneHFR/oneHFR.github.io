@@ -1,8 +1,18 @@
 ---
-title: "2024 American Society of Civil Engineers Concrete Canoe Competition"
-excerpt: "Coming soon <br/><img src='/images/p4-poster.png'>"
+title: "2023-2024 Object Oriented Programming Homework @Tongji"
+excerpt: "Coming soon! <br/>
+      <video
+          autoplay
+          loop
+          muted
+          controls
+          playsinline
+          style=\"width: 100%; border-radius: 8px;\">
+          <source src=\"/images/p3-video.mp4\" type=\"video/mp4\">
+      </video>"
 collection: portfolio
 ---
+
 
 <div style="
     background: rgba(255, 255, 255, 0.7);

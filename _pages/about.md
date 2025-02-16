@@ -83,7 +83,7 @@ Projects & Intern Experience
 <div class="projects">
   <div class="project-item">
     <div class="project-content">
-      <h3><a href="https://onehfr.github.io/portfolio/portfolio-1/"> Multi-Source Time Series Prediction for Urban Infrastructure Health</a></h3>
+      <h3><a href="https://onehfr.github.io/portfolio/project-2/"> Multi-Source Time Series Prediction for Urban Infrastructure Health</a></h3>
       <div class="project-meta">
         <span class="role">Intern team leader</span>
         <span class="supervisor">supervised by <a href="https://scholar.google.com/citations?user=HRdSfmkAAAAJ&hl=en">Prof. Jiazeng Shan</a> in <a href="https://www.glodon.com/en/">Glodon</a></span>
@@ -91,20 +91,22 @@ Projects & Intern Experience
       </div>
     </div>
     <div class="project-image">
-      <img src="/images/p1.png" alt="LSTM">
+      <img src="/images/p2.png" alt="LSTM">
     </div>
   </div>
 </div>
 <div class="projects">
   <div class="project-item">
     <div class="project-content">
-      <h3><a href="https://github.com/oneHFR/24-25-OOP">2023-2024 Object Oriented Programming Homework @Tongji</a></h3>
+      <h3><a href="https://onehfr.github.io/portfolio/">2023-2024 Object Oriented Programming Homework @Tongji</a></h3>
       <div class="project-meta">
         <span class="role">Code course</span>
         <span class="links">
           [<a href="https://github.com/oneHFR/24-25-OOP">Code</a>]
+          [<a src="/files/Report-magic-ball.pdf">Code</a>]
         </span>
-        <span class="date">Sep 2024 - Jan 2025</span>
+        <span class="date">💥 PopStar</span>
+        <span class="date">💣 Minesweeper</span>
       </div>
     </div>
     <div class="project-image">
@@ -123,7 +125,7 @@ Projects & Intern Experience
 <div class="projects">
   <div class="project-item">
     <div class="project-content">
-      <h3><a href="https://onehfr.github.io/portfolio/portfolio-3/">American Society of Civil Engineers Concrete Canoe Competition</a></h3>
+      <h3><a href="https://onehfr.github.io/portfolio/project-4/">American Society of Civil Engineers Concrete Canoe Competition</a></h3>
       <div class="project-meta">
         <span class="role">Hull designer</span>
         <span class="links">
@@ -147,25 +149,26 @@ Projects & Intern Experience
       </video>
     </div>
   </div>
-</div>
-<div class="c-viewer viewer-container">
-  <iframe 
-    title="Canoe2024-Tongji-Yangtze 3D model - Sketchfab" 
-    class="c-viewer__iframe" 
-    src="https://sketchfab.com/models/8775df6e6d034f1ebfdcba0f3ba1b717/versions/396a5004aec5489885a94725fa55f00a/embed?autostart=1&amp;internal=1&amp;tracking=0&amp;ui_ar=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_theatre=1&amp;ui_watermark=0"
-    id="api-frame" 
-    allow="autoplay; fullscreen; xr-spatial-tracking" 
-    xr-spatial-tracking="true" 
-    execution-while-out-of-viewport="true" 
-    execution-while-not-rendered="true" 
-    web-share="true" 
-    allowfullscreen="">
-  </iframe>
-  <div class="image-container">
-      <img src="/images/p4-poster.png" alt="p4-poster" class="c-viewer__image">
+  <div class="c-viewer viewer-container">
+    <h2>🖱️ An interactive 3D visualization window</h2>
+    <iframe 
+      title="Canoe2024-Tongji-Yangtze 3D model - Sketchfab" 
+      class="c-viewer__iframe" 
+      src="https://sketchfab.com/models/8775df6e6d034f1ebfdcba0f3ba1b717/versions/396a5004aec5489885a94725fa55f00a/embed?autostart=1&amp;internal=1&amp;tracking=0&amp;ui_ar=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_theatre=1&amp;ui_watermark=0"
+      id="api-frame" 
+      allow="autoplay; fullscreen; xr-spatial-tracking" 
+      xr-spatial-tracking="true" 
+      execution-while-out-of-viewport="true" 
+      execution-while-not-rendered="true" 
+      web-share="true" 
+      allowfullscreen="">
+    </iframe>
+    <div class="image-container">
+      <h2 className="mb-2 text-lg">🎨 Poster of the competition</h2>
+        <img src="/images/p4-poster.png" alt="p4-poster" class="c-viewer__image">
+    </div>
   </div>
 </div>
-
 
 
 

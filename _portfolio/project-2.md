@@ -1,9 +1,8 @@
 ---
-title: "2024 American Society of Civil Engineers Concrete Canoe Competition"
-excerpt: "Coming soon <br/><img src='/images/p4-poster.png'>"
+title: "Multi-Source Time Series Prediction for Urban Infrastructure Health"
+excerpt: "Coming soon <br/><img src='/images/p2.png'>"
 collection: portfolio
 ---
-
 <div style="
     background: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(10px);
