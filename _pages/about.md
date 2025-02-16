@@ -38,7 +38,7 @@ Current Research
        <h3 style="margin-top: 0;"><img src="..\images\favicon-192x192.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;">MOSS: Mask-Oriented Open-Set for 3D Scene Segmentation using Superpoint</h3>
        <p><em>Preparing for ICCV 2025</em></p>
        <p>
-           <a href="#">[PPT]</a>
+           <a src="../files/MOSS_pre.pdf">[PPT]</a>
            <a href="#">[Video]</a>
        </p>
        <p>
@@ -59,7 +59,7 @@ Current Research
        <h3 style="margin-top: 0;"><img src="..\images\universe.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;"><strong>Universe</strong>: Unleashing the Consistent Prior of Video Diffusion Models for Robust Reconstruction</h3>
        <p><em>Preparing for ICCV 2025</em></p>
        <p>
-           <a href="#">[PPT]</a> The full details will be presented in an interview/online chat with you!
+           <a href="../files/Universe_pre.pdf">[PPT]</a> The full details will be presented in an interview/online chat with you!
        </p>
    </div>
 </div>
@@ -103,7 +103,7 @@ Projects & Intern Experience
         <span class="role">Code course</span>
         <span class="links">
           [<a href="https://github.com/oneHFR/24-25-OOP">Code</a>]
-          [<a src="/files/Report-magic-ball.pdf">Code</a>]
+          [<a src="/files/Report-magic-ball.pdf">Report</a>]
         </span>
         <span class="date">💥 PopStar</span>
         <span class="date">💣 Minesweeper</span>
