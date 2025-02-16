@@ -150,8 +150,7 @@ Projects & Intern Experience
     </div>
   </div>
 </div>
-
-<!-- <div class="c-viewer viewer-container">
+<div class="c-viewer viewer-container">
   <div class="c-viewer__model">
     <h4 class="c-viewer__title">🖱️ An interactive 3D visualization window</h4>
     <iframe 
@@ -168,10 +167,10 @@ Projects & Intern Experience
     </iframe>
   </div>
   <div class="c-viewer__poster">
-    <h4 class="c-viewer__title">🎨 Poster of the competition</h4>
+    <h4 class="c-viewer__title">🎨 Poster</h4>
     <img src="/images/p4-poster.png" alt="p4-poster" class="c-viewer__image">
   </div>
-</div> -->
+</div>
 
 
 <hr>
