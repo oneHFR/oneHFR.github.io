@@ -1,6 +1,6 @@
 ---
 title: "Multi-Source Time Series Prediction for Urban Infrastructure Health"
-excerpt: "Coming soon <br/><img src='/images/p2.png' style='width: 70%; margin: 0 auto; display: block;'>"
+excerpt: "<br/><img src='/images/p2.png' style='width: 70%; margin: 0 auto; display: block;'>"
 collection: portfolio
 ---
 <div style="

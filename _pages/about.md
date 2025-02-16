@@ -38,8 +38,8 @@ Current Research
        <h3 style="margin-top: 0;"><img src="..\images\favicon-192x192.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;">MOSS: Mask-Oriented Open-Set for 3D Scene Segmentation using Superpoint</h3>
        <p><em>Preparing for ICCV 2025</em></p>
        <p>
-           <a src="../files/MOSS_pre.pdf">[PPT]</a>
-           <a href="#">[Video]</a>
+           <a href="../files/MOSS_pre.pdf">[PPT]</a>
+           <a href="https://www.youtube.com/@oneHFR">[Video]</a>
        </p>
        <p>
            The full details will be presented in an interview/online chat with you!
@@ -76,6 +76,7 @@ Current Research
 
 
 <hr>
+<hr>
 
 
 Projects & Intern Experience
@@ -103,7 +104,7 @@ Projects & Intern Experience
         <span class="role">Code course</span>
         <span class="links">
           [<a href="https://github.com/oneHFR/24-25-OOP">Code</a>]
-          [<a src="/files/Report-magic-ball.pdf">Report</a>]
+          [<a src="../files/Report-magic-ball.pdf">Report</a>]
         </span>
         <span class="date">💥 PopStar 💣 Minesweeper</span>
       </div>
@@ -124,7 +125,7 @@ Projects & Intern Experience
 <div class="projects">
   <div class="project-item">
     <div class="project-content">
-      <h3><a href="https://onehfr.github.io/portfolio/project-4/">American Society of Civil Engineers Concrete Canoe Competition</a></h3>
+      <h3><a href="https://onehfr.github.io/portfolio/project-1/">American Society of Civil Engineers Concrete Canoe Competition</a></h3>
       <div class="project-meta">
         <span class="role">Hull designer</span>
         <span class="links">
@@ -152,7 +153,7 @@ Projects & Intern Experience
 
 <div class="c-viewer viewer-container">
   <div class="c-viewer__model">
-    <h3 class="c-viewer__title">🖱️ An interactive 3D visualization window</h3>
+    <h4 class="c-viewer__title">🖱️ An interactive 3D visualization window</h4>
     <iframe 
       title="Canoe2024-Tongji-Yangtze 3D model - Sketchfab"
       class="c-viewer__iframe"
@@ -167,12 +168,13 @@ Projects & Intern Experience
     </iframe>
   </div>
   <div class="c-viewer__poster">
-    <h3 class="c-viewer__title">🎨 Poster of the competition</h3>
+    <h4 class="c-viewer__title">🎨 Poster of the competition</h4>
     <img src="/images/p4-poster.png" alt="p4-poster" class="c-viewer__image">
   </div>
 </div>
 
 
+<hr>
 <hr>
 
 

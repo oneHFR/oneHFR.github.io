@@ -1,6 +1,6 @@
 ---
 title: "2024 American Society of Civil Engineers Concrete Canoe Competition"
-excerpt: "Coming soon <br/>
+excerpt: "<br/>
       <video
           autoplay
           loop

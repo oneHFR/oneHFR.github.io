@@ -1,6 +1,6 @@
 ---
 title: "2023-2024 Object Oriented Programming Homework @Tongji"
-excerpt: "Coming soon! <br/>
+excerpt: "<br/>
       <video
           autoplay
           loop
