@@ -45,7 +45,7 @@ Current Research
            <a href="https://www.youtube.com/watch?v=iVQH0lNJSas">[Video]</a>
        </p>
        <p>
-           The full details will be presented in an interview/online chat with you!
+           The voiceover in the videos was created using ByteDance's Model <a href="https://www.doubao.com/">Doubao</a> that cloned my voice!
        </p>
    </div>
 </div>
@@ -158,26 +158,26 @@ Projects & Intern Experience
       </video>
     </div>
   </div>
-</div>
-<div class="c-viewer viewer-container">
-  <div class="c-viewer__model">
-    <h4 class="c-viewer__title">🖱️ An interactive 3D visualization window</h4>
-    <iframe 
-      title="Canoe2024-Tongji-Yangtze 3D model - Sketchfab"
-      class="c-viewer__iframe"
-      src="https://sketchfab.com/models/8775df6e6d034f1ebfdcba0f3ba1b717/embed?autostart=1&amp;internal=1&amp;tracking=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_watermark=0"
-      id="api-frame"
-      allow="autoplay; fullscreen; xr-spatial-tracking"
-      xr-spatial-tracking="true"
-      execution-while-out-of-viewport="true"
-      execution-while-not-rendered="true"
-      web-share="true"
-      allowfullscreen="">
-    </iframe>
-  </div>
-  <div class="c-viewer__poster">
-    <h4 class="c-viewer__title">🎨 Poster</h4>
-    <img src="/images/p4-poster.png" alt="p4-poster" class="c-viewer__image">
+  <div class="c-viewer viewer-container">
+    <div class="c-viewer__model">
+      <h4 class="c-viewer__title">🖱️ An interactive 3D visualization window</h4>
+      <iframe 
+        title="Canoe2024-Tongji-Yangtze 3D model - Sketchfab"
+        class="c-viewer__iframe"
+        src="https://sketchfab.com/models/8775df6e6d034f1ebfdcba0f3ba1b717/embed?autostart=1&amp;internal=1&amp;tracking=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_watermark=0"
+        id="api-frame"
+        allow="autoplay; fullscreen; xr-spatial-tracking"
+        xr-spatial-tracking="true"
+        execution-while-out-of-viewport="true"
+        execution-while-not-rendered="true"
+        web-share="true"
+        allowfullscreen="">
+      </iframe>
+    </div>
+    <div class="c-viewer__poster">
+      <h4 class="c-viewer__title">🎨 Poster</h4>
+      <img src="/images/p4-poster.png" alt="p4-poster" class="c-viewer__image">
+    </div>
   </div>
 </div>
 
