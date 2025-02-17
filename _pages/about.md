@@ -128,9 +128,6 @@ Projects & Intern Experience
   </div>
 </div>
 
-<hr>
-<hr>
-
 <div class="projects">
   <div class="project-item">
     <div class="project-content">
