@@ -190,7 +190,7 @@ Achievements
   <div class="achievement-item">
     <div class="custom-checkbox">
       <input type="checkbox" id="achievement1" checked>
-      <label for="achievement1">National Scholarship (Top 1.5%) / TianXiang Scholarship (2 slots one college)</label>
+      <label for="achievement1">National Scholarship (Top 0.2%) / TianXiang Scholarship (2 slots one college)</label>
     </div>
   </div>
   <div class="achievement-item">
