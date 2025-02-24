@@ -1,7 +1,7 @@
 ---
 title: 'UCSD_Meeting / Oh_My_Captain'
 date: 2025-02-24
-permalink: /
+permalink: /posts_2025_02_blog-1/
 tags:
   - nonsense
   - diary
