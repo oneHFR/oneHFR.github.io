@@ -756,3 +756,14 @@
 .image-hover-container:hover img {
   filter: brightness(1.05);
 }
+
+
+
+.blog_image_container {
+  width: 500px;          // 自定义宽度
+  margin: 0 auto;        // 居中显示（可选）
+  img {
+    width: 100%;         // 图片占容器宽度
+    height: auto;        // 保持比例
+  }
+}

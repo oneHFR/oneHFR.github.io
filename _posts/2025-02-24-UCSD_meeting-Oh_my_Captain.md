@@ -24,11 +24,12 @@ Dr. Sun提出这样一个观点/建议：希望决定读博士之前可以明确
 
 除此之外我觉得Dr. Sun提出的这个大问题还给我灵感，当面试的时候能不能说好一个future interests的美妙故事呢？我姑且编了一个，可以继续打磨打磨，，，饶有兴趣状...
 
-<!-- ![wechat1](../images/blog/2025_02/01-01.png) -->
-<img src="..\images\blog\2025_02\01-01.png" alt="WeChat" width="500">
+<div class="blog_image_container">
+<img src="..\images\blog\2025_02\01-01.png" alt="Wechat">
 
-<img src="..\images\blog\2025_02\01-02.png" alt="Meeting" width="500">
-
+<div class="blog_image_container">
+<img src="..\images\blog\2025_02\01-02.png" alt="Meeting">
+</div>
 
 **UCSD Intership Interview** 
 ======
