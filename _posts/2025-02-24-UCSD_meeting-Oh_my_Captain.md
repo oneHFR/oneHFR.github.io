@@ -6,10 +6,16 @@ tags:
   - nonsense
   - diary
   - tears
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
----
 
+
+
+
+---
 **? ~~Meeting~~ ? Chat with Dr. Sun**
 ======
 
@@ -40,4 +46,11 @@ Dr. Sun提出这样一个观点/建议：希望决定读博士之前可以明确
 **UCSD Intership Interview** 
 ======
 
+
+
+
+
+
+
+---
 
