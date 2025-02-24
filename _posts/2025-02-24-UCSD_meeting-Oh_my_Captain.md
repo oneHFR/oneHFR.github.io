@@ -1,14 +1,11 @@
 ---
 title: 'UCSD_Meeting / Oh_My_Captain'
 date: 2025-02-24
-permalink: /posts/2025/02/blog-1/
+permalink: /
 tags:
   - nonsense
   - diary
   - tears
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
 
@@ -45,7 +42,7 @@ Dr. Sun提出这样一个观点/建议：希望决定读博士之前可以明确
 ---
 **UCSD Intership Interview** 
 ======
-
+为什么渲染不出来图片？？？？
 
 
 
