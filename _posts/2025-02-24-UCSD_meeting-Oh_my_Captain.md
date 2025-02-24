@@ -1,5 +1,5 @@
 ---
-title: 'UCSD_Meeting / Oh_my_Captain'
+title: 'UCSD_Meeting / Oh_My_Captain'
 date: 2025-02-24
 permalink: /posts/2025/02/blog-1/
 tags:
@@ -25,16 +25,12 @@ Dr. Sun提出这样一个观点/建议：希望决定读博士之前可以明确
 除此之外我觉得Dr. Sun提出的这个大问题还给我灵感，当面试的时候能不能说好一个future interests的美妙故事呢？我姑且编了一个，可以继续打磨打磨，，，饶有兴趣状...
 
 <!-- ![wechat1](../images/blog/2025_02/01-01.png) -->
-<img src="../images/blog/2025_02/01-01.png" alt="WeChat" width="500">
+<img src="..\images\blog\2025_02\01-01.png" alt="WeChat" width="500">
+
+<img src="..\images\blog\2025_02\01-02.png" alt="Meeting" width="500">
 
 
-
-
-You can have many headings
+**UCSD Intership Interview** 
 ======
 
 
-
-
-Aren't headings cool?
-------
