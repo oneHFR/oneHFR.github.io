@@ -45,12 +45,25 @@ Dr. Sun分享了他很drama难以预测的求学经历，在去年master之后ga
 ---
 **UCSD Intership Interview**   
 ======   
+前天晚上填的form，form太好了写邮件太把握不好了，我不喜欢用模板，既然都做了调研那为什么不写的针对性一点呢？但是一不小心就自我感动写太多了，拜托现在是ICCV投稿期间大家都很忙的呀！！
+BTW:这一片很有趣很cute！我此前看同济也有一位老师在留学德国期间做了相似主题的作品！[A Simulation Benchmark for Autonomous Racing with Large-Scale Human Data NeurIPS 2024](https://assetto-corsa-gym.github.io/)
+
+
+**40min + 4 PhD + in English**
+------- 
 <div class="blog_image_container">
 <img src="../images/blog/2025_02/01-02.png" alt="Meeting">
 </div>
 
+首先我要简要记录一下一个我没有听明白和回答上来的问题能不能将第一个3D space的表示从point cloud改成gaussian splatting表示呢？
 
+---
+等待查证
+---
 
+说实话这是我第一次长时间的多对一的全英文面试，确实紧张，加上排练的时候一直是看着演讲者模式展开的，这次点错了忘记了直接被迫脱稿了hh，多联系吧，做到不结巴的胡说八道就好了。
+
+其实我自己已经铺垫了一会了，被拒绝估计也是理所应当还是没有成长到一定程度吧，这里的思考可以跳转yc的忠言→[Link](),还是可以稍微复盘一下一些基础表达：我这边信号不好/各位可以看见我的共享屏幕吗？/有什么问题吗？free to ask any Q here/co-author的分工/我没有太理解这个问题/我能不能这样理解/你有什么问题需要问我们
 
 
 
