@@ -32,11 +32,11 @@ Dr. Sun提出这样一个观点/建议：希望决定读博士之前可以明确
 </div>
 
 <div class="blog_image_container">
-<img src="..\images\blog\2025_02\01-02.png" alt="Meeting">
+<img src="../images/blog/2025_02/01-02.png" alt="Meeting">
 </div>
 
 
-
+---
 **UCSD Intership Interview** 
 ======
 
