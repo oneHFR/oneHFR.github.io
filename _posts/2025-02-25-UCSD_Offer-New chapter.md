@@ -36,6 +36,8 @@ tags:
 
 
 ---
+
+
 **UCSD offer**   
 ======   
 彩票offer，是上天的绝美安排！！！恰逢我上大学以来最完美的不补课的一学期，好事情都让我给占了!
@@ -43,11 +45,11 @@ tags:
 这让我想到我刚刚看球不到一年就遇到了世界杯哈哈！刚刚F1不到一年就抢到了上海站车票且小周in Ferrari，无敌的幸运，这样的幸运让我无法不去常怀感恩的把握着，继续像卷卷鼠一样卷卷着！嘿哈！不是markdown这里能不能加入表情包？我去试一试hh
 
 <div class="blog_image_container">
-<img src="..\images\blog\2025_02\02-02.png" alt="juan！"></div>
+<img src="..\images\blog\2025_02\02-02.png" alt="juan！"></div>   
+   
 
 最后希望自己长舒一口气准备好三门缓考，好好完善目前的项目可以先开始写一些文章了！
 
-<div class="blog_image_container">
-<img src="..\images\blog\2025_02\mc_dog.gif" alt="juan！"></div>
+<img src="..\images\blog\2025_02\mc_dog.gif" alt="juan！">
 ---
 

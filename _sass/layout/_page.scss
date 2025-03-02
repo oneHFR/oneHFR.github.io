@@ -767,3 +767,47 @@
     height: auto;        // 保持比例
   }
 }
+
+
+// video-card.scss
+
+// 可配置的变量（方便后续修改）
+$card-width: 300px;
+$card-margin: 20px;
+$card-border-radius: 8px;
+$card-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+$title-font-size: 16px;
+$title-color: #18191c;
+$title-padding: 10px;
+
+.video-card {
+  width: $card-width;
+  margin: $card-margin;
+  text-decoration: none;
+  color: $title-color;
+  display: block;
+  border-radius: $card-border-radius;
+  overflow: hidden;
+  box-shadow: $card-shadow;
+
+  &__image {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; // 16:9 比例，可改为变量调整
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__title {
+    padding: $title-padding;
+    font-size: $title-font-size;
+    margin: 0;
+  }
+}
