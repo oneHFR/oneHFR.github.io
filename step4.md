@@ -23,13 +23,11 @@
 
 **superpoint尺度大小：**  
 
-<img src="https://raw.githubusercontent.com/oneHFR/oneHFR.github.io/refs/heads/master/images/MOSS_v3_img/merge.png" width="400">
+<img src="https://raw.githubusercontent.com/oneHFR/oneHFR.github.io/refs/heads/master/images/MOSS_v3_img/merge.png" width="350">
+<img src="https://raw.githubusercontent.com/oneHFR/oneHFR.github.io/refs/heads/master/images/MOSS_v3_img/merge2.png" width="350">
 
-<img src="https://raw.githubusercontent.com/oneHFR/oneHFR.github.io/refs/heads/master/images/MOSS_v3_img/merge2.png" width="400">
-
-<img src="https://raw.githubusercontent.com/oneHFR/oneHFR.github.io/refs/heads/master/images/MOSS_v3_img/merge3.png" width="400">
-
-<img src="https://raw.githubusercontent.com/oneHFR/oneHFR.github.io/refs/heads/master/images/MOSS_v3_img/spt.png" width="400">
+<img src="https://raw.githubusercontent.com/oneHFR/oneHFR.github.io/refs/heads/master/images/MOSS_v3_img/merge3.png" width="350">
+<img src="https://raw.githubusercontent.com/oneHFR/oneHFR.github.io/refs/heads/master/images/MOSS_v3_img/spt.png" width="350">
 
 
 ### 思路二：
@@ -39,22 +37,22 @@
 2. 3D point cloud直接投影到2D照片锁定像素的精度比思路一更低，导致结果不够理想。  
 3. 同样是需要一个很大数据容器去储存每一个场景的所有单点的匹配信息运行起来计算时长不容小觑...
 
-<img src="https://raw.githubusercontent.com/oneHFR/oneHFR.github.io/refs/heads/master/images/MOSS_v3_img/back2_noise.png" width="600">
+<img src="https://raw.githubusercontent.com/oneHFR/oneHFR.github.io/refs/heads/master/images/MOSS_v3_img/back2_noise.png" width="650">
 
-<img src="https://raw.githubusercontent.com/oneHFR/oneHFR.github.io/refs/heads/master/images/MOSS_v3_img/back2_noise2.png" width="600">
+<img src="https://raw.githubusercontent.com/oneHFR/oneHFR.github.io/refs/heads/master/images/MOSS_v3_img/back2_noise2.png" width="650">
 
 
 ### 思路三：
 我今日很想知道这个环节的提升上限会是多少？还到底有没有提升的优先必要性呢？？于是通过与ground truth (GT)直接比较，统计质量低的具体原因，发现主要问题可以归为三类：  
 1. **Missing points**：和gt相比漏掉了一些点 蓝色。  
 2. **Wrong points**：错误加入了一些多余点 红色。  
-3. **Merge issues**：尺寸需要合并的情况。例如，一扇门被错误分割成上下两半，一个连续的折角柜子被切分成多段，导致在evaluation时，尽管分裂出的3D proposal语义label一致，但重合度不达标被筛出去了。
+3. **Merge issues**：尺寸需要合并的情况 大片蓝色点群。例如，一扇门被错误分割成上下两半，一个连续的折角柜子被切分成多段，导致在evaluation时，尽管分裂出的3D proposal语义label一致，但重合度不达标被筛出去了。
 
-<img src="https://raw.githubusercontent.com/oneHFR/oneHFR.github.io/refs/heads/master/images/MOSS_v3_img/comp_gt.png" width="500">
+<img src="https://raw.githubusercontent.com/oneHFR/oneHFR.github.io/refs/heads/master/images/MOSS_v3_img/comp_gt.png" width="600">
 
-<img src="https://raw.githubusercontent.com/oneHFR/oneHFR.github.io/refs/heads/master/images/MOSS_v3_img/comp_gt2.png" width="500">
+<img src="https://raw.githubusercontent.com/oneHFR/oneHFR.github.io/refs/heads/master/images/MOSS_v3_img/comp_gt2.png" width="520">
 
-<img src="https://raw.githubusercontent.com/oneHFR/oneHFR.github.io/refs/heads/master/images/MOSS_v3_img/comp_gt3.png" width="500">
+<img src="https://raw.githubusercontent.com/oneHFR/oneHFR.github.io/refs/heads/master/images/MOSS_v3_img/comp_gt3.png" width="600">
 
 
 目前统计下来，第三类“merge issue”是三种问题中最常见的。因此，我的最新思路是：  
@@ -72,7 +70,7 @@
 #### 附加优化：
 在观察相同label的3D mask proposals时，我发现存在大量重复度很高的情况。为此，我计划对重复度超过一定阈值的proposal，仅保留包含点数最多的那一个，以轻量化后续推理环节。
 
-<img src="https://raw.githubusercontent.com/oneHFR/oneHFR.github.io/refs/heads/master/images/MOSS_v3_img/ndv.png" width="600">
+<img src="https://raw.githubusercontent.com/oneHFR/oneHFR.github.io/refs/heads/master/images/MOSS_v3_img/ndv.png" width="680">
 
 
 以上是目前的进展和想法，想请教学长：对于合并条件的设定或重复proposal的处理，您有没有什么建议或经验可以分享？非常期待您的看法！
