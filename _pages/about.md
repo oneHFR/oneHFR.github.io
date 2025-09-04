@@ -9,7 +9,7 @@ redirect_from:
 
 Hi there!👋
 
-I am currently a [Computer Science](https://see-en.tongji.edu.cn/info/1010/1271.htm) junior student in [Tongji University](https://en.tongji.edu.cn/p/). During my first three years of university, I majored in [Intelligent Construction](https://civileng.tongji.edu.cn/civilengen/18034/list.htm), in the [College of Civil Engineering](https://civileng.tongji.edu.cn/civilengen/main.htm). Driven by research interests, I have transferred to CS major in April 2024 and will receive my Bachelor's degree in 2026 and actively seek 26fall PhD opportunities!🎓
+I am currently a [Computer Science](https://see-en.tongji.edu.cn/info/1010/1271.htm) undergraduate student in [Tongji University](https://en.tongji.edu.cn/p/). During my first 3 years of the university, I majored in [Intelligent Construction](https://civileng.tongji.edu.cn/civilengen/18034/list.htm), in the [College of Civil Engineering](https://civileng.tongji.edu.cn/civilengen/main.htm). Driven by research interests, I have transferred to the CS major in April 2024 and will receive my Bachelor's degree in 2026 and actively seek 26fall PhD opportunities!🎓
 
 
 <a href="/files/cv.pdf" class="cv-button" target="_blank"> 
@@ -190,27 +190,27 @@ Achievements
   <div class="achievement-item">
     <div class="custom-checkbox">
       <input type="checkbox" id="achievement1" checked>
-      <label for="achievement1">National Scholarship (Top 0.2%) / TianXiang Scholarship (2 slots one college)</label>
+      <label for="achievement1">National Scholarship (Top 0.2% nationwide, highest scholarship in China) / TianXiang Scholarship (2 slots one college)</label>
     </div>
   </div>
   <div class="achievement-item">
     <div class="custom-checkbox">
       <input type="checkbox" id="achievement2" checked>
-      <label for="achievement2">Interdisciplinary Contest In Modeling hosted by COMAP Finalist Prize 2023</label>
+      <label for="achievement2">Interdisciplinary Contest In Modeling hosted by COMAP Finalist Prize (Top 1.8\% worldwide)</label>
     </div>
   </div>
   <div class="achievement-item">
     <div class="custom-checkbox">
       <input type="checkbox" id="achievement3" checked>
-      <label for="achievement3">National Undergraduate Mathematics/Physics Competition: Third Prize/Second Prize 2022</label>
+      <label for="achievement3">National Undergraduate Mathematics/Physics Competition: Third Prize/Second Prize</label>
     </div>
   </div>
-  <div class="achievement-item">
+  <!-- <div class="achievement-item">
     <div class="custom-checkbox">
       <input type="checkbox" id="achievement4" checked>
-      <label for="achievement4">International Concrete Dragon Boat Competition 2nd Prize 2022</label>
+      <label for="achievement4">International Concrete Dragon Boat Competition 2nd Prize</label>
     </div>
-  </div>
+  </div> -->
   <div class="achievement-item">
     <div class="custom-checkbox">
       <input type="checkbox" id="achievement5" checked>
