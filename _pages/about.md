@@ -9,8 +9,7 @@ redirect_from:
 
 Hi there!👋
 
-I am currently a [Computer Science](https://see-en.tongji.edu.cn/info/1010/1271.htm) undergraduate student in [Tongji University](https://en.tongji.edu.cn/p/). During my first 3 years of the university, I majored in [Intelligent Construction](https://civileng.tongji.edu.cn/civilengen/18034/list.htm), in the [College of Civil Engineering](https://civileng.tongji.edu.cn/civilengen/main.htm). Driven by research interests, I have transferred to the CS major in April 2024 and will receive my Bachelor's degree in 2026 and actively seek 26fall PhD opportunities!🎓
-
+I am currently an undergraduate student in [Computer Science](https://see-en.tongji.edu.cn/info/1010/1271.htm) at [Tongji University](https://en.tongji.edu.cn/p/), and I am also currently conducting research at [UC San Diego](https://ucsd.edu/), advised by Prof. [Zhuowen Tu](https://pages.ucsd.edu/~ztu/). During my first three years at university, I majored in [Intelligent Construction](https://civileng.tongji.edu.cn/civilengen/18034/list.htm) in the [College of Civil Engineering](https://civileng.tongji.edu.cn/civilengen/main.htm). Driven by research interests, I transferred to the CS major in April 2024 and will receive my Bachelor's degree in June 2026. I am also actively seeking PhD opportunities for Fall 2026! 🎓
 
 <a href="/files/cv.pdf" class="cv-button" target="_blank"> 
   Here is my CV 📄
@@ -82,7 +81,7 @@ Current Research
 <hr>
 
 
-Projects & Intern Experience
+<!-- Projects & Intern Experience
 ======
 <div class="projects">
   <div class="project-item">
@@ -179,7 +178,7 @@ Projects & Intern Experience
 </div>
 
 <hr>
-<hr>
+<hr> -->
 
 
 
