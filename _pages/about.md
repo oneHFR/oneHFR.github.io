@@ -18,19 +18,17 @@ I am currently an undergraduate student in [Computer Science](https://see-en.ton
 
 Research Interests
 ======
-My research interests currently lie in **open-set understanding for 3D scenes** and **AIGC for 3D vision**. In the future, I aim to explore the application of generative models in **3D reconstruction** and **3D scene re-editing**.   
-
-Through developing scalable and efficient methods, I strive to bridge the gap between real-world data and AIGC, pushing the boundaries of 3D content generation and 3D scene understanding for both academic and industrial applications.
+My research interests span **open-vocabulary understanding of 3D scenes**, **3D scene reconstruction** from both multi-view images and a single image, across explicit and implicit 3D representations.
 
 ---
 
 
-Current Research
+Research Project
 ======
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+<!-- <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
    <div style="flex: 0 0 45%; margin-right: 20px;">
        <div class="image-hover-container">
-           <!-- <img src="../images/MOSS_Homepage.png" style="width: 100%; height: auto;"/> -->
+           <!-- <img src="../images/MOSS_Homepage.png" style="width: 100%; height: auto;"/> 
           <a href="https://youtu.be/bWvvBuXxSN4?feature=shared" target="_blank">
               <img src="../images/MOSS_Homepage.png" alt="MOSS Homepage" style="width: 100%; height: auto;"/>
           </a>
@@ -65,10 +63,56 @@ Current Research
        </p>
    </div>
 </div>
+ -->
 
 
 
 
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+   <div style="flex: 0 0 45%; margin-right: 20px;">
+       <div class="image-hover-container">
+           <img src="images/folk.png" style="width: 100%; height: auto; opacity: 0.6; object-fit: cover; border-radius: 5px;" alt="dgsct">
+       </div>
+   </div>
+   <div style="flex: 0 0 50%;">
+       <h3 style="margin-top: 0;">
+           <strong>FOLK: Fast Open-Vocabulary 3D Instance Segmentation via Label-guided Knowledge Distillation</strong>
+       </h3>
+       <p><a href="https://onehfr.github.io/" target="_blank"><strong>Hongrui Wu</strong></a>, <a href="" target="_blank">Zhicheng Gao</a>, <a href="https://jin-cao-tma.github.io/" target="_blank">Jin Cao</a>, <a href="" target="_blank">Kelu Yao</a>, <a href="https://ada-shen.github.io/" target="_blank">Wen Shen</a>, <a href="https://www.semanticscholar.org/author/Zhihua-Wei/143628849" target="_blank">Zhihua Wei</a></p>
+       <p><em>Under Review</em></p>
+       <p>
+           <a href="https://arxiv.org/abs/2510.08849" target="_blank">[Paper]</a>
+       </p>
+   </div>
+</div>
+
+
+
+<hr>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+   <div style="flex: 0 0 45%; margin-right: 20px;">
+       <div class="image-hover-container">
+           <img src="images/universe.png" style="width: 100%; height: auto; opacity: 0.6; object-fit: cover; border-radius: 5px;" alt="dgsct">
+       </div>
+   </div>
+   <div style="flex: 0 0 50%;">
+       <h3 style="margin-top: 0;">
+           <img src="images/universe.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;">
+           <strong>UniVerse: Unleashing the Scene Prior of Video Diffusion Models for Robust Radiance Field Reconstruction</strong>
+       </h3>
+       <a href="https://jin-cao-tma.github.io/" target="_blank">Jin Cao*</a>, <a href="https://onehfr.github.io/" target="_blank"><strong>Hongrui Wu*</strong></a>, <a href="https://xzhou.me/" target="_blank">Ziyong Feng</a>, <a href="https://xzhou.me/" target="_blank">Hujun Bao</a>, <a href="https://pengsida.net/" target="_blank">Xiaowei Zhou</a>, <a href="https://pengsida.net/" target="_blank">Sida Peng</a></p>
+       <p><em>ICCV 2025</em></p>
+       <p>
+           <a href="https://jin-cao-tma.github.io/UniVerse.github.io/" target="_blank">[Project Page]</a>
+           <a href="https://arxiv.org/abs/2510.01669" target="_blank">[Paper]</a>
+           <a href="https://github.com/zju3dv/UniVerse" target="_blank">[Code]</a>
+           <a href="https://github.com/zju3dv/UniVerse/stargazers" target="_blank">
+             <img src="https://img.shields.io/github/stars/zju3dv/UniVerse?style=social&amp;label=Stars" alt=""/>
+           </a>
+       </p>
+   </div>
+</div>
 
 
 
@@ -81,8 +125,60 @@ Current Research
 <hr>
 
 
-<!-- Projects & Intern Experience
+Experience
 ======
+
+<div class="projects">
+  <div class="project-item">
+    <div class="project-content">
+      <h3><a href="https://onehfr.github.io/portfolio/project-1/">American Society of Civil Engineers Concrete Canoe Competition</a></h3>
+      <div class="project-meta">
+        <span class="role">Hull designer</span>
+        <span class="links">
+          [<a href="https://onehfr.github.io/portfolio/">Works</a>]
+          [<a href="https://docs.google.com/presentation/d/12NBXRfv-bkYV1_H_B_a9v2MSho-ZQoks/edit?usp=drive_link&ouid=104071984654367651910&rtpof=true&sd=true">PPT</a>]
+          [<a href="../files/ASCE_project_proposal.pdf">Paper</a>]
+        </span>
+        <span class="supervisor">hosted by <a href="https://www.linkedin.com/company/americansocietyofcivilengineers" target="_blank">ASCE</a> in Sacramento, CA</span>
+        <span class="date">May 2022 - Apr 2024</span>
+      </div>
+    </div>
+    <div class="project-image">
+      <video 
+        autoplay 
+        loop 
+        muted 
+        controls
+        playsinline
+        style="width: 100%; border-radius: 8px;">
+        <source src="/images/p4-video2.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+  <div class="c-viewer viewer-container">
+    <div class="c-viewer__model">
+      <h4 class="c-viewer__title">🖱️ An interactive 3D visualization window</h4>
+      <iframe 
+        title="Canoe2024-Tongji-Yangtze 3D model - Sketchfab"
+        class="c-viewer__iframe"
+        src="https://sketchfab.com/models/8775df6e6d034f1ebfdcba0f3ba1b717/embed?autostart=1&amp;internal=1&amp;tracking=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_watermark=0"
+        id="api-frame"
+        allow="autoplay; fullscreen; xr-spatial-tracking"
+        xr-spatial-tracking="true"
+        execution-while-out-of-viewport="true"
+        execution-while-not-rendered="true"
+        web-share="true"
+        allowfullscreen="">
+      </iframe>
+    </div>
+    <div class="c-viewer__poster">
+      <h4 class="c-viewer__title">🎨 Poster</h4>
+      <img src="/images/p4-poster.png" alt="p4-poster" class="c-viewer__image">
+    </div>
+  </div>
+</div>
+
+<!--
 <div class="projects">
   <div class="project-item">
     <div class="project-content">
@@ -127,55 +223,6 @@ Current Research
   </div>
 </div>
 
-<div class="projects">
-  <div class="project-item">
-    <div class="project-content">
-      <h3><a href="https://onehfr.github.io/portfolio/project-1/">American Society of Civil Engineers Concrete Canoe Competition</a></h3>
-      <div class="project-meta">
-        <span class="role">Hull designer</span>
-        <span class="links">
-          [<a href="https://onehfr.github.io/portfolio/">Works</a>]
-          [<a href="https://docs.google.com/presentation/d/12NBXRfv-bkYV1_H_B_a9v2MSho-ZQoks/edit?usp=drive_link&ouid=104071984654367651910&rtpof=true&sd=true">PPT</a>]
-          [<a href="../files/p4-paper.pdf">Paper</a>]
-        </span>
-        <span class="supervisor">hosted by <a href="https://www.linkedin.com/company/americansocietyofcivilengineers" target="_blank">ASCE</a> in Sacramento, CA</span>
-        <span class="date">May 2022 - Apr 2024</span>
-      </div>
-    </div>
-    <div class="project-image">
-      <video 
-        autoplay 
-        loop 
-        muted 
-        controls
-        playsinline
-        style="width: 100%; border-radius: 8px;">
-        <source src="/images/p4-video2.mp4" type="video/mp4">
-      </video>
-    </div>
-  </div>
-  <div class="c-viewer viewer-container">
-    <div class="c-viewer__model">
-      <h4 class="c-viewer__title">🖱️ An interactive 3D visualization window</h4>
-      <iframe 
-        title="Canoe2024-Tongji-Yangtze 3D model - Sketchfab"
-        class="c-viewer__iframe"
-        src="https://sketchfab.com/models/8775df6e6d034f1ebfdcba0f3ba1b717/embed?autostart=1&amp;internal=1&amp;tracking=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_watermark=0"
-        id="api-frame"
-        allow="autoplay; fullscreen; xr-spatial-tracking"
-        xr-spatial-tracking="true"
-        execution-while-out-of-viewport="true"
-        execution-while-not-rendered="true"
-        web-share="true"
-        allowfullscreen="">
-      </iframe>
-    </div>
-    <div class="c-viewer__poster">
-      <h4 class="c-viewer__title">🎨 Poster</h4>
-      <img src="/images/p4-poster.png" alt="p4-poster" class="c-viewer__image">
-    </div>
-  </div>
-</div>
 
 <hr>
 <hr> -->
@@ -189,7 +236,7 @@ Achievements
   <div class="achievement-item">
     <div class="custom-checkbox">
       <input type="checkbox" id="achievement1" checked>
-      <label for="achievement1">National Scholarship (Top 0.2% nationwide, highest scholarship in China) / TianXiang Scholarship (2 slots one college)</label>
+      <label for="achievement1">National Scholarship (Top 0.2% nationwide, highest scholarship in China) / TianXiang Scholarship (2 slots one college 2/600)</label>
     </div>
   </div>
   <div class="achievement-item">
@@ -218,8 +265,8 @@ Achievements
   </div>
 </div>
 
-# Hi there, you are visitor No. 
-![Visitor Count](https://profile-counter.glitch.me/onehfr/count.svg)
+<!-- # Hi there, you are visitor No.  -->
+<!-- ![Visitor Count](https://profile-counter.glitch.me/onehfr/count.svg) -->
 
 <hr>
 
