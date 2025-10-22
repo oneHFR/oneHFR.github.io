@@ -85,11 +85,11 @@ author:
   name             : "Hongrui Wu"
   avatar           : "profile.png"
   bio              : "Undergraduate student in CS @ Tongji U"
-  location         : "Shanghai, China"
+  location         : "San Diego, US"
   employer         :
   pubmed           : # 
   googlescholar    : # 
-  email            : "2152131@tongji.edu.cn"
+  email            : "how036@ucsd.edu"
   researchgate     : # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -98,7 +98,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "onehfr"
+  github           : # "onehfr"
   google_plus      :
   keybase          :
   instagram        : # "onehfr"
@@ -117,7 +117,7 @@ author:
   xing             :
   youtube          : "oneHFR"
   wikipedia        :
-  zhihu            : "52827930"
+  zhihu            : # "52827930"
 
 
 # Reading Files
