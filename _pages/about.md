@@ -22,8 +22,26 @@ My research interests span **open-vocabulary understanding of 3D scenes**, **3D 
 
 ---
 
+News 📢
+======
 
-Research Project
+<div style="max-width:850px;margin:0 auto;padding:20px 0;">
+<ul style="list-style:none;padding-left:0;margin:0;">
+<li style="margin:6px 0;line-height:1.5;">
+<span style="font-weight:600;">[2025.06]</span>
+One paper is accepted by ICCV 2025. See you in Hawaii!!🌺
+</li>
+<li style="margin:6px 0;line-height:1.5;">
+<span style="font-weight:600;">[2025.07]</span>
+I joined UC San Diego <a href="https://pages.ucsd.edu/~ztu/Group.htm" target="_blank" rel="noopener">MLPC Lab</a> as an intern ⚓
+</li>
+</ul>
+</div>
+
+
+---
+
+Research Projects
 ======
 <!-- <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
    <div style="flex: 0 0 45%; margin-right: 20px;">
@@ -71,11 +89,12 @@ Research Project
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
    <div style="flex: 0 0 45%; margin-right: 20px;">
        <div class="image-hover-container">
-           <img src="images/folk.png" style="width: 100%; height: auto; opacity: 0.6; object-fit: cover; border-radius: 5px;" alt="dgsct">
+           <img src="images/FOLK.png" style="width: 100%; height: auto; opacity: 0.6; object-fit: cover; border-radius: 5px;" alt="dgsct">
        </div>
    </div>
    <div style="flex: 0 0 50%;">
        <h3 style="margin-top: 0;">
+           <img src="images/FOLK_logo.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;">
            <strong>FOLK: Fast Open-Vocabulary 3D Instance Segmentation via Label-guided Knowledge Distillation</strong>
        </h3>
        <p><a href="https://onehfr.github.io/" target="_blank"><strong>Hongrui Wu</strong></a>, <a href="" target="_blank">Zhicheng Gao</a>, <a href="https://jin-cao-tma.github.io/" target="_blank">Jin Cao</a>, <a href="" target="_blank">Kelu Yao</a>, <a href="https://ada-shen.github.io/" target="_blank">Wen Shen</a>, <a href="https://www.semanticscholar.org/author/Zhihua-Wei/143628849" target="_blank">Zhihua Wei</a></p>
@@ -98,7 +117,7 @@ Research Project
    </div>
    <div style="flex: 0 0 50%;">
        <h3 style="margin-top: 0;">
-           <img src="images/universe.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;">
+           <img src="images/universe_logo.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;">
            <strong>UniVerse: Unleashing the Scene Prior of Video Diffusion Models for Robust Radiance Field Reconstruction</strong>
        </h3>
        <a href="https://jin-cao-tma.github.io/" target="_blank">Jin Cao*</a>, <a href="https://onehfr.github.io/" target="_blank"><strong>Hongrui Wu*</strong></a>, <a href="https://xzhou.me/" target="_blank">Ziyong Feng</a>, <a href="https://xzhou.me/" target="_blank">Hujun Bao</a>, <a href="https://pengsida.net/" target="_blank">Xiaowei Zhou</a>, <a href="https://pengsida.net/" target="_blank">Sida Peng</a></p>
