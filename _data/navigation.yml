@@ -23,8 +23,8 @@ main:
   # - title: "Blog Posts"
   #   url: /year-archive/
     
-  - title: "Gallery"
-    url: /files/cv.pdf
+  # - title: "Gallery"
+  #   url: /files/cv.pdf
     
   # - title: "Guide"
   #   url: /markdown/
