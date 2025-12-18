@@ -84,7 +84,24 @@ Research Projects
  -->
 
 
-
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+   <div style="flex: 0 0 45%; margin-right: 20px;">
+       <div class="image-hover-container">
+           <img src="images/PixARMesh.png" style="width: 100%; height: auto; opacity: 0.6; object-fit: cover; border-radius: 5px;" alt="dgsct">
+       </div>
+   </div>
+   <div style="flex: 0 0 50%;">
+       <h3 style="margin-top: 0;">
+           <img src="images/PixARMesh_logo.svg" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;">
+           <strong>PixARMesh: Autoregressive Mesh-Native Single-View Scene Reconstruction</strong>
+       </h3>
+       <a href="https://onehfr.github.io/" target="_blank"><strong>Hongrui Wu*</strong></a>, <a href="https://openreview.net/profile?id=~Sohyun_Yoo1" target="_blank">Sohyun Yoo*</a>, <a href="https://xzhang.dev/" target="_blank">Xiang Zhang*</a>, <a href="https://scholar.google.com/citations?user=hoZesOwAAAAJ&hl=en" target="_blank">Chuan Li</a>, <a href="http://www.stat.ucla.edu/~jxie/" target="_blank">Jianwen Xie</a>, <a href="https://pages.ucsd.edu/~ztu/" target="_blank">Zhuowen Tu</a>
+       <p><em>Under Review</em></p>
+       <p>
+           <a href="files/PixARMesh.pdf" target="_blank">[Paper]</a>
+       </p>
+   </div>
+</div>
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
    <div style="flex: 0 0 45%; margin-right: 20px;">
@@ -97,7 +114,7 @@ Research Projects
            <img src="images/FOLK_logo.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;">
            <strong>FOLK: Fast Open-Vocabulary 3D Instance Segmentation via Label-guided Knowledge Distillation</strong>
        </h3>
-       <p><a href="https://onehfr.github.io/" target="_blank"><strong>Hongrui Wu</strong></a>, <a href="" target="_blank">Zhicheng Gao</a>, <a href="https://jin-cao-tma.github.io/" target="_blank">Jin Cao</a>, <a href="" target="_blank">Kelu Yao</a>, <a href="https://ada-shen.github.io/" target="_blank">Wen Shen</a>, <a href="https://www.semanticscholar.org/author/Zhihua-Wei/143628849" target="_blank">Zhihua Wei</a></p>
+       <a href="https://onehfr.github.io/" target="_blank"><strong>Hongrui Wu</strong></a>, <a href="https://openreview.net/profile?id=~ZhiCheng_Gao1" target="_blank">Zhicheng Gao</a>, <a href="https://jin-cao-tma.github.io/" target="_blank">Jin Cao</a>, <a href="https://openreview.net/profile?id=~kelu_Yao1" target="_blank">Kelu Yao</a>, <a href="https://ada-shen.github.io/" target="_blank">Wen Shen</a>, <a href="https://www.semanticscholar.org/author/Zhihua-Wei/143628849" target="_blank">Zhihua Wei</a>
        <p><em>Under Review</em></p>
        <p>
            <a href="https://arxiv.org/abs/2510.08849" target="_blank">[Paper]</a>
@@ -120,7 +137,7 @@ Research Projects
            <img src="images/universe_logo.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;">
            <strong>UniVerse: Unleashing the Scene Prior of Video Diffusion Models for Robust Radiance Field Reconstruction</strong>
        </h3>
-       <a href="https://jin-cao-tma.github.io/" target="_blank">Jin Cao*</a>, <a href="https://onehfr.github.io/" target="_blank"><strong>Hongrui Wu*</strong></a>, <a href="https://xzhou.me/" target="_blank">Ziyong Feng</a>, <a href="https://xzhou.me/" target="_blank">Hujun Bao</a>, <a href="https://pengsida.net/" target="_blank">Xiaowei Zhou</a>, <a href="https://pengsida.net/" target="_blank">Sida Peng</a></p>
+       <a href="https://jin-cao-tma.github.io/" target="_blank">Jin Cao*</a>, <a href="https://onehfr.github.io/" target="_blank"><strong>Hongrui Wu*</strong></a>, <a href="https://xzhou.me/" target="_blank">Ziyong Feng</a>, <a href="https://xzhou.me/" target="_blank">Hujun Bao</a>, <a href="https://pengsida.net/" target="_blank">Xiaowei Zhou</a>, <a href="https://pengsida.net/" target="_blank">Sida Peng</a>
        <p><em>ICCV 2025</em></p>
        <p>
            <a href="https://jin-cao-tma.github.io/UniVerse.github.io/" target="_blank">[Project Page]</a>
