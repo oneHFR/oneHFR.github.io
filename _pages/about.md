@@ -9,7 +9,9 @@ redirect_from:
 
 Hi there!👋
 
-I am currently an undergraduate student in [Computer Science](https://see-en.tongji.edu.cn/info/1010/1271.htm) at [Tongji University](https://en.tongji.edu.cn/p/), and I am also currently conducting research at [UC San Diego](https://ucsd.edu/), advised by Prof. [Zhuowen Tu](https://pages.ucsd.edu/~ztu/). During my first three years at university, I majored in [Intelligent Construction](https://civileng.tongji.edu.cn/civilengen/18034/list.htm) in the [College of Civil Engineering](https://civileng.tongji.edu.cn/civilengen/main.htm). Driven by research interests, I transferred to the CS major in April 2024 and will receive my Bachelor's degree in June 2026. I am also actively seeking PhD opportunities for Fall 2026! 🎓
+I am currently an undergraduate student in [Computer Science](https://see-en.tongji.edu.cn/info/1010/1271.htm) at [Tongji University](https://en.tongji.edu.cn/p/), and I am also currently conducting research at [UC San Diego](https://ucsd.edu/), advised by Prof. [Zhuowen Tu](https://pages.ucsd.edu/~ztu/). During my first three years at university, I majored in [Intelligent Construction](https://civileng.tongji.edu.cn/civilengen/18034/list.htm) in the [College of Civil Engineering](https://civileng.tongji.edu.cn/civilengen/main.htm). Driven by research interests, I transferred to the CS major in April 2024 and will receive my Bachelor's degree in June 2026. 
+
+I am also actively seeking PhD opportunities for Fall 2026! 🎓
 
 <a href="/files/cv.pdf" class="cv-button" target="_blank"> 
   Here is my CV 📄
@@ -18,7 +20,8 @@ I am currently an undergraduate student in [Computer Science](https://see-en.ton
 
 Research Interests
 ======
-My research interests span **open-vocabulary understanding of 3D scenes**, **3D scene reconstruction** from both multi-view images and a single image, across explicit and implicit 3D representations.
+
+My research aims to build **spatial intelligence** by learning structured, physically grounded multi-modal world representations. I focus on generative models that reconstruct and synthesize coherent 3D/4D scenes from visual observations, producing simulation- and interaction-ready representations for embodied tasks.
 
 ---
 
@@ -29,7 +32,9 @@ News 📢
 <ul style="list-style:none;padding-left:0;margin:0;">
 <li style="margin:6px 0;line-height:1.5;">
 <span style="font-weight:600;">[2025.06]</span>
-One paper is accepted by ICCV 2025. See you in Hawaii!!🌺
+One paper is accepted by ICCV 2025. See you in Hawaii!! 🌺 <br>
+(The coffee breaks are way better than NeurIPS 2025☕️😋)
+
 </li>
 <li style="margin:6px 0;line-height:1.5;">
 <span style="font-weight:600;">[2025.07]</span>
@@ -87,7 +92,7 @@ Research Projects
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
    <div style="flex: 0 0 45%; margin-right: 20px;">
        <div class="image-hover-container">
-           <img src="images/PixARMesh.png" style="width: 100%; height: auto; opacity: 0.6; object-fit: cover; border-radius: 5px;" alt="dgsct">
+           <img src="images/PixARMesh.png" style="width: 100%; height: auto; object-fit: cover; border-radius: 5px;" alt="dgsct">
        </div>
    </div>
    <div style="flex: 0 0 50%;">
@@ -106,7 +111,7 @@ Research Projects
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
    <div style="flex: 0 0 45%; margin-right: 20px;">
        <div class="image-hover-container">
-           <img src="images/FOLK.png" style="width: 100%; height: auto; opacity: 0.6; object-fit: cover; border-radius: 5px;" alt="dgsct">
+           <img src="images/FOLK.png" style="width: 100%; height: auto; object-fit: cover; border-radius: 5px;" alt="dgsct">
        </div>
    </div>
    <div style="flex: 0 0 50%;">
@@ -129,7 +134,7 @@ Research Projects
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
    <div style="flex: 0 0 45%; margin-right: 20px;">
        <div class="image-hover-container">
-           <img src="images/universe.png" style="width: 100%; height: auto; opacity: 0.6; object-fit: cover; border-radius: 5px;" alt="dgsct">
+           <img src="images/universe.png" style="width: 100%; height: auto; object-fit: cover; border-radius: 5px;" alt="dgsct">
        </div>
    </div>
    <div style="flex: 0 0 50%;">
