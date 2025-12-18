@@ -97,7 +97,7 @@ Research Projects
    <div style="flex: 0 0 50%;">
        <h3 style="margin-top: 0;">
            <img src="images/PixARMesh_logo.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;">
-           <strong>PixARMesh: Autoregressive Mesh-Native Single-View Scene Reconstruction</strong>
+           <strong>  🆕  PixARMesh: Auto-Regressive Mesh-Native Single-View Scene Reconstruction </strong>
        </h3>
        <a href="https://onehfr.github.io/" target="_blank"><strong>Hongrui Wu*</strong></a>, <a href="https://openreview.net/profile?id=~Sohyun_Yoo1" target="_blank">Sohyun Yoo*</a>, <a href="https://xzhang.dev/" target="_blank">Xiang Zhang*</a>, <a href="https://scholar.google.com/citations?user=hoZesOwAAAAJ&hl=en" target="_blank">Chuan Li</a>, <a href="http://www.stat.ucla.edu/~jxie/" target="_blank">Jianwen Xie</a>, <a href="https://pages.ucsd.edu/~ztu/" target="_blank">Zhuowen Tu</a>
        <p><em>Under Review</em></p>
