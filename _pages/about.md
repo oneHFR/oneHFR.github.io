@@ -27,13 +27,12 @@ My research aims to build **spatial intelligence** by learning structured, physi
 
 News 📢
 ======
-
-<div style="max-width:850px;margin:0 auto;padding:20px 0;">
+<div style="max-width:850px;margin:0 auto;padding:10px 0;">
 <ul style="list-style:none;padding-left:0;margin:0;">
 <li style="margin:6px 0;line-height:1.5;">
 <span style="font-weight:600;">[2025.06]</span>
-One paper is accepted by ICCV 2025. See you in Hawaii!! 🌺 <br>
-(The coffee breaks are way better than NeurIPS 2025☕️😋)
+One paper is accepted by ICCV2025. See you in Hawaii!! 🌺 <br>
+(The coffee breaks☕️ are way better than NeurIPS2025@SD)
 
 </li>
 <li style="margin:6px 0;line-height:1.5;">
