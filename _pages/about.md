@@ -119,7 +119,7 @@ Research Projects
            <strong>FOLK: Fast Open-Vocabulary 3D Instance Segmentation via Label-guided Knowledge Distillation</strong>
        </h3>
        <a href="https://onehfr.github.io/" target="_blank"><strong>Hongrui Wu</strong></a>, <a href="https://openreview.net/profile?id=~ZhiCheng_Gao1" target="_blank">Zhicheng Gao</a>, <a href="https://jin-cao-tma.github.io/" target="_blank">Jin Cao</a>, <a href="https://openreview.net/profile?id=~kelu_Yao1" target="_blank">Kelu Yao</a>, <a href="https://ada-shen.github.io/" target="_blank">Wen Shen</a>, <a href="https://www.semanticscholar.org/author/Zhihua-Wei/143628849" target="_blank">Zhihua Wei</a>
-       <p><em>Under Review</em></p>
+       <p><em>ICASSP 2026</em></p>
        <p>
            <a href="https://arxiv.org/abs/2510.08849" target="_blank">[Paper]</a>
        </p>
