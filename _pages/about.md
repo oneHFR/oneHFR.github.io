@@ -30,10 +30,17 @@ News 📢
 <div style="max-width:850px;margin:0 auto;padding:10px 0;">
 <ul style="list-style:none;padding-left:0;margin:0;">
 <li style="margin:6px 0;line-height:1.5;">
+<span style="font-weight:600;">[2026.02]</span>
+One paper has been accepted to CVPR 2026. See you in Denver! 🏔️
+</li>
+<li style="margin:6px 0;line-height:1.5;">
+<span style="font-weight:600;">[2026.01]</span>
+One paper has been accepted to ICASSP 2026. See you in Barcelona! 🇪🇸🌊
+</li>
+<li style="margin:6px 0;line-height:1.5;">
 <span style="font-weight:600;">[2025.06]</span>
-One paper is accepted by ICCV2025. See you in Hawaii!! 🌺 <br>
-(The coffee breaks☕️ are way better than NeurIPS2025@SD)
-
+One paper has been accepted to ICCV 2025. See you in Hawaii!! 🌺 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(The coffee breaks☕️ are way better than NeurIPS 2025 @SD)
 </li>
 <li style="margin:6px 0;line-height:1.5;">
 <span style="font-weight:600;">[2025.07]</span>
@@ -100,7 +107,7 @@ Research Projects
            <strong>  🆕  PixARMesh: Auto - Regressive   Mesh - Native Single - View Scene Reconstruction </strong>
        </h3>
        <a href="https://onehfr.github.io/" target="_blank"><strong>Hongrui Wu*</strong></a>, <a href="https://openreview.net/profile?id=~Sohyun_Yoo1" target="_blank">Sohyun Yoo*</a>, <a href="https://xzhang.dev/" target="_blank">Xiang Zhang*</a>, <a href="https://scholar.google.com/citations?user=hoZesOwAAAAJ&hl=en" target="_blank">Chuan Li</a>, <a href="http://www.stat.ucla.edu/~jxie/" target="_blank">Jianwen Xie</a>, <a href="https://pages.ucsd.edu/~ztu/" target="_blank">Zhuowen Tu</a>
-       <p><em>Under Review</em></p>
+       <p><em>CVPR 2026</em></p>
        <p>
            <a href="files/PixARMesh.pdf" target="_blank">[Paper]</a>
        </p>
