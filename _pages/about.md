@@ -111,7 +111,8 @@ Research Projects
        <a href="https://xzhang.dev/" target="_blank">Xiang Zhang*</a>, <a href="https://openreview.net/profile?id=~Sohyun_Yoo1" target="_blank">Sohyun Yoo*</a>, <a href="https://onehfr.github.io/" target="_blank"><strong>Hongrui Wu*</strong></a>,   <a href="https://scholar.google.com/citations?user=hoZesOwAAAAJ&hl=en" target="_blank">Chuan Li</a>, <a href="http://www.stat.ucla.edu/~jxie/" target="_blank">Jianwen Xie</a>, <a href="https://pages.ucsd.edu/~ztu/" target="_blank">Zhuowen Tu</a>
        <p><em>CVPR 2026</em></p>
        <p>
-           <a href="files/PixARMesh.pdf" target="_blank">[Paper]</a>
+           <!-- <a href="files/PixARMesh.pdf" target="_blank">[Paper]</a> -->
+           <a href="https://github.com/mlpc-interns/PixARMesh-website" target="_blank">[Paper]</a>
        </p>
    </div>
 </div>
