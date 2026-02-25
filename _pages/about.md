@@ -13,15 +13,17 @@ I am currently an undergraduate student in [Computer Science](https://see-en.ton
 
 I am also actively seeking PhD opportunities for Fall 2026! 🎓
 
-<a href="/files/cv.pdf" class="cv-button" target="_blank"> 
+<!-- <a href="/files/cv.pdf" class="cv-button" target="_blank"> 
   Here is my CV 📄
-</a>
+</a> -->
 
 
 Research Interests
 ======
 
-My research aims to build **spatial intelligence** by learning structured, physically grounded multi-modal world representations. I focus on generative models that reconstruct and synthesize coherent 3D/4D scenes from visual observations, producing simulation- and interaction-ready representations for embodied tasks.
+My research focuses on building generative world models that enable AI systems to acquire spatial intelligence through structured and physically grounded multi-modal representations of the environment. 
+
+I am particularly interested in video action models that can reconstruct and synthesize coherent 3D/4D scenes from visual observations, with the goal of creating simulation-ready representations that serve as upstream data engines and training platforms for robotics and other embodied systems.
 
 ---
 
@@ -106,7 +108,7 @@ Research Projects
            <img src="images/PixARMesh_logo.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;">
            <strong>  🆕  PixARMesh: Auto - Regressive   Mesh - Native Single - View Scene Reconstruction </strong>
        </h3>
-       <a href="https://onehfr.github.io/" target="_blank"><strong>Hongrui Wu*</strong></a>, <a href="https://openreview.net/profile?id=~Sohyun_Yoo1" target="_blank">Sohyun Yoo*</a>, <a href="https://xzhang.dev/" target="_blank">Xiang Zhang*</a>, <a href="https://scholar.google.com/citations?user=hoZesOwAAAAJ&hl=en" target="_blank">Chuan Li</a>, <a href="http://www.stat.ucla.edu/~jxie/" target="_blank">Jianwen Xie</a>, <a href="https://pages.ucsd.edu/~ztu/" target="_blank">Zhuowen Tu</a>
+       <a href="https://xzhang.dev/" target="_blank">Xiang Zhang*</a>, <a href="https://openreview.net/profile?id=~Sohyun_Yoo1" target="_blank">Sohyun Yoo*</a>, <a href="https://onehfr.github.io/" target="_blank"><strong>Hongrui Wu*</strong></a>,   <a href="https://scholar.google.com/citations?user=hoZesOwAAAAJ&hl=en" target="_blank">Chuan Li</a>, <a href="http://www.stat.ucla.edu/~jxie/" target="_blank">Jianwen Xie</a>, <a href="https://pages.ucsd.edu/~ztu/" target="_blank">Zhuowen Tu</a>
        <p><em>CVPR 2026</em></p>
        <p>
            <a href="files/PixARMesh.pdf" target="_blank">[Paper]</a>
