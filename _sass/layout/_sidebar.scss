@@ -160,7 +160,10 @@
   vertical-align: middle;
   font-family: $sans-serif;
   z-index: 10;
-  position: relative;
+
+  @include breakpoint($large) {
+    margin-top: 20px;
+  }
   cursor: pointer;
 
   li:last-child {
