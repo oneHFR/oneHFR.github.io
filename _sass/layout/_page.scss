@@ -665,38 +665,26 @@
       0 4px 12px rgba(0, 0, 0, 0.05);
   }
 
-  // ── IMAGE COLUMN — 16:9 via aspect-ratio ──
+  // ── IMAGE COLUMN ──
   .research-card__image {
     flex: 0 0 45%;
-    position: relative;
     overflow: hidden;
     cursor: pointer;
     background: #f5f5f7;
-    aspect-ratio: 16 / 9;
-
-    > img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      transition: transform 0.5s ease;
-    }
-
-    &:hover > img {
-      transform: scale(1.04);
-    }
   }
 
   // ── IMAGE SWITCHER (webp ↔ png) ──
+  // Both images use aspect-ratio to enforce 16:9.
+  // webp is in normal flow; png is absolute on top.
   .img-switcher {
     position: relative;
     width: 100%;
-    height: 100%;
+    overflow: hidden;
 
     &__layer {
       display: block;
       width: 100%;
-      height: 100%;
+      aspect-ratio: 16 / 9;
       object-fit: cover;
       transition:
         opacity    0.55s cubic-bezier(0.22, 1, 0.36, 1),
@@ -704,7 +692,6 @@
         transform  0.55s cubic-bezier(0.34, 1.56, 0.64, 1);
     }
 
-    // webp: visible by default, in normal flow to hold the space
     &__webp {
       position: relative;
       opacity: 1;
@@ -713,7 +700,6 @@
       z-index: 1;
     }
 
-    // png: layered on top, hidden
     &__png {
       position: absolute;
       top: 0;
@@ -721,7 +707,6 @@
       opacity: 0;
       filter: blur(14px) brightness(1.08);
       transform: scale(1.06);
-      pointer-events: none;
       z-index: 2;
     }
 
@@ -736,16 +721,15 @@
         opacity: 1;
         filter: blur(0) brightness(1);
         transform: scale(1);
-        pointer-events: auto;
       }
     }
 
-    // Toggle hint badge
+    // Hint badge
     &__hint {
       position: absolute;
       bottom: 12px;
       right: 12px;
-      z-index: 4;
+      z-index: 5;
       padding: 5px 12px;
       font-size: 0.7em;
       font-weight: 600;
