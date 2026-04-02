@@ -17,4 +17,19 @@
 <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+<!-- Image switcher: click to toggle webp/png -->
+<script>
+document.addEventListener('click', function(e) {
+  var switcher = e.target.closest('.img-switcher');
+  if (!switcher) return;
+  switcher.classList.toggle('is-showing-png');
+  var hint = switcher.querySelector('.img-switcher__hint');
+  if (hint) {
+    hint.textContent = switcher.classList.contains('is-showing-png')
+      ? 'Tap for animation'
+      : 'Tap to toggle';
+  }
+});
+</script>
+
 <!-- end custom head snippets -->
