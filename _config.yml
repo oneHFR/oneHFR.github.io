@@ -9,7 +9,7 @@ encoding: utf-8
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Wu's Homepage"
+title                    : "Hongrui's Homepage"
 title_separator          : "-"
 name                     : &name "Hongrui Wu"
 description              : &description "Undergraduate student"
@@ -84,12 +84,12 @@ analytics:
 author:
   name             : "Hongrui Wu"
   avatar           : "profile.png"
-  bio              : "Undergraduate student in CS @ Tongji U"
-  location         : "San Diego, US"
+  bio              : # "Undergraduate student in CS @ Tongji U"
+  # location         : "San Diego, US"
   employer         :
   pubmed           : # 
-  googlescholar    : # 
-  email            : "how036@ucsd.edu"
+  googlescholar    : "https://scholar.google.com/citations?user=JjjYCN8AAAAJ&hl=en"
+  email            : "wuhongrui2152131@gmail.com"
   researchgate     : # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -104,7 +104,7 @@ author:
   instagram        : # "onehfr"
   impactstory      : # "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : # "hongrui-wu-7546b734b/"
+  linkedin         : "hongrui-wu-7546b734b/"
   orcid            : # "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :

@@ -1,3 +1,16 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<script>
+function toggleImg(el) {
+  el.classList.toggle('is-showing-png');
+  // 更新提示文字
+  var hint = el.querySelector('.img-switcher__hint');
+  if (hint) {
+    hint.textContent = el.classList.contains('is-showing-png')
+      ? 'Click for animation'
+      : 'Click to toggle';
+  }
+}
+</script>
+
 {% include analytics.html %}
