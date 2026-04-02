@@ -7,181 +7,159 @@ redirect_from:
   - /about.html
 ---
 
-Hi there!👋
+<div class="hero-intro">
+  <p class="hero-intro__greeting">Hi there!</p>
+  <p class="hero-intro__text">
+    I am an incoming Master's student in Electrical Engineering at Stanford University. I will graduate with my Bachelor's degree in <a href="https://see-en.tongji.edu.cn/info/1010/1271.htm">Computer Science</a> from <a href="https://en.tongji.edu.cn/p/">Tongji University</a> in June 2026. I previously conducted research at <a href="https://ucsd.edu/">UC San Diego</a>, advised by Prof. <a href="https://pages.ucsd.edu/~ztu/">Zhuowen Tu</a>.
+  </p>
+</div>
 
-I am currently an undergraduate student in [Computer Science](https://see-en.tongji.edu.cn/info/1010/1271.htm) at [Tongji University](https://en.tongji.edu.cn/p/), and I am also currently conducting research at [UC San Diego](https://ucsd.edu/), advised by Prof. [Zhuowen Tu](https://pages.ucsd.edu/~ztu/). During my first three years at university, I majored in [Intelligent Construction](https://civileng.tongji.edu.cn/civilengen/18034/list.htm) in the [College of Civil Engineering](https://civileng.tongji.edu.cn/civilengen/main.htm). Driven by research interests, I transferred to the CS major in April 2024 and will receive my Bachelor's degree in June 2026. 
+<div class="section-label">Research Interests</div>
+<div class="interest-pills">
+  <span class="interest-pill">3D/4D Generation</span>
+  <span class="interest-pill">Multi-modal</span>
+  <span class="interest-pill">World Models</span>
+  <span class="interest-pill">Spatial Intelligence</span>
+</div>
 
-I am also actively seeking PhD opportunities for Fall 2026! 🎓
+<hr class="section-divider">
 
-<!-- <a href="/files/cv.pdf" class="cv-button" target="_blank"> 
-  Here is my CV 📄
-</a> -->
+<div class="section-label">Latest News</div>
 
-
-Research Interests
-======
-
-My research focuses on building generative world models that enable AI systems to acquire spatial intelligence through structured and physically grounded multi-modal representations of the environment. 
-
-I am particularly interested in video action models that can reconstruct and synthesize coherent 3D/4D scenes from visual observations, with the goal of creating simulation-ready representations that serve as upstream data engines and training platforms for robotics and other embodied systems.
-
----
-
-News 📢
-======
-<div style="max-width:850px;margin:0 auto;padding:10px 0;">
-<ul style="list-style:none;padding-left:0;margin:0;">
-<li style="margin:6px 0;line-height:1.5;">
-<span style="font-weight:600;">[2026.02]</span>
-One paper has been accepted to CVPR 2026. See you in Denver! 🏔️
-</li>
-<li style="margin:6px 0;line-height:1.5;">
-<span style="font-weight:600;">[2026.01]</span>
-One paper has been accepted to ICASSP 2026. See you in Barcelona! 🇪🇸🌊
-</li>
-<li style="margin:6px 0;line-height:1.5;">
-<span style="font-weight:600;">[2025.06]</span>
-One paper has been accepted to ICCV 2025. See you in Hawaii!! 🌺 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(The coffee breaks☕️ are way better than NeurIPS 2025 @SD)
-</li>
-<li style="margin:6px 0;line-height:1.5;">
-<span style="font-weight:600;">[2025.07]</span>
-I joined UC San Diego <a href="https://pages.ucsd.edu/~ztu/Group.htm" target="_blank" rel="noopener">MLPC Lab</a> as an intern ⚓
-</li>
-</ul>
+<div class="news-section">
+  <ul>
+    <li>
+      <span class="news-date">2026.02</span>
+      <span class="news-text">One paper has been accepted to <strong>CVPR 2026</strong>. See you in Denver!</span>
+    </li>
+    <li>
+      <span class="news-date">2026.01</span>
+      <span class="news-text">One paper has been accepted to <strong>ICASSP 2026</strong>. See you in Barcelona!</span>
+    </li>
+    <li>
+      <span class="news-date">2025.07</span>
+      <span class="news-text">I joined UC San Diego <a href="https://pages.ucsd.edu/~ztu/Group.htm" target="_blank" rel="noopener">MLPC Lab</a> as an intern</span>
+    </li>
+    <li>
+      <span class="news-date">2025.06</span>
+      <span class="news-text">One paper has been accepted to <strong>ICCV 2025</strong>. See you in Hawaii!</span>
+    </li>
+  </ul>
 </div>
 
 
----
+<hr class="section-divider">
 
-Research Projects
-======
-<!-- <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-   <div style="flex: 0 0 45%; margin-right: 20px;">
-       <div class="image-hover-container">
-           <!-- <img src="../images/MOSS_Homepage.png" style="width: 100%; height: auto;"/> 
-          <a href="https://youtu.be/bWvvBuXxSN4?feature=shared" target="_blank">
-              <img src="../images/MOSS_Homepage.png" alt="MOSS Homepage" style="width: 100%; height: auto;"/>
-          </a>
-       </div>
-   </div>
-   <div style="flex: 0 0 50%;">
-       <h3 style="margin-top: 0;"><img src="..\images\favicon-192x192.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;">MOSS: Mask-Oriented Open-Set for 3D Scene Segmentation using Superpoint</h3>
-       <p><em>Preparing for ICCV 2025</em></p>
-       <p>
-           <a href="../files/MOSS_pre.pdf">[PPT]</a>
-           <a href="https://www.youtube.com/watch?v=iVQH0lNJSas">[Video]</a>
-       </p>
-       <p>
-           The voiceover in the videos was created using ByteDance's Model <a href="https://www.doubao.com/">Doubao</a> that cloned my voice!
-       </p>
-   </div>
+
+<div class="section-label">Selected Publications</div>
+<p class="section-subtitle">Tap on any cover image to toggle between animated preview and static figure.</p>
+
+<div class="research-card">
+  <div class="research-card__image">
+    <div class="img-switcher" onclick="toggleImg(this)">
+      <img class="img-switcher__layer img-switcher__webp" src="images/PixARMesh.webp" alt="PixARMesh">
+      <img class="img-switcher__layer img-switcher__png"  src="images/PixARMesh.png"  alt="PixARMesh">
+      <span class="img-switcher__hint">Tap to toggle</span>
+    </div>
+  </div>
+  <div class="research-card__body">
+    <div class="research-card__venue-badge">CVPR 2026</div>
+    <h3>
+      <img src="images/PixARMesh_logo.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;">
+      <strong>PixARMesh</strong>
+    </h3>
+    <p class="research-card__full-title">Auto-Regressive Mesh-Native Single-View Scene Reconstruction</p>
+    <div class="research-card__authors">
+      Xiang Zhang*,
+      Sohyun Yoo*,
+      <strong>Hongrui Wu*</strong>,
+      Chuan Li,
+      Jianwen Xie,
+      Zhuowen Tu
+    </div>
+    <div class="research-card__links">
+      <!-- <a href="files/PixARMesh.pdf" target="_blank">Paper</a> -->
+      <a href="https://arxiv.org/abs/2603.05888" target="_blank">Paper</a>
+      <a href="https://mlpc-ucsd.github.io/PixARMesh/" target="_blank">Project</a>
+      <a href="https://github.com/mlpc-ucsd/PixARMesh" target="_blank">Code</a>
+    </div>
+  </div>
 </div>
 
-<hr>
-
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-   <div style="flex: 0 0 45%; margin-right: 20px;">
-       <div class="image-hover-container">
-           <img src="../images/Universe_pre.png" style="width: 100%; height: auto;"/>
-       </div>
-   </div>
-   <div style="flex: 0 0 50%;">
-       <h3 style="margin-top: 0;"><img src="..\images\universe.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;"><strong>Universe</strong>: Unleashing the Consistent Prior of Video Diffusion Models for Robust Reconstruction</h3>
-       <p><em>Preparing for ICCV 2025</em></p>
-       <p>
-           <a href="../files/Universe_pre.pdf">[PPT]</a> The full details will be presented in an interview/online chat with you!
-       </p>
-   </div>
-</div>
- -->
-
-
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-   <div style="flex: 0 0 45%; margin-right: 20px;">
-       <div class="image-hover-container">
-           <img src="images/PixARMesh.png" style="width: 100%; height: auto; object-fit: cover; border-radius: 5px;" alt="dgsct">
-       </div>
-   </div>
-   <div style="flex: 0 0 50%;">
-       <h3 style="margin-top: 0;">
-           <img src="images/PixARMesh_logo.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;">
-           <strong>  🆕  PixARMesh: Auto - Regressive   Mesh - Native Single - View Scene Reconstruction </strong>
-       </h3>
-       <a href="https://xzhang.dev/" target="_blank">Xiang Zhang*</a>, <a href="https://openreview.net/profile?id=~Sohyun_Yoo1" target="_blank">Sohyun Yoo*</a>, <a href="https://onehfr.github.io/" target="_blank"><strong>Hongrui Wu*</strong></a>,   <a href="https://scholar.google.com/citations?user=hoZesOwAAAAJ&hl=en" target="_blank">Chuan Li</a>, <a href="http://www.stat.ucla.edu/~jxie/" target="_blank">Jianwen Xie</a>, <a href="https://pages.ucsd.edu/~ztu/" target="_blank">Zhuowen Tu</a>
-       <p><em>CVPR 2026</em></p>
-       <p>
-           <!-- <a href="files/PixARMesh.pdf" target="_blank">[Paper]</a> -->
-           <a href="https://github.com/mlpc-interns/PixARMesh-website" target="_blank">[Paper]</a>
-       </p>
-   </div>
+<div class="research-card">
+  <div class="research-card__image">
+    <div class="img-switcher" onclick="toggleImg(this)">
+      <img class="img-switcher__layer img-switcher__webp" src="images/FOLK.webp" alt="FOLK">
+      <img class="img-switcher__layer img-switcher__png"  src="images/FOLK.png"  alt="FOLK">
+      <span class="img-switcher__hint">Tap to toggle</span>
+    </div>
+  </div>
+  <div class="research-card__body">
+    <div class="research-card__venue-badge">ICASSP 2026</div>
+    <h3>
+      <img src="images/FOLK_logo.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;">
+      <strong>FOLK</strong>
+    </h3>
+    <p class="research-card__full-title">Fast Open-Vocabulary 3D Instance Segmentation via Label-guided Knowledge Distillation</p>
+    <div class="research-card__authors">
+      <strong>Hongrui Wu</strong>,
+      Zhicheng Gao,
+      Jin Cao,
+      Kelu Yao,
+      Wen Shen,
+      Zhihua Wei
+    </div>
+    <div class="research-card__links">
+      <a href="https://arxiv.org/abs/2510.08849" target="_blank">Paper</a>
+    </div>
+  </div>
 </div>
 
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-   <div style="flex: 0 0 45%; margin-right: 20px;">
-       <div class="image-hover-container">
-           <img src="images/FOLK.png" style="width: 100%; height: auto; object-fit: cover; border-radius: 5px;" alt="dgsct">
-       </div>
-   </div>
-   <div style="flex: 0 0 50%;">
-       <h3 style="margin-top: 0;">
-           <img src="images/FOLK_logo.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;">
-           <strong>FOLK: Fast Open-Vocabulary 3D Instance Segmentation via Label-guided Knowledge Distillation</strong>
-       </h3>
-       <a href="https://onehfr.github.io/" target="_blank"><strong>Hongrui Wu</strong></a>, <a href="https://openreview.net/profile?id=~ZhiCheng_Gao1" target="_blank">Zhicheng Gao</a>, <a href="https://jin-cao-tma.github.io/" target="_blank">Jin Cao</a>, <a href="https://openreview.net/profile?id=~kelu_Yao1" target="_blank">Kelu Yao</a>, <a href="https://ada-shen.github.io/" target="_blank">Wen Shen</a>, <a href="https://www.semanticscholar.org/author/Zhihua-Wei/143628849" target="_blank">Zhihua Wei</a>
-       <p><em>ICASSP 2026</em></p>
-       <p>
-           <a href="https://arxiv.org/abs/2510.08849" target="_blank">[Paper]</a>
-       </p>
-   </div>
-</div>
+<hr class="section-divider">
 
-
-
-<hr>
-
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-   <div style="flex: 0 0 45%; margin-right: 20px;">
-       <div class="image-hover-container">
-           <img src="images/universe.png" style="width: 100%; height: auto; object-fit: cover; border-radius: 5px;" alt="dgsct">
-       </div>
-   </div>
-   <div style="flex: 0 0 50%;">
-       <h3 style="margin-top: 0;">
-           <img src="images/universe_logo.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;">
-           <strong>UniVerse: Unleashing the Scene Prior of Video Diffusion Models for Robust Radiance Field Reconstruction</strong>
-       </h3>
-       <a href="https://jin-cao-tma.github.io/" target="_blank">Jin Cao*</a>, <a href="https://onehfr.github.io/" target="_blank"><strong>Hongrui Wu*</strong></a>, <a href="https://xzhou.me/" target="_blank">Ziyong Feng</a>, <a href="https://xzhou.me/" target="_blank">Hujun Bao</a>, <a href="https://pengsida.net/" target="_blank">Xiaowei Zhou</a>, <a href="https://pengsida.net/" target="_blank">Sida Peng</a>
-       <p><em>ICCV 2025</em></p>
-       <p>
-           <a href="https://jin-cao-tma.github.io/UniVerse.github.io/" target="_blank">[Project Page]</a>
-           <a href="https://arxiv.org/abs/2510.01669" target="_blank">[Paper]</a>
-           <a href="https://github.com/zju3dv/UniVerse" target="_blank">[Code]</a>
-           <a href="https://github.com/zju3dv/UniVerse/stargazers" target="_blank">
-             <img src="https://img.shields.io/github/stars/zju3dv/UniVerse?style=social&amp;label=Stars" alt=""/>
-           </a>
-       </p>
-   </div>
+<div class="research-card">
+  <div class="research-card__image">
+    <div class="img-switcher" onclick="toggleImg(this)">
+      <img class="img-switcher__layer img-switcher__webp" src="images/universe.webp" alt="UniVerse">
+      <img class="img-switcher__layer img-switcher__png"  src="images/universe.png"  alt="UniVerse">
+      <span class="img-switcher__hint">Tap to toggle</span>
+    </div>
+  </div>
+  <div class="research-card__body">
+    <div class="research-card__venue-badge">ICCV 2025</div>
+    <h3>
+      <img src="images/universe_logo.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;">
+      <strong>UniVerse</strong>
+    </h3>
+    <p class="research-card__full-title">Unleashing the Scene Prior of Video Diffusion Models for Robust Radiance Field Reconstruction</p>
+    <div class="research-card__authors">
+      Jin Cao*,
+      <strong>Hongrui Wu*</strong>,
+      Ziyong Feng,
+      Hujun Bao,
+      Xiaowei Zhou,
+      Sida Peng
+    </div>
+    <div class="research-card__links">
+      <a href="https://jin-cao-tma.github.io/UniVerse.github.io/" target="_blank">Project</a>
+      <a href="https://arxiv.org/abs/2510.01669" target="_blank">Paper</a>
+      <a href="https://github.com/zju3dv/UniVerse" target="_blank">Code</a>
+    </div>
+  </div>
 </div>
 
 
+<hr class="section-divider-double">
 
 
-
-
-
-
-<hr>
-<hr>
-
-
-Experience
-======
+<div class="section-label">Experience</div>
 
 <div class="projects">
   <div class="project-item">
     <div class="project-content">
-      <h3><a href="https://onehfr.github.io/portfolio/project-1/">American Society of Civil Engineers Concrete Canoe Competition</a></h3>
+      <h3>
+        <a href="https://onehfr.github.io/portfolio/project-1/">American Society of Civil Engineers Concrete Canoe Competition</a>
+      </h3>
       <div class="project-meta">
         <span class="role">Hull designer</span>
         <span class="links">
@@ -194,21 +172,16 @@ Experience
       </div>
     </div>
     <div class="project-image">
-      <video 
-        autoplay 
-        loop 
-        muted 
-        controls
-        playsinline
-        style="width: 100%; border-radius: 8px;">
+      <video autoplay loop muted controls playsinline style="width: 100%; border-radius: 8px;">
         <source src="/images/p4-video2.mp4" type="video/mp4">
       </video>
     </div>
   </div>
+
   <div class="c-viewer viewer-container">
     <div class="c-viewer__model">
-      <h4 class="c-viewer__title">🖱️ An interactive 3D visualization window</h4>
-      <iframe 
+      <h4 class="c-viewer__title">Interactive 3D Model</h4>
+      <iframe
         title="Canoe2024-Tongji-Yangtze 3D model - Sketchfab"
         class="c-viewer__iframe"
         src="https://sketchfab.com/models/8775df6e6d034f1ebfdcba0f3ba1b717/embed?autostart=1&amp;internal=1&amp;tracking=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_watermark=0"
@@ -222,66 +195,18 @@ Experience
       </iframe>
     </div>
     <div class="c-viewer__poster">
-      <h4 class="c-viewer__title">🎨 Poster</h4>
+      <h4 class="c-viewer__title">Poster</h4>
       <img src="/images/p4-poster.png" alt="p4-poster" class="c-viewer__image">
     </div>
   </div>
 </div>
 
-<!--
-<div class="projects">
-  <div class="project-item">
-    <div class="project-content">
-      <h3><a href="https://onehfr.github.io/portfolio/project-2/"> Multi-Source Time Series Prediction for Urban Infrastructure Health</a></h3>
-      <div class="project-meta">
-        <span class="role">Intern team leader</span>
-        <span class="supervisor">supervised by <a href="https://scholar.google.com/citations?user=HRdSfmkAAAAJ&hl=en">Prof. Jiazeng Shan</a> in <a href="https://www.glodon.com/en/">Glodon</a></span>
-        <span class="date">Mar 2023 - Apr 2024</span>
-      </div>
-    </div>
-    <div class="project-image">
-      <img src="/images/p2.png" alt="LSTM">
-    </div>
-  </div>
-</div>
+
+<hr class="section-divider-double">
 
 
-<div class="projects">
-  <div class="project-item">
-    <div class="project-content">
-      <h3><a href="https://onehfr.github.io/portfolio/">2023-2024 Object Oriented Programming Homework @Tongji</a></h3>
-      <div class="project-meta">
-        <span class="role">Code course</span>
-        <span class="links">
-          [<a href="https://github.com/oneHFR/24-25-OOP">Code</a>]
-          [<a href="../files/Report-magic-ball.pdf">Report</a>]
-        </span>
-        <span class="date">💥 PopStar 💣 Minesweeper</span>
-      </div>
-    </div>
-    <div class="project-image">
-      <video 
-        autoplay 
-        loop 
-        muted 
-        controls
-        playsinline
-        style="width: 100%; border-radius: 8px;">
-        <source src="/images/p3-video.mp4" type="video/mp4">
-      </video>
-    </div>
-  </div>
-</div> -->
+<div class="section-label">Honors &amp; Awards</div>
 
-
-<hr>
-<hr>
-
-
-
-
-Achievements
-======
 <div class="achievements" style="text-align: left;">
   <div class="achievement-item">
     <div class="custom-checkbox">
@@ -297,30 +222,10 @@ Achievements
   </div>
   <div class="achievement-item">
     <div class="custom-checkbox">
-      <input type="checkbox" id="achievement3" checked>
-      <label for="achievement3">National Undergraduate Mathematics/Physics Competition: Third Prize/Second Prize</label>
-    </div>
-  </div>
-  <!-- <div class="achievement-item">
-    <div class="custom-checkbox">
-      <input type="checkbox" id="achievement4" checked>
-      <label for="achievement4">International Concrete Dragon Boat Competition 2nd Prize</label>
-    </div>
-  </div> -->
-  <div class="achievement-item">
-    <div class="custom-checkbox">
       <input type="checkbox" id="achievement5" checked>
       <label for="achievement5">ASCE Concrete Canoe Competition (2nd Place in California Section) 2024</label>
     </div>
   </div>
 </div>
 
-<!-- # Hi there, you are visitor No.  -->
-<!-- ![Visitor Count](https://profile-counter.glitch.me/onehfr/count.svg) -->
-
-<hr>
-
-<!-- 
-Ma
-======
-Th -->
+<hr class="section-divider">
