@@ -45,7 +45,7 @@ redirect_from:
   </ul>
 </div>
 
-
+<hr class="section-divider">
 
 <div class="section-label">Selected Publications</div>
 <p class="section-subtitle">Tap on any cover image to toggle between animated preview and static figure.</p>
@@ -139,9 +139,7 @@ redirect_from:
   </div>
 </div>
 
-
-<hr class="section-divider-double">
-
+<hr class="section-divider">
 
 <div class="section-label">Experience</div>
 
@@ -192,9 +190,7 @@ redirect_from:
   </div>
 </div>
 
-
-<hr class="section-divider-double">
-
+<hr class="section-divider">
 
 <div class="section-label">Honors &amp; Awards</div>
 
@@ -202,7 +198,7 @@ redirect_from:
   <div class="achievement-item">
     <div class="custom-checkbox">
       <input type="checkbox" id="achievement1" checked>
-      <label for="achievement1">National Scholarship (Top 0.2% nationwide, highest scholarship in China) / TianXiang Scholarship (2 slots one college 2/600)</label>
+      <label for="achievement1">National Scholarship (Top 0.2% nationwide, highest scholarship in China)</label>
     </div>
   </div>
   <div class="achievement-item">

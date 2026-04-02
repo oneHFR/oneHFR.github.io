@@ -646,7 +646,7 @@
 .research-card {
   @include glass-card(20px, 0.45);
   display: flex;
-  align-items: stretch;
+  align-items: flex-start;
   gap: 0;
   padding: 0;
   margin-bottom: 1.6em;
@@ -665,25 +665,17 @@
       0 4px 12px rgba(0, 0, 0, 0.05);
   }
 
-  // ── IMAGE COLUMN — 16:9 aspect ratio ──
+  // ── IMAGE COLUMN — 16:9 via aspect-ratio ──
   .research-card__image {
-    flex: 0 0 42%;
+    flex: 0 0 45%;
     position: relative;
     overflow: hidden;
     cursor: pointer;
     background: #f5f5f7;
-
-    // Enforce 16:9 aspect ratio
-    &::before {
-      content: '';
-      display: block;
-      padding-top: 56.25%; // 9/16 = 56.25%
-    }
+    aspect-ratio: 16 / 9;
 
     > img {
-      position: absolute;
-      top: 0;
-      left: 0;
+      display: block;
       width: 100%;
       height: 100%;
       object-fit: cover;
@@ -697,16 +689,12 @@
 
   // ── IMAGE SWITCHER (webp ↔ png) ──
   .img-switcher {
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: relative;
     width: 100%;
     height: 100%;
 
     &__layer {
-      position: absolute;
-      top: 0;
-      left: 0;
+      display: block;
       width: 100%;
       height: 100%;
       object-fit: cover;
@@ -716,14 +704,20 @@
         transform  0.55s cubic-bezier(0.34, 1.56, 0.64, 1);
     }
 
+    // webp: visible by default, in normal flow to hold the space
     &__webp {
+      position: relative;
       opacity: 1;
       filter: blur(0) brightness(1);
       transform: scale(1);
       z-index: 1;
     }
 
+    // png: layered on top, hidden
     &__png {
+      position: absolute;
+      top: 0;
+      left: 0;
       opacity: 0;
       filter: blur(14px) brightness(1.08);
       transform: scale(1.06);
@@ -744,26 +738,6 @@
         transform: scale(1);
         pointer-events: auto;
       }
-    }
-
-    // Hover glow overlay
-    &::after {
-      content: '';
-      position: absolute;
-      inset: 0;
-      opacity: 0;
-      z-index: 3;
-      background: radial-gradient(
-        circle at center,
-        rgba(255, 255, 255, 0.12) 0%,
-        transparent 70%
-      );
-      transition: opacity 0.3s ease;
-      pointer-events: none;
-    }
-
-    &:hover::after {
-      opacity: 1;
     }
 
     // Toggle hint badge
