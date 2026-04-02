@@ -22,8 +22,6 @@ redirect_from:
   <span class="interest-pill">Spatial Intelligence</span>
 </div>
 
-<hr class="section-divider">
-
 <div class="section-label">Latest News</div>
 
 <div class="news-section">
@@ -48,15 +46,13 @@ redirect_from:
 </div>
 
 
-<hr class="section-divider">
-
 
 <div class="section-label">Selected Publications</div>
 <p class="section-subtitle">Tap on any cover image to toggle between animated preview and static figure.</p>
 
 <div class="research-card">
   <div class="research-card__image">
-    <div class="img-switcher" onclick="toggleImg(this)">
+    <div class="img-switcher">
       <img class="img-switcher__layer img-switcher__webp" src="images/PixARMesh.webp" alt="PixARMesh">
       <img class="img-switcher__layer img-switcher__png"  src="images/PixARMesh.png"  alt="PixARMesh">
       <span class="img-switcher__hint">Tap to toggle</span>
@@ -66,9 +62,8 @@ redirect_from:
     <div class="research-card__venue-badge">CVPR 2026</div>
     <h3>
       <img src="images/PixARMesh_logo.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;">
-      <strong>PixARMesh</strong>
+      <strong>PixARMesh:</strong> Auto-Regressive Mesh-Native Single-View Scene Reconstruction
     </h3>
-    <p class="research-card__full-title">Auto-Regressive Mesh-Native Single-View Scene Reconstruction</p>
     <div class="research-card__authors">
       Xiang Zhang*,
       Sohyun Yoo*,
@@ -88,7 +83,7 @@ redirect_from:
 
 <div class="research-card">
   <div class="research-card__image">
-    <div class="img-switcher" onclick="toggleImg(this)">
+    <div class="img-switcher">
       <img class="img-switcher__layer img-switcher__webp" src="images/FOLK.webp" alt="FOLK">
       <img class="img-switcher__layer img-switcher__png"  src="images/FOLK.png"  alt="FOLK">
       <span class="img-switcher__hint">Tap to toggle</span>
@@ -98,9 +93,8 @@ redirect_from:
     <div class="research-card__venue-badge">ICASSP 2026</div>
     <h3>
       <img src="images/FOLK_logo.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;">
-      <strong>FOLK</strong>
+      <strong>FOLK:</strong> Fast Open-Vocabulary 3D Instance Segmentation via Label-guided Knowledge Distillation
     </h3>
-    <p class="research-card__full-title">Fast Open-Vocabulary 3D Instance Segmentation via Label-guided Knowledge Distillation</p>
     <div class="research-card__authors">
       <strong>Hongrui Wu</strong>,
       Zhicheng Gao,
@@ -115,11 +109,9 @@ redirect_from:
   </div>
 </div>
 
-<hr class="section-divider">
-
 <div class="research-card">
   <div class="research-card__image">
-    <div class="img-switcher" onclick="toggleImg(this)">
+    <div class="img-switcher">
       <img class="img-switcher__layer img-switcher__webp" src="images/universe.webp" alt="UniVerse">
       <img class="img-switcher__layer img-switcher__png"  src="images/universe.png"  alt="UniVerse">
       <span class="img-switcher__hint">Tap to toggle</span>
@@ -129,9 +121,8 @@ redirect_from:
     <div class="research-card__venue-badge">ICCV 2025</div>
     <h3>
       <img src="images/universe_logo.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;">
-      <strong>UniVerse</strong>
+      <strong>UniVerse:</strong> Unleashing the Scene Prior of Video Diffusion Models for Robust Radiance Field Reconstruction
     </h3>
-    <p class="research-card__full-title">Unleashing the Scene Prior of Video Diffusion Models for Robust Radiance Field Reconstruction</p>
     <div class="research-card__authors">
       Jin Cao*,
       <strong>Hongrui Wu*</strong>,
@@ -162,13 +153,13 @@ redirect_from:
       </h3>
       <div class="project-meta">
         <span class="role">Hull designer</span>
-        <span class="links">
-          [<a href="https://onehfr.github.io/portfolio/">Works</a>]
-          [<a href="https://docs.google.com/presentation/d/12NBXRfv-bkYV1_H_B_a9v2MSho-ZQoks/edit?usp=drive_link&ouid=104071984654367651910&rtpof=true&sd=true">PPT</a>]
-          [<a href="../files/ASCE_project_proposal.pdf">Paper</a>]
-        </span>
-        <span class="supervisor">hosted by <a href="https://www.linkedin.com/company/americansocietyofcivilengineers" target="_blank">ASCE</a> in Sacramento, CA</span>
-        <span class="date">May 2022 - Apr 2024</span>
+        <span class="date">May 2022 — Apr 2024</span>
+        <span class="project-host">Hosted by <a href="https://www.linkedin.com/company/americansocietyofcivilengineers" target="_blank">ASCE</a> in Sacramento, CA</span>
+        <div class="project-meta__links">
+          <a href="https://onehfr.github.io/portfolio/">Works</a>
+          <a href="https://docs.google.com/presentation/d/12NBXRfv-bkYV1_H_B_a9v2MSho-ZQoks/edit?usp=drive_link&ouid=104071984654367651910&rtpof=true&sd=true">PPT</a>
+          <a href="../files/ASCE_project_proposal.pdf">Paper</a>
+        </div>
       </div>
     </div>
     <div class="project-image">
@@ -227,5 +218,3 @@ redirect_from:
     </div>
   </div>
 </div>
-
-<hr class="section-divider">

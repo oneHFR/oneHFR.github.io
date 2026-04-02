@@ -456,22 +456,18 @@
   margin-bottom: 2em;
 
   &__greeting {
-    font-size: 2.4em;
-    font-weight: 800;
-    letter-spacing: -0.04em;
-    line-height: 1.1;
-    margin: 0 0 0.4em;
-    background: linear-gradient(135deg, #1a1a1a 0%, #555 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-size: 1.6em;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    margin: 0 0 0.5em;
+    color: #1a1a1a;
   }
 
   &__text {
     font-size: 1.05em;
     line-height: 1.75;
     color: #444;
-    max-width: 640px;
   }
 }
 
@@ -481,14 +477,13 @@
    ========================================================================== */
 
 .section-label {
-  display: inline-block;
-  font-size: 0.7em;
+  display: block;
+  font-size: 1.4em;
   font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: #999;
-  margin-bottom: 1em;
-  padding-bottom: 0.4em;
+  letter-spacing: -0.01em;
+  color: #1a1a1a;
+  margin-bottom: 0.6em;
+  padding-bottom: 0.35em;
   border-bottom: 2px solid #e0e0e0;
   animation: fade-in 0.6s ease both;
 }
@@ -670,16 +665,25 @@
       0 4px 12px rgba(0, 0, 0, 0.05);
   }
 
-  // ── IMAGE COLUMN ──
+  // ── IMAGE COLUMN — 16:9 aspect ratio ──
   .research-card__image {
     flex: 0 0 42%;
     position: relative;
     overflow: hidden;
     cursor: pointer;
-    min-height: 200px;
     background: #f5f5f7;
 
+    // Enforce 16:9 aspect ratio
+    &::before {
+      content: '';
+      display: block;
+      padding-top: 56.25%; // 9/16 = 56.25%
+    }
+
     > img {
+      position: absolute;
+      top: 0;
+      left: 0;
       width: 100%;
       height: 100%;
       object-fit: cover;
@@ -693,11 +697,16 @@
 
   // ── IMAGE SWITCHER (webp ↔ png) ──
   .img-switcher {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
 
     &__layer {
+      position: absolute;
+      top: 0;
+      left: 0;
       width: 100%;
       height: 100%;
       object-fit: cover;
@@ -708,20 +717,18 @@
     }
 
     &__webp {
-      display: block;
       opacity: 1;
       filter: blur(0) brightness(1);
       transform: scale(1);
+      z-index: 1;
     }
 
     &__png {
-      position: absolute;
-      top: 0;
-      left: 0;
       opacity: 0;
       filter: blur(14px) brightness(1.08);
       transform: scale(1.06);
       pointer-events: none;
+      z-index: 2;
     }
 
     &.is-showing-png {
@@ -745,6 +752,7 @@
       position: absolute;
       inset: 0;
       opacity: 0;
+      z-index: 3;
       background: radial-gradient(
         circle at center,
         rgba(255, 255, 255, 0.12) 0%,
@@ -763,6 +771,7 @@
       position: absolute;
       bottom: 12px;
       right: 12px;
+      z-index: 4;
       padding: 5px 12px;
       font-size: 0.7em;
       font-weight: 600;
@@ -794,20 +803,17 @@
     justify-content: center;
 
     h3 {
-      margin: 0 0 0.15em;
-      font-size: 1.3em;
-      font-weight: 800;
-      letter-spacing: -0.02em;
-      line-height: 1.25;
-      color: #1a1a1a;
-    }
-
-    .research-card__full-title {
-      font-size: 0.85em;
-      color: #888;
-      line-height: 1.5;
-      margin: 0 0 0.8em;
+      margin: 0 0 0.7em;
+      font-size: 0.95em;
       font-weight: 400;
+      letter-spacing: -0.005em;
+      line-height: 1.45;
+      color: #333;
+
+      strong {
+        font-weight: 700;
+        color: #1a1a1a;
+      }
     }
 
     .research-card__venue-badge {
@@ -971,19 +977,50 @@
       letter-spacing: 0.02em;
     }
 
-    .supervisor {
-      color: #888;
-      font-style: italic;
-      margin-left: 0.5em;
+    .date {
+      display: inline-block;
+      color: #999;
+      font-size: 0.82em;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      margin-left: 0.6em;
     }
 
-    .date {
+    .project-host {
       display: block;
-      color: #aaa;
-      font-size: 0.85em;
-      font-weight: 600;
-      letter-spacing: 0.04em;
-      margin-top: 0.8em;
+      color: #888;
+      font-style: italic;
+      font-size: 0.88em;
+      margin-top: 0.5em;
+    }
+
+    .project-meta__links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 0.7em;
+
+      a {
+        display: inline-flex;
+        align-items: center;
+        padding: 6px 14px;
+        font-size: 0.78em;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        text-decoration: none !important;
+        color: #555;
+        background: rgba(0, 0, 0, 0.04);
+        border: 1px solid rgba(0, 0, 0, 0.06);
+        border-radius: 10px;
+        transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+        &:hover {
+          color: #1a1a1a;
+          background: rgba(0, 0, 0, 0.08);
+          transform: translateY(-2px);
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+        }
+      }
     }
   }
 

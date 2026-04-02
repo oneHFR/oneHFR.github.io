@@ -1,16 +1,25 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
 <script>
+// Image switcher: webp <-> png toggle
 function toggleImg(el) {
   el.classList.toggle('is-showing-png');
-  // 更新提示文字
   var hint = el.querySelector('.img-switcher__hint');
   if (hint) {
     hint.textContent = el.classList.contains('is-showing-png')
-      ? 'Click for animation'
-      : 'Click to toggle';
+      ? 'Tap for animation'
+      : 'Tap to toggle';
   }
 }
+
+// Event delegation fallback — ensures clicks work even if inline onclick is stripped
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.img-switcher').forEach(function(switcher) {
+    switcher.addEventListener('click', function() {
+      toggleImg(this);
+    });
+  });
+});
 </script>
 
 {% include analytics.html %}
