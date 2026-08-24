@@ -54,16 +54,16 @@ redirect_from:
 
 <div class="research-card">
   <div class="research-card__image">
-    <div class="img-switcher">
-      <img class="img-switcher__layer img-switcher__webp" src="images/PixARMesh.webp" alt="PixARMesh">
-      <img class="img-switcher__layer img-switcher__png"  src="images/PixARMesh.png"  alt="PixARMesh">
-      <span class="img-switcher__hint">Tap to toggle</span>
+    <div class="img-switcher is-showing-png">
+      <img class="img-switcher__layer img-switcher__webp" src="/images/PixARMesh-optimized.webp" alt="PixARMesh animated preview" decoding="async" fetchpriority="high" width="720" height="405">
+      <img class="img-switcher__layer img-switcher__png" src="/images/PixARMesh-static.jpg" alt="PixARMesh" decoding="async" fetchpriority="high" width="960" height="540">
+      <span class="img-switcher__hint">Loading animation…</span>
     </div>
   </div>
   <div class="research-card__body">
     <div class="research-card__venue-badge">CVPR 2026</div>
     <h3>
-      <img src="images/PixARMesh_logo.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;">
+      <img src="/images/PixARMesh_logo.png" loading="lazy" decoding="async" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;">
       <strong>PixARMesh:</strong> Auto-Regressive Mesh-Native Single-View Scene Reconstruction
     </h3>
     <div class="research-card__authors">
@@ -85,16 +85,16 @@ redirect_from:
 
 <div class="research-card">
   <div class="research-card__image">
-    <div class="img-switcher">
-      <img class="img-switcher__layer img-switcher__webp" src="images/FOLK.webp" alt="FOLK">
-      <img class="img-switcher__layer img-switcher__png"  src="images/FOLK.png"  alt="FOLK">
-      <span class="img-switcher__hint">Tap to toggle</span>
+    <div class="img-switcher is-showing-png" data-auto-animation="/images/FOLK-optimized.webp">
+      <img class="img-switcher__layer img-switcher__webp" alt="FOLK animated preview" decoding="async" width="720" height="405">
+      <img class="img-switcher__layer img-switcher__png" src="/images/FOLK-static.jpg" alt="FOLK" loading="lazy" decoding="async" fetchpriority="low" width="960" height="540">
+      <span class="img-switcher__hint">Loading animation…</span>
     </div>
   </div>
   <div class="research-card__body">
     <div class="research-card__venue-badge">ICASSP 2026</div>
     <h3>
-      <img src="images/FOLK_logo.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;">
+      <img src="/images/FOLK_logo.png" loading="lazy" decoding="async" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;">
       <strong>FOLK:</strong> Fast Open-Vocabulary 3D Instance Segmentation via Label-guided Knowledge Distillation
     </h3>
     <div class="research-card__authors">
@@ -114,16 +114,16 @@ redirect_from:
 
 <div class="research-card">
   <div class="research-card__image">
-    <div class="img-switcher">
-      <img class="img-switcher__layer img-switcher__webp" src="images/universe.webp" alt="UniVerse">
-      <img class="img-switcher__layer img-switcher__png"  src="images/universe.png"  alt="UniVerse">
-      <span class="img-switcher__hint">Tap to toggle</span>
+    <div class="img-switcher is-showing-png" data-auto-animation="/images/universe-optimized.webp">
+      <img class="img-switcher__layer img-switcher__webp" alt="UniVerse animated preview" decoding="async" width="720" height="405">
+      <img class="img-switcher__layer img-switcher__png" src="/images/universe-static.jpg" alt="UniVerse" loading="lazy" decoding="async" fetchpriority="low" width="960" height="540">
+      <span class="img-switcher__hint">Loading animation…</span>
     </div>
   </div>
   <div class="research-card__body">
     <div class="research-card__venue-badge">ICCV 2025</div>
     <h3>
-      <img src="images/universe_logo.png" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;">
+      <img src="/images/universe_logo-128.png" loading="lazy" decoding="async" style="height: 1.5em; width: 1.5em; vertical-align: -0.3em; margin-right: 2px;">
       <strong>UniVerse:</strong> Unleashing the Scene Prior of Video Diffusion Models for Robust Radiance Field Reconstruction
     </h3>
     <div class="research-card__authors">
@@ -165,9 +165,7 @@ redirect_from:
       </div>
     </div>
     <div class="project-image">
-      <video autoplay loop muted controls playsinline style="width: 100%; border-radius: 8px;">
-        <source src="/images/p4-video2.mp4" type="video/mp4">
-      </video>
+      <video autoplay loop muted controls playsinline preload="metadata" poster="/images/p4.png" data-lazy-src="/images/p4-video2-960.mp4" aria-label="Concrete canoe project video" style="width: 100%; border-radius: 8px;"></video>
     </div>
   </div>
 
@@ -177,19 +175,18 @@ redirect_from:
       <iframe
         title="Canoe2024-Tongji-Yangtze 3D model - Sketchfab"
         class="c-viewer__iframe"
-        src="https://sketchfab.com/models/8775df6e6d034f1ebfdcba0f3ba1b717/embed?autostart=1&amp;internal=1&amp;tracking=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_watermark=0"
+        data-lazy-src="https://sketchfab.com/models/8775df6e6d034f1ebfdcba0f3ba1b717/embed?autostart=0&amp;internal=1&amp;tracking=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_watermark=0"
+        loading="lazy"
         id="api-frame"
         allow="autoplay; fullscreen; xr-spatial-tracking"
         xr-spatial-tracking="true"
-        execution-while-out-of-viewport="true"
-        execution-while-not-rendered="true"
         web-share="true"
         allowfullscreen="">
       </iframe>
     </div>
     <div class="c-viewer__poster">
       <h4 class="c-viewer__title">Poster</h4>
-      <img src="/images/p4-poster.png" alt="p4-poster" class="c-viewer__image">
+      <img src="/images/p4-poster-960.jpg" alt="p4-poster" class="c-viewer__image" loading="lazy" decoding="async" fetchpriority="low" width="960" height="1474">
     </div>
   </div>
 </div>

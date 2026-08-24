@@ -13,22 +13,118 @@
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
 
-<!-- Support for MatJax -->
-<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+{% if page.mathjax %}
+<!-- MathJax is only loaded on pages that contain formulas. -->
+<script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+{% endif %}
 
-<!-- Image switcher: click to toggle webp/png -->
+<!-- Play animated covers automatically; load lower-page embeds only when nearby. -->
 <script>
 document.addEventListener('click', function(e) {
   var switcher = e.target.closest('.img-switcher');
   if (!switcher) return;
-  switcher.classList.toggle('is-showing-png');
+
+  var animation = switcher.querySelector('.img-switcher__webp');
   var hint = switcher.querySelector('.img-switcher__hint');
+
+  if (!animation.complete || animation.naturalWidth === 0) {
+    if (hint) hint.textContent = 'Animation loading…';
+    return;
+  }
+
+  switcher.classList.toggle('is-showing-png');
   if (hint) {
     hint.textContent = switcher.classList.contains('is-showing-png')
       ? 'Tap for animation'
-      : 'Tap to toggle';
+      : 'Tap for static figure';
   }
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  var switchers = document.querySelectorAll('.img-switcher');
+
+  function prepareAnimation(switcher) {
+    var animation = switcher.querySelector('.img-switcher__webp');
+    var hint = switcher.querySelector('.img-switcher__hint');
+
+    function revealAnimation() {
+      switcher.classList.remove('is-showing-png');
+      if (hint) hint.textContent = 'Tap for static figure';
+    }
+
+    if (animation.complete && animation.naturalWidth > 0) {
+      revealAnimation();
+      return;
+    }
+
+    animation.addEventListener('load', revealAnimation, { once: true });
+    animation.addEventListener('error', function() {
+      if (hint) hint.textContent = 'Animation unavailable';
+    }, { once: true });
+  }
+
+  switchers.forEach(function(switcher) {
+    var animation = switcher.querySelector('.img-switcher__webp');
+    if (animation.getAttribute('src')) prepareAnimation(switcher);
+  });
+
+  var deferredAnimations = document.querySelectorAll('[data-auto-animation]');
+  function loadAnimation(switcher) {
+    var source = switcher.getAttribute('data-auto-animation');
+    if (!source) return;
+    var animation = switcher.querySelector('.img-switcher__webp');
+    prepareAnimation(switcher);
+    animation.setAttribute('src', source);
+    switcher.removeAttribute('data-auto-animation');
+  }
+
+  if ('IntersectionObserver' in window) {
+    var animationObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (!entry.isIntersecting) return;
+        loadAnimation(entry.target);
+        animationObserver.unobserve(entry.target);
+      });
+    }, { rootMargin: '400px 0px' });
+
+    deferredAnimations.forEach(function(switcher) {
+      animationObserver.observe(switcher);
+    });
+  } else {
+    deferredAnimations.forEach(loadAnimation);
+  }
+
+  var lazyMedia = document.querySelectorAll('[data-lazy-src]');
+
+  function loadMedia(element) {
+    var source = element.getAttribute('data-lazy-src');
+    if (!source) return;
+    element.setAttribute('src', source);
+    element.removeAttribute('data-lazy-src');
+    if (element.tagName === 'VIDEO') {
+      element.load();
+      var playback = element.play();
+      if (playback) playback.catch(function() {});
+    }
+  }
+
+  if (!('IntersectionObserver' in window)) {
+    lazyMedia.forEach(loadMedia);
+    return;
+  }
+
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (!entry.isIntersecting) return;
+      loadMedia(entry.target);
+      observer.unobserve(entry.target);
+    });
+  }, { rootMargin: '500px 0px' });
+
+  lazyMedia.forEach(function(element) {
+    observer.observe(element);
+  });
 });
 </script>
 
