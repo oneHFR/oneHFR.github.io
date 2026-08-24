@@ -10,22 +10,21 @@ redirect_from:
 <div class="hero-intro">
   <p class="hero-intro__greeting">Hi there!</p>
   <p class="hero-intro__text">
-    I am an incoming Master's student in Electrical Engineering at Stanford University. I will graduate with my Bachelor's degree in <a href="https://see-en.tongji.edu.cn/info/1010/1271.htm">Computer Science</a> from <a href="https://en.tongji.edu.cn/p/">Tongji University</a> in June 2026. I previously conducted research at <a href="https://ucsd.edu/">UC San Diego</a>, advised by Prof. <a href="https://pages.ucsd.edu/~ztu/">Zhuowen Tu</a>.
+    I am a Master's student in Electrical Engineering at Stanford University. I graduated with my Bachelor's degree in <a href="https://see-en.tongji.edu.cn/info/1010/1271.htm">Computer Science</a> from <a href="https://en.tongji.edu.cn/p/">Tongji University</a> in June 2026.
   </p>
-</div>
-
-<div class="section-label">Research Interests</div>
-<div class="interest-pills">
-  <span class="interest-pill">3D/4D Generation</span>
-  <span class="interest-pill">Multi-modal</span>
-  <span class="interest-pill">World Models</span>
-  <span class="interest-pill">Spatial Intelligence</span>
+  <p class="hero-intro__text">
+    I conducted research at <a href="https://ucsd.edu/">UC San Diego</a>, advised by Prof. <a href="https://scholar.google.com/citations?user=9oz-dvgAAAAJ">Zhuowen Tu</a>. I was also fortunate to work with Prof. <a href="https://scholar.google.com/citations?user=GDvt570AAAAJ">Jiaqi Wang</a> during my internship at <a href="https://github.com/jd-opensource">JD Future Academy</a>, part of JD.com. My research interests include agent harnesses and 3D/4D spatial intelligence.
+  </p>
 </div>
 
 <div class="section-label">Latest News</div>
 
 <div class="news-section">
   <ul>
+    <li>
+      <span class="news-date">2026.03</span>
+      <span class="news-text">I joined <a href="https://github.com/jd-opensource" target="_blank" rel="noopener">JD Future Academy</a> as a research intern</span>
+    </li>
     <li>
       <span class="news-date">2026.02</span>
       <span class="news-text">One paper has been accepted to <strong>CVPR 2026</strong>. See you in Denver!</span>
@@ -36,7 +35,7 @@ redirect_from:
     </li>
     <li>
       <span class="news-date">2025.07</span>
-      <span class="news-text">I joined UC San Diego <a href="https://pages.ucsd.edu/~ztu/Group.htm" target="_blank" rel="noopener">MLPC Lab</a> as an intern</span>
+      <span class="news-text">I joined UC San Diego <a href="https://pages.ucsd.edu/~ztu/Group.htm" target="_blank" rel="noopener">MLPC Lab</a> as a research intern</span>
     </li>
     <li>
       <span class="news-date">2025.06</span>
@@ -48,7 +47,10 @@ redirect_from:
 <hr class="section-divider">
 
 <div class="section-label">Selected Publications</div>
-<p class="section-subtitle">Tap on any cover image to toggle between animated preview and static figure.</p>
+<p class="section-subtitle">
+  Tap on any cover image to toggle between animated preview and static figure.<br>
+  * denotes equal contribution.
+</p>
 
 <div class="research-card">
   <div class="research-card__image">
@@ -105,6 +107,7 @@ redirect_from:
     </div>
     <div class="research-card__links">
       <a href="https://arxiv.org/abs/2510.08849" target="_blank">Paper</a>
+      <a href="https://github.com/oneHFR/FOLK" target="_blank">Code</a>
     </div>
   </div>
 </div>
@@ -142,6 +145,7 @@ redirect_from:
 <hr class="section-divider">
 
 <div class="section-label">Experience</div>
+<p class="section-subtitle">I miss those happy days.</p>
 
 <div class="projects">
   <div class="project-item">
@@ -209,8 +213,20 @@ redirect_from:
   </div>
   <div class="achievement-item">
     <div class="custom-checkbox">
+      <input type="checkbox" id="achievement3" checked>
+      <label for="achievement3">School Sports Meet — Silver Medalist, 4×100 m Relay; Bronze Medalist, 4×400 m Relay — I used to be fast</label>
+    </div>
+  </div>
+  <div class="achievement-item">
+    <div class="custom-checkbox">
+      <input type="checkbox" id="achievement4" checked>
+      <label for="achievement4">Outstanding Undergraduate Thesis Award — much to my surprise; graduated just fine anyway</label>
+    </div>
+  </div>
+  <div class="achievement-item">
+    <div class="custom-checkbox">
       <input type="checkbox" id="achievement5" checked>
-      <label for="achievement5">ASCE Concrete Canoe Competition (2nd Place in California Section) 2024</label>
+      <label for="achievement5">ASCE Concrete Canoe Competition (2nd Place in California Section) 2024 — almost beat UC Berkeley, lol</label>
     </div>
   </div>
 </div>
