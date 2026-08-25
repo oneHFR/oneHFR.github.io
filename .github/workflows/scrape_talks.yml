@@ -1,10 +1,12 @@
 name: Scrape Talk Locations
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - '_talks/**'
       - 'talkmap.ipynb'
+      - '.github/workflows/scrape_talks.yml'
 
 permissions:
   contents: write
