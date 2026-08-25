@@ -3,8 +3,11 @@ name: Scrape Talk Locations
 on:
   push:
     paths:
-      - 'talks/**'
+      - '_talks/**'
       - 'talkmap.ipynb'
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -25,13 +28,14 @@ jobs:
         python -m ipykernel install --user --name python3 --display-name "Python 3"
 
     - name: Run Jupyter Notebook
+      working-directory: _talks
       run: |
-        jupyter nbconvert --to notebook --execute talkmap.ipynb --output talkmap_out.ipynb --ExecutePreprocessor.kernel_name=python3
+        jupyter nbconvert --to notebook --execute ../talkmap.ipynb --output talkmap_out.ipynb --output-dir .. --ExecutePreprocessor.kernel_name=python3
 
     - name: Commit changes
       run: |
         git config user.name "HONGRUI WU"
         git config user.email "109461556+oneHFR@users.noreply.github.com"
-        git add .
+        git add talkmap talkmap_out.ipynb
         git commit -m "Automated update of talk locations" || echo "No changes to commit"
         git push
