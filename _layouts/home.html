@@ -20,7 +20,7 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="/assets/css/home.css?v={{ site.time | date: '%s' }}">
 </head>
 <body>
@@ -43,6 +43,13 @@
         </a></li>
         {% endfor %}
       </ul>
+
+      {% if page.chat %}
+      <a class="twin-cta" href="{{ page.chat.url }}" data-chat-open>
+        <span class="twin-cta__icon"><svg aria-hidden="true" viewBox="0 0 24 24"><use href="#i-chat"/></svg></span>
+        <span class="twin-cta__text"><strong>{{ page.chat.label }}</strong><small>{{ page.chat.hint }}</small></span>
+      </a>
+      {% endif %}
 
       <nav class="toc" aria-label="On this page">
         <p class="toc__label">On this page</p>
