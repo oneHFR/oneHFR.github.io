@@ -179,30 +179,39 @@ svg { width: 1em; height: 1em; flex: none; }
 /* ---------- Experience ---------- */
 .timeline { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
 .timeline > li {
-  display: grid; grid-template-columns: 220px 1fr; column-gap: 24px; align-items: center;
+  display: grid; grid-template-columns: 88px 1fr; column-gap: 20px; align-items: center;
   padding: 16px 0;
 }
 .timeline > li + li { border-top: 1px solid var(--line); }
 .exp__logo {
-  grid-row: span 2; position: relative; width: 220px; height: 76px; border-radius: 12px; overflow: hidden;
+  grid-row: span 2; position: relative; width: 88px; height: 88px; border-radius: 12px; overflow: hidden;
   display: grid; place-items: center; background: #fff; border: 1px solid var(--line);
 }
 .exp__logo::before { content: attr(data-initial); font-weight: 700; font-size: 20px; color: #8b919b; }
-.exp__logo img { position: absolute; inset: 10px 14px; width: calc(100% - 28px); height: calc(100% - 20px); object-fit: contain; }
+.exp__logo img { position: absolute; inset: 8px; width: calc(100% - 16px); height: calc(100% - 16px); object-fit: contain; }
 .exp__head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 16px; }
 .exp__head h3 { margin: 0; font-size: 16.5px; font-weight: 600; }
 .exp__date { color: var(--faint); font-size: 14px; font-variant-numeric: tabular-nums; }
 .exp__role { margin: 0; color: var(--muted); font-size: 14.5px; }
 
 .subhead { margin: 40px 0 6px; font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--faint); }
-.canoe { margin-top: 12px; padding: 20px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
-.canoe__row { display: grid; grid-template-columns: 1fr 260px; gap: 20px; align-items: start; }
-.canoe video { width: 100%; border-radius: 10px; background: var(--surface-2); }
-.canoe__media { display: grid; grid-template-columns: 1fr 220px; gap: 16px; margin-top: 18px; align-items: start; }
-.canoe__media iframe { width: 100%; height: 338px; border: 0; border-radius: 10px; background: var(--surface-2); }
-.canoe__media img { width: 100%; border-radius: 10px; }
-.canoe h3 { margin: 0 0 4px; font-size: 16px; font-weight: 600; }
-.canoe p { margin: 0 0 10px; color: var(--muted); font-size: 14.5px; }
+.canoe { margin-top: 12px; padding: 20px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); display: grid; gap: 18px; }
+.canoe__head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px 24px; }
+.canoe__head h3 { margin: 0 0 4px; font-size: 16px; font-weight: 600; }
+.canoe__head p { margin: 0; color: var(--muted); font-size: 14.5px; }
+/* Video and 3D model stack on the left; the tall poster fills the same height on the right. */
+.canoe__grid { display: grid; grid-template-columns: 5fr 4fr; grid-template-rows: auto auto; gap: 12px; }
+.canoe figure { margin: 0; position: relative; border-radius: 10px; overflow: hidden; background: var(--surface-2); }
+.canoe__video, .canoe__model { aspect-ratio: 960 / 590; }
+.canoe__poster { grid-column: 2; grid-row: 1 / span 2; }
+.canoe video, .canoe iframe, .canoe__poster img { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.canoe video { object-fit: cover; }
+.canoe__poster img { object-fit: cover; object-position: top; }
+.canoe figcaption {
+  position: absolute; left: 8px; bottom: 8px; padding: 2px 8px; border-radius: 999px; pointer-events: none;
+  background: rgba(0, 0, 0, .55); color: #fff; font-size: 11.5px; font-weight: 500;
+}
+.canoe__model figcaption { bottom: auto; top: 8px; }
 
 /* ---------- Honors ---------- */
 .honors { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
@@ -267,11 +276,11 @@ svg { width: 1em; height: 1em; flex: none; }
 
   .pub { grid-template-columns: 1fr; gap: 14px; padding: 14px; }
   .demos { grid-template-columns: 1fr; }
-  .timeline > li { grid-template-columns: 1fr; row-gap: 10px; }
-  .exp__logo { grid-row: auto; width: 100%; max-width: 260px; height: 72px; }
-  .canoe__row, .canoe__media { grid-template-columns: 1fr; }
-  .canoe__media iframe { height: 260px; }
-  .canoe__media img { max-width: 260px; }
+  .timeline > li { grid-template-columns: 72px 1fr; column-gap: 14px; }
+  .exp__logo { width: 72px; height: 72px; }
+  .canoe { padding: 14px; }
+  .canoe__grid { grid-template-columns: 1fr; }
+  .canoe__poster { grid-column: auto; grid-row: auto; aspect-ratio: 960 / 1474; }
   .section__head { flex-direction: column; align-items: flex-start; gap: 4px; }
   .section__note { text-align: left; }
   .news li { grid-template-columns: 64px 1fr; gap: 10px; }
