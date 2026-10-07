@@ -36,6 +36,13 @@
         </div>
       </div>
 
+      {% if page.chat %}
+      <a class="twin-cta" href="{{ page.chat.url }}" data-chat-open>
+        <span class="twin-cta__icon"><svg aria-hidden="true" viewBox="0 0 24 24"><use href="#i-chat"/></svg></span>
+        <span class="twin-cta__text">{{ page.chat.label }}</span>
+      </a>
+      {% endif %}
+
       <ul class="links" aria-label="Contact and profiles">
         {% for link in page.links %}
         <li><a href="{{ link.url }}" {% unless link.url contains 'mailto:' %}target="_blank" rel="noopener"{% endunless %}>
@@ -43,13 +50,6 @@
         </a></li>
         {% endfor %}
       </ul>
-
-      {% if page.chat %}
-      <a class="twin-cta" href="{{ page.chat.url }}" data-chat-open>
-        <span class="twin-cta__icon"><svg aria-hidden="true" viewBox="0 0 24 24"><use href="#i-chat"/></svg></span>
-        <span class="twin-cta__text">{{ page.chat.label }}</span>
-      </a>
-      {% endif %}
 
       <nav class="toc" aria-label="On this page">
         <p class="toc__label">On this page</p>
