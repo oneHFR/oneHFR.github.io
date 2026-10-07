@@ -279,3 +279,4 @@ svg { width: 1em; height: 1em; flex: none; }
 }
 
 .visually-hidden { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.pub__cover:not([data-anim]) { cursor: default; }
