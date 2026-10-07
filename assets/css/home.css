@@ -8,8 +8,8 @@
   --muted: #5f6672;
   --faint: #8b919b;
   --line: #e6e5df;
-  --accent: #2b59c3;
-  --accent-soft: #e8eefc;
+  --accent: #8c1515;
+  --accent-soft: #f6e9e8;
   --badge: #1a1c21;
   --badge-text: #ffffff;
   --shadow: 0 1px 2px rgba(20, 22, 28, .04), 0 8px 24px rgba(20, 22, 28, .06);
@@ -25,14 +25,14 @@
   :root:not([data-theme="light"]) {
     --bg: #0f1114; --surface: #171a1f; --surface-2: #1d2027;
     --text: #e9eaed; --muted: #a2a8b3; --faint: #737a86; --line: #2a2e36;
-    --accent: #86a8ff; --accent-soft: #1d2740; --badge: #e9eaed; --badge-text: #0f1114;
+    --accent: #e8777a; --accent-soft: #3a1d1f; --badge: #e9eaed; --badge-text: #0f1114;
     --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .25);
   }
 }
 :root[data-theme="dark"] {
   --bg: #0f1114; --surface: #171a1f; --surface-2: #1d2027;
   --text: #e9eaed; --muted: #a2a8b3; --faint: #737a86; --line: #2a2e36;
-  --accent: #86a8ff; --accent-soft: #1d2740; --badge: #e9eaed; --badge-text: #0f1114;
+  --accent: #e8777a; --accent-soft: #3a1d1f; --badge: #e9eaed; --badge-text: #0f1114;
   --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .25);
 }
 
@@ -139,14 +139,6 @@ svg { width: 1em; height: 1em; flex: none; }
 }
 .pub__cover:hover .hint { opacity: 1; }
 
-/* Placeholder cover for papers without a figure yet */
-.pub__cover--type { display: grid; place-items: center; cursor: default; color: #fff; }
-.pub__cover--type span { font: 700 36px/1 var(--sans); letter-spacing: -.02em; position: relative; }
-.pub__cover--type::before { content: ""; position: absolute; inset: 0; background: var(--cover, linear-gradient(135deg, #2b59c3, #7a4fd6)); }
-.pub__cover--type::after {
-  content: ""; position: absolute; inset: 0; opacity: .25;
-  background-image: radial-gradient(rgba(255,255,255,.7) 1px, transparent 1px); background-size: 14px 14px;
-}
 
 .pub__venue { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 6px; }
 .badge { font-size: 12px; font-weight: 600; padding: 2px 9px; border-radius: 6px; background: var(--accent-soft); color: var(--accent); }
