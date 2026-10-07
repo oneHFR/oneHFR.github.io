@@ -109,6 +109,8 @@ svg { width: 1em; height: 1em; flex: none; }
 .section__note { margin: 0; color: var(--faint); font-size: 13.5px; text-align: right; }
 
 .intro p { margin: 0 0 14px; font-size: 17px; line-height: 1.7; }
+.intro a { text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--accent) 40%, transparent); text-underline-offset: 3px; }
+.intro a:hover { text-decoration-color: currentColor; }
 .intro p:first-of-type { font: 600 22px/1.3 var(--sans); letter-spacing: -.015em; margin-bottom: 16px; }
 
 /* ---------- News ---------- */

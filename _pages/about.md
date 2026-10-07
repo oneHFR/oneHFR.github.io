@@ -27,7 +27,7 @@ chat:
     I am a Master's student in Electrical Engineering at <a href="https://www.stanford.edu/">Stanford University</a>. I graduated with my Bachelor's degree in <a href="https://see-en.tongji.edu.cn/info/1010/1271.htm">Computer Science</a> from <a href="https://en.tongji.edu.cn/p/">Tongji University</a> in June 2026.
   </p>
   <p>
-    I conducted research at <a href="https://ucsd.edu/">UC San Diego</a>, advised by Prof. <a href="https://scholar.google.com/citations?user=9oz-dvgAAAAJ">Zhuowen Tu</a>. I was also fortunate to work with Prof. <a href="https://scholar.google.com/citations?user=GDvt570AAAAJ">Jiaqi Wang</a> during my internship at <a href="https://github.com/jd-opensource">JD Explore Academy</a>, part of JD.com. My research interests include agent harnesses and 3D/4D spatial intelligence.
+    I conducted research at <a href="https://ucsd.edu/">UC San Diego</a> <a href="https://pages.ucsd.edu/~ztu/Group.htm">MLPC Lab</a>, advised by Prof. <a href="https://scholar.google.com/citations?user=9oz-dvgAAAAJ">Zhuowen Tu</a>. I was also fortunate to work with Prof. <a href="https://scholar.google.com/citations?user=GDvt570AAAAJ">Jiaqi Wang</a> during my internship at <a href="https://github.com/jd-opensource">JD Explore Academy</a>, part of JD.com. My research interests include agent harnesses and 3D/4D spatial intelligence.
   </p>
 </section>
 
@@ -35,10 +35,10 @@ chat:
   <div class="section__head"><h2>News</h2></div>
   <ul class="news">
     <li><time>2026.09</time><span>One paper has been accepted to <strong class="hl">NeurIPS 2026</strong>. See you in Sydney!</span></li>
-    <li><time>2026.05</time><span>I joined <a href="https://github.com/jd-opensource" target="_blank" rel="noopener">JD Explore Academy</a> as a research intern</span></li>
+    <li><time>2026.05</time><span>I joined <strong class="hl">JD Explore Academy</strong> as a research intern</span></li>
     <li><time>2026.02</time><span>One paper has been accepted to <strong class="hl">CVPR 2026</strong>. See you in Denver!</span></li>
     <li><time>2026.01</time><span>One paper has been accepted to <strong class="hl">ICASSP 2026</strong>. See you in Barcelona!</span></li>
-    <li><time>2025.07</time><span>I joined UC San Diego <a href="https://pages.ucsd.edu/~ztu/Group.htm" target="_blank" rel="noopener">MLPC Lab</a> as a research intern</span></li>
+    <li><time>2025.07</time><span>I joined UC San Diego <strong class="hl">MLPC Lab</strong> as a research intern</span></li>
     <li><time>2025.06</time><span>One paper has been accepted to <strong class="hl">ICCV 2025</strong>. See you in Hawaii!</span></li>
   </ul>
 </section>
