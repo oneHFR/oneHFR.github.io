@@ -179,16 +179,16 @@ svg { width: 1em; height: 1em; flex: none; }
 /* ---------- Experience ---------- */
 .timeline { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
 .timeline > li {
-  display: grid; grid-template-columns: 48px 1fr; column-gap: 16px; align-items: center;
-  padding: 12px 0;
+  display: grid; grid-template-columns: 220px 1fr; column-gap: 24px; align-items: center;
+  padding: 16px 0;
 }
 .timeline > li + li { border-top: 1px solid var(--line); }
 .exp__logo {
-  grid-row: span 2; position: relative; width: 48px; height: 48px; border-radius: 10px; overflow: hidden;
+  grid-row: span 2; position: relative; width: 220px; height: 76px; border-radius: 12px; overflow: hidden;
   display: grid; place-items: center; background: #fff; border: 1px solid var(--line);
 }
-.exp__logo::before { content: attr(data-initial); font-weight: 700; font-size: 15px; color: var(--muted); }
-.exp__logo img { position: absolute; inset: 4px; width: calc(100% - 8px); height: calc(100% - 8px); object-fit: contain; }
+.exp__logo::before { content: attr(data-initial); font-weight: 700; font-size: 20px; color: #8b919b; }
+.exp__logo img { position: absolute; inset: 10px 14px; width: calc(100% - 28px); height: calc(100% - 20px); object-fit: contain; }
 .exp__head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 16px; }
 .exp__head h3 { margin: 0; font-size: 16.5px; font-weight: 600; }
 .exp__date { color: var(--faint); font-size: 14px; font-variant-numeric: tabular-nums; }
@@ -267,6 +267,8 @@ svg { width: 1em; height: 1em; flex: none; }
 
   .pub { grid-template-columns: 1fr; gap: 14px; padding: 14px; }
   .demos { grid-template-columns: 1fr; }
+  .timeline > li { grid-template-columns: 1fr; row-gap: 10px; }
+  .exp__logo { grid-row: auto; width: 100%; max-width: 260px; height: 72px; }
   .canoe__row, .canoe__media { grid-template-columns: 1fr; }
   .canoe__media iframe { height: 260px; }
   .canoe__media img { max-width: 260px; }
@@ -286,3 +288,5 @@ svg { width: 1em; height: 1em; flex: none; }
 
 .visually-hidden { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .pub__cover:not([data-anim]) { cursor: default; }
+.timeline .exp__head { align-self: end; }
+.timeline .exp__role { align-self: start; margin-top: 2px; }
