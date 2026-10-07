@@ -22,6 +22,10 @@ redirect_from:
 <div class="news-section">
   <ul>
     <li>
+      <span class="news-date">2026.09</span>
+      <span class="news-text">One paper has been accepted to <strong>NeurIPS 2026</strong>. See you in Sydney!</span>
+    </li>
+    <li>
       <span class="news-date">2026.03</span>
       <span class="news-text">I joined <a href="https://github.com/jd-opensource" target="_blank" rel="noopener">JD Future Academy</a> as a research intern</span>
     </li>
