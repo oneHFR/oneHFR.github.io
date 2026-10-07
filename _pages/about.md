@@ -61,7 +61,6 @@ chat:
         <div class="pub__venue"><span class="badge">Preprint</span></div>
         <h3><b>MIRA:</b> A Multimodal Illustrated Deep Research Agent for Controllable Reports</h3>
         <p class="pub__authors"><strong>Hongrui Wu*</strong>, Kaiwen Tuo*, Congcong Wang*, Gen Li, Shuai Dong, Xinlei Yu, Haowen Hou, Zelin Peng, Jiaqi Wang</p>
-        <div class="chips"><span class="chip" aria-disabled="true">Paper soon</span></div>
       </div>
     </article>
 
@@ -71,7 +70,6 @@ chat:
         <div class="pub__venue"><span class="badge">NeurIPS 2026</span></div>
         <h3><b>MMMC:</b> Towards Realistic Conversational Multimodal Instruction Following</h3>
         <p class="pub__authors">Kaiwen Tuo*, Congcong Wang*, Shuai Dong*, <strong>Hongrui Wu*</strong>, Siyuan Wang, Xuefeng Yin, Yuhang Cao, Nan Duan, Jiaqi Wang</p>
-        <div class="chips"><span class="chip" aria-disabled="true">Paper soon</span></div>
       </div>
     </article>
 
