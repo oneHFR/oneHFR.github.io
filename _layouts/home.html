@@ -82,8 +82,8 @@
     <header class="chat-panel__bar">
       <span class="chat-panel__dot" aria-hidden="true"></span>
       <strong>{{ page.chat.title }}</strong>
-      <a class="chat-panel__btn" href="{{ page.chat.url }}" target="_blank" rel="noopener" aria-label="Open in a new tab">
-        <svg aria-hidden="true" viewBox="0 0 24 24"><use href="#i-external"/></svg>
+      <a class="chat-panel__btn chat-panel__full" href="{{ page.chat.url }}" title="Full screen" aria-label="Open full screen">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><use href="#i-expand"/></svg><span>Full screen</span>
       </a>
       <button class="chat-panel__btn" type="button" data-chat-close aria-label="Close">
         <svg aria-hidden="true" viewBox="0 0 24 24"><use href="#i-close"/></svg>
@@ -101,6 +101,7 @@
     <symbol id="i-youtube" viewBox="0 0 24 24"><path fill="currentColor" d="M21.6 7.2a2.5 2.5 0 0 0-1.77-1.77C18.27 5 12 5 12 5s-6.27 0-7.83.43A2.5 2.5 0 0 0 2.4 7.2 26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.77 1.77C5.73 19 12 19 12 19s6.27 0 7.83-.43a2.5 2.5 0 0 0 1.77-1.77A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8M10 15V9l5.2 3z"/></symbol>
     <symbol id="i-chat" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M4 5h16v11H9l-5 4z"/><circle cx="9" cy="10.5" r="1.1" fill="currentColor"/><circle cx="12" cy="10.5" r="1.1" fill="currentColor"/><circle cx="15" cy="10.5" r="1.1" fill="currentColor"/></symbol>
     <symbol id="i-external" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M14 4h6v6 M20 4l-9 9 M18 14v6H4V6h6"/></symbol>
+    <symbol id="i-expand" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 9V4h5 M20 9V4h-5 M4 15v5h5 M20 15v5h-5"/></symbol>
     <symbol id="i-close" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M6 6l12 12M18 6 6 18"/></symbol>
     <symbol id="i-theme" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.8"/><path fill="currentColor" d="M12 4a8 8 0 0 1 0 16z"/></symbol>
     <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14 M13 6l6 6-6 6"/></symbol>
