@@ -150,7 +150,7 @@ chat:
     <a class="demo" href="/chat/" data-chat-open>
       <span class="demo__top">
         <span class="demo__icon"><svg aria-hidden="true"><use href="#i-chat"/></svg></span>
-        <h3>My AI Twin</h3>
+        <h3>My Personal Agent</h3>
         <span class="status">Live</span>
       </span>
       <p>Ask it about my research, projects and experience.</p>
