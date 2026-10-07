@@ -72,15 +72,13 @@ svg { width: 1em; height: 1em; flex: none; }
 
 /* ---------- Table of contents ---------- */
 .twin-cta {
-  display: flex; align-items: center; gap: 12px; margin-top: 22px; padding: 12px 14px; border-radius: 12px;
+  display: inline-flex; align-items: center; gap: 8px; margin-top: 20px; padding: 8px 14px 8px 10px; border-radius: 10px;
   background: var(--accent); color: #fff; box-shadow: 0 6px 18px color-mix(in srgb, var(--accent) 35%, transparent);
   transition: transform .15s, box-shadow .15s;
 }
 .twin-cta:hover { text-decoration: none; transform: translateY(-1px); box-shadow: 0 10px 24px color-mix(in srgb, var(--accent) 45%, transparent); }
-.twin-cta__icon { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 9px; background: rgba(255,255,255,.18); font-size: 19px; flex: none; }
-.twin-cta__text { display: grid; line-height: 1.3; }
-.twin-cta__text strong { font-size: 15px; }
-.twin-cta__text small { font-size: 12.5px; opacity: .85; }
+.twin-cta__icon { display: grid; place-items: center; font-size: 18px; flex: none; }
+.twin-cta__text { font-size: 14.5px; font-weight: 600; }
 :root[data-theme="dark"] .twin-cta { color: #0f1114; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .twin-cta { color: #0f1114; } }
 
