@@ -84,6 +84,20 @@
     lazy.forEach(loadMedia);
   }
 
+  // ---- Heavy embeds (3D model): start loading as soon as the page is idle, so the
+  // model is ready by the time a reader scrolls to it ----
+  function preloadEmbeds() {
+    document.querySelectorAll('[data-preload-src]').forEach(function (el) {
+      el.src = el.getAttribute('data-preload-src');
+      el.removeAttribute('data-preload-src');
+    });
+  }
+  function whenIdle() {
+    if ('requestIdleCallback' in window) requestIdleCallback(preloadEmbeds, { timeout: 2000 });
+    else setTimeout(preloadEmbeds, 300);
+  }
+  if (document.readyState === 'complete') whenIdle(); else window.addEventListener('load', whenIdle);
+
   // ---- Theme toggle ----
   var toggle = document.querySelector('[data-theme-toggle]');
   if (toggle) toggle.addEventListener('click', function () {

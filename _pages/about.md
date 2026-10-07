@@ -195,21 +195,30 @@ chat:
 
   <p class="subhead">Before research · I miss those happy days</p>
   <div class="canoe">
-    <div class="canoe__row">
+    <div class="canoe__head">
       <div>
         <h3><a href="https://onehfr.github.io/portfolio/project-1/">ASCE Concrete Canoe Competition</a></h3>
         <p>Hull designer · May 2022 – Apr 2024 · Hosted by <a href="https://www.linkedin.com/company/americansocietyofcivilengineers" target="_blank" rel="noopener">ASCE</a> in Sacramento, CA</p>
-        <div class="chips">
-          <a class="chip" href="/portfolio/">Works</a>
-          <a class="chip" href="https://docs.google.com/presentation/d/12NBXRfv-bkYV1_H_B_a9v2MSho-ZQoks/edit?usp=drive_link&ouid=104071984654367651910&rtpof=true&sd=true" target="_blank" rel="noopener">Slides</a>
-          <a class="chip" href="/files/ASCE_project_proposal.pdf" target="_blank" rel="noopener">Paper</a>
-        </div>
       </div>
-      <video autoplay loop muted controls playsinline preload="none" data-lazy-src="/images/p4-video2-960.mp4" aria-label="Concrete canoe project video"></video>
+      <div class="chips">
+        <a class="chip" href="/portfolio/">Works</a>
+        <a class="chip" href="https://docs.google.com/presentation/d/12NBXRfv-bkYV1_H_B_a9v2MSho-ZQoks/edit?usp=drive_link&ouid=104071984654367651910&rtpof=true&sd=true" target="_blank" rel="noopener">Slides</a>
+        <a class="chip" href="/files/ASCE_project_proposal.pdf" target="_blank" rel="noopener">Paper</a>
+      </div>
     </div>
-    <div class="canoe__media">
-      <iframe title="Canoe2024-Tongji-Yangtze 3D model - Sketchfab" data-lazy-src="https://sketchfab.com/models/8775df6e6d034f1ebfdcba0f3ba1b717/embed?autostart=0&amp;internal=1&amp;tracking=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_watermark=0" loading="lazy" allow="autoplay; fullscreen; xr-spatial-tracking" allowfullscreen></iframe>
-      <img src="/images/p4-poster-960.jpg" alt="Canoe project poster" loading="lazy" decoding="async" width="960" height="1474">
+    <div class="canoe__grid">
+      <figure class="canoe__video">
+        <video autoplay loop muted playsinline preload="none" data-lazy-src="/images/p4-video2-960.mp4" aria-label="Concrete canoe project video"></video>
+        <figcaption>Race video</figcaption>
+      </figure>
+      <figure class="canoe__model">
+        <iframe title="Canoe2024-Tongji-Yangtze 3D model - Sketchfab" data-preload-src="https://sketchfab.com/models/8775df6e6d034f1ebfdcba0f3ba1b717/embed?autostart=1&amp;preload=1&amp;internal=1&amp;tracking=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_watermark=0" allow="autoplay; fullscreen; xr-spatial-tracking" allowfullscreen></iframe>
+        <figcaption>Interactive 3D model · drag to rotate</figcaption>
+      </figure>
+      <figure class="canoe__poster">
+        <img src="/images/p4-poster-960.jpg" alt="Canoe project poster" loading="lazy" decoding="async" width="960" height="1474">
+        <figcaption>Poster</figcaption>
+      </figure>
     </div>
   </div>
 </section>
@@ -222,5 +231,6 @@ chat:
     <li><span>Outstanding Undergraduate Thesis Award <em>· much to my surprise; graduated just fine anyway</em></span></li>
     <li><span>ASCE Concrete Canoe Competition, 2nd Place in California Section, 2024 <em>· almost beat UC Berkeley, lol</em></span></li>
     <li><span>School Sports Meet, Silver Medal in 4×100 m Relay and Bronze Medal in 4×400 m Relay <em>· I used to be fast</em></span></li>
+    <li><span>Up-and-Coming Dessert Baker <em>· unanimously and highly acclaimed by friends</em></span></li>
   </ul>
 </section>
