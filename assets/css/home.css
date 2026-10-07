@@ -106,7 +106,7 @@ svg { width: 1em; height: 1em; flex: none; }
 .section + .section { border-top: 1px solid var(--line); padding-top: 40px; }
 .section__head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 20px; }
 .section h2 { font: 600 24px/1.2 var(--sans); margin: 0; letter-spacing: -.02em; }
-.section__note { margin: 0; color: var(--faint); font-size: 13.5px; text-align: right; }
+.section__note { margin: 0; color: var(--faint); font-size: 15px; text-align: right; }
 
 .intro p { margin: 0 0 14px; font-size: 17px; line-height: 1.7; }
 .intro a { text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--accent) 40%, transparent); text-underline-offset: 3px; }
@@ -139,7 +139,7 @@ svg { width: 1em; height: 1em; flex: none; }
 .pub__cover.is-animated .anim { opacity: 1; }
 .pub__cover.is-animated .still { opacity: 0; }
 .pub__cover .hint {
-  position: absolute; right: 8px; bottom: 8px; font-size: 11px; font-weight: 500; padding: 2px 8px; border-radius: 999px;
+  position: absolute; right: 8px; bottom: 8px; font-size: 13px; font-weight: 500; padding: 3px 10px; border-radius: 999px;
   background: rgba(0, 0, 0, .55); color: #fff; opacity: 0; transition: opacity .2s; pointer-events: none;
 }
 .pub__cover:hover .hint { opacity: 1; }
