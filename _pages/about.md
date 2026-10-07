@@ -24,10 +24,10 @@ chat:
   <h2 class="visually-hidden">About</h2>
   <p>Hi there!</p>
   <p>
-    I am a Master's student in Electrical Engineering at <a href="https://www.stanford.edu/">Stanford University</a>. I graduated with my Bachelor's degree in <a href="https://see-en.tongji.edu.cn/info/1010/1271.htm">Computer Science</a> from <a href="https://en.tongji.edu.cn/p/">Tongji University</a> in June 2026.
+    I am a Master's student in Electrical Engineering at Stanford University. I graduated with my Bachelor's degree in Computer Science from Tongji University in June 2026.
   </p>
   <p>
-    I conducted research at <a href="https://ucsd.edu/">UC San Diego</a> <a href="https://pages.ucsd.edu/~ztu/Group.htm">MLPC Lab</a>, advised by Prof. <a href="https://scholar.google.com/citations?user=9oz-dvgAAAAJ">Zhuowen Tu</a>. I was also fortunate to work with Prof. <a href="https://scholar.google.com/citations?user=GDvt570AAAAJ">Jiaqi Wang</a> during my internship at <a href="https://github.com/jd-opensource">JD Explore Academy</a>, part of JD.com. My research interests include agent harnesses and 3D/4D spatial intelligence.
+    I conducted research at UC San Diego <a href="https://pages.ucsd.edu/~ztu/Group.htm">MLPC Lab</a>, advised by Prof. <a class="person" href="https://scholar.google.com/citations?user=9oz-dvgAAAAJ">Zhuowen Tu</a>. I was also fortunate to work with Prof. <a class="person" href="https://scholar.google.com/citations?user=GDvt570AAAAJ">Jiaqi Wang</a> during my internship at <a href="https://github.com/jd-opensource">JD Explore Academy</a>, part of JD.com. My research interests include agent harnesses and 3D/4D spatial intelligence.
   </p>
 </section>
 
