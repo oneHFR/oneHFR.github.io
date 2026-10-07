@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.author.name }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <meta property="og:title" content="{{ site.author.name }}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:image" content="{{ site.url }}/images/{{ site.author.avatar }}">
+  <link rel="canonical" href="{{ site.url }}/">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+  <link rel="manifest" href="/images/manifest.json">
+
+  <script>
+    try { var t = localStorage.getItem('theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap">
+  <link rel="stylesheet" href="/assets/css/home.css?v={{ site.time | date: '%s' }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="shell">
+    <aside class="side" aria-label="Profile and contents">
+      <div class="profile">
+        <img class="profile__avatar" src="/images/{{ site.author.avatar }}" alt="{{ site.author.name }}" width="512" height="512">
+        <div class="profile__text">
+          <h1 class="profile__name">{{ site.author.name }}</h1>
+          {% if page.tagline %}<p class="profile__tagline">{{ page.tagline }}</p>{% endif %}
+        </div>
+      </div>
+
+      <ul class="links" aria-label="Contact and profiles">
+        {% for link in page.links %}
+        <li><a href="{{ link.url }}" {% unless link.url contains 'mailto:' %}target="_blank" rel="noopener"{% endunless %}>
+          <svg aria-hidden="true" viewBox="0 0 24 24"><use href="#i-{{ link.icon }}"/></svg><span>{{ link.label }}</span>
+        </a></li>
+        {% endfor %}
+      </ul>
+
+      <nav class="toc" aria-label="On this page">
+        <p class="toc__label">On this page</p>
+        <ol class="toc__list" data-toc></ol>
+      </nav>
+
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" data-theme-toggle>
+        <svg aria-hidden="true" viewBox="0 0 24 24"><use href="#i-theme"/></svg><span>Theme</span>
+      </button>
+    </aside>
+
+    <main id="main" class="main">
+      {{ content }}
+      <footer class="foot">
+        <span>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</span>
+        <span>Last updated {{ site.time | date: '%b %Y' }}</span>
+      </footer>
+    </main>
+  </div>
+
+  {% if page.chat %}
+  <button class="chat-fab" type="button" data-chat-open aria-controls="chat-panel" aria-expanded="false">
+    <svg aria-hidden="true" viewBox="0 0 24 24"><use href="#i-chat"/></svg>
+    <span>{{ page.chat.label }}</span>
+  </button>
+  <section class="chat-panel" id="chat-panel" role="dialog" aria-label="{{ page.chat.label }}" hidden>
+    <header class="chat-panel__bar">
+      <span class="chat-panel__dot" aria-hidden="true"></span>
+      <strong>{{ page.chat.title }}</strong>
+      <a class="chat-panel__btn" href="{{ page.chat.url }}" target="_blank" rel="noopener" aria-label="Open in a new tab">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><use href="#i-external"/></svg>
+      </a>
+      <button class="chat-panel__btn" type="button" data-chat-close aria-label="Close">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><use href="#i-close"/></svg>
+      </button>
+    </header>
+    <iframe class="chat-panel__frame" title="{{ page.chat.title }}" data-src="{{ page.chat.url }}?embed=1"></iframe>
+  </section>
+  {% endif %}
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-mail" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 6h16v12H4z M4 7l8 6 8-6"/></symbol>
+    <symbol id="i-scholar" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M12 4 2 9.5 12 15l10-5.5z M6 12v4.5c0 1.5 2.7 3 6 3s6-1.5 6-3V12"/></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M5 3.5a2 2 0 1 1 0 4 2 2 0 0 1 0-4M3.3 9h3.4v11H3.3zm5.6 0h3.3v1.5h.05c.46-.87 1.58-1.8 3.26-1.8 3.48 0 4.12 2.3 4.12 5.28V20h-3.4v-5.3c0-1.27-.02-2.9-1.77-2.9s-2.04 1.38-2.04 2.8V20H8.9z"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M4 5h16v11H9l-5 4z"/><circle cx="9" cy="10.5" r="1.1" fill="currentColor"/><circle cx="12" cy="10.5" r="1.1" fill="currentColor"/><circle cx="15" cy="10.5" r="1.1" fill="currentColor"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M14 4h6v6 M20 4l-9 9 M18 14v6H4V6h6"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M6 6l12 12M18 6 6 18"/></symbol>
+    <symbol id="i-theme" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.8"/><path fill="currentColor" d="M12 4a8 8 0 0 1 0 16z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14 M13 6l6 6-6 6"/></symbol>
+  </svg>
+
+  <script src="/assets/js/home.js?v={{ site.time | date: '%s' }}" defer></script>
+</body>
+</html>
