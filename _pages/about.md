@@ -13,8 +13,8 @@ links:
   - { label: "LinkedIn",       icon: "linkedin", url: "https://www.linkedin.com/in/hongrui-wu-7546b734b/" }
   - { label: "YouTube",        icon: "youtube",  url: "https://www.youtube.com/@oneHFR" }
 chat:
-  label: "Ask Cyber Rui"
-  title: "Cyber Rui · AI twin"
+  label: "Ask My AI Twin 🤖"
+  title: "My AI Twin"
   url: "/chat/"
 ---
 
@@ -150,10 +150,10 @@ chat:
     <a class="demo" href="/chat/" data-chat-open>
       <span class="demo__top">
         <span class="demo__icon"><svg aria-hidden="true"><use href="#i-chat"/></svg></span>
-        <h3>Cyber Rui</h3>
+        <h3>My AI Twin</h3>
         <span class="status">Live</span>
       </span>
-      <p>My AI twin. Ask it about my research, projects and experience.</p>
+      <p>Ask it about my research, projects and experience.</p>
       <span class="demo__cta">Start a chat <svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
     </a>
     <a class="demo" href="/datatool-demo/">
