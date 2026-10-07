@@ -13,7 +13,7 @@ links:
   - { label: "LinkedIn",       icon: "linkedin", url: "https://www.linkedin.com/in/hongrui-wu-7546b734b/" }
   - { label: "YouTube",        icon: "youtube",  url: "https://www.youtube.com/@oneHFR" }
 chat:
-  label: "Ask my AI twin"
+  label: "Ask Cyber Rui"
   title: "Cyber Rui · AI twin"
   url: "/chat/"
 ---
