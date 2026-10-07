@@ -11,6 +11,9 @@ main:
   - title: "Home"
     url: /
 
+  - title: "CV"
+    url: /files/Hongrui_Wu_CV.pdf
+
   # - title: "Talks"
   #   url: /talks/    
 
