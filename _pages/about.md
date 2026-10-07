@@ -178,7 +178,7 @@ chat:
     </li>
     <li>
       <span class="exp__logo" data-initial="UC"><img src="/images/logos/ucsd.png" alt="" loading="lazy" onerror="this.remove()"></span>
-      <div class="exp__head"><h3>UC San Diego, <a href="https://pages.ucsd.edu/~ztu/Group.htm" target="_blank" rel="noopener">MLPC Lab</a></h3><span class="exp__date">Jul 2025 – Dec 2025</span></div>
+      <div class="exp__head"><h3>UC San Diego</h3><span class="exp__date">Jul 2025 – Dec 2025</span></div>
       <p class="exp__role">Research Intern</p>
     </li>
     <li>
