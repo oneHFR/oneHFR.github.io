@@ -185,7 +185,7 @@ svg { width: 1em; height: 1em; flex: none; }
 .timeline > li + li { border-top: 1px solid var(--line); }
 .exp__logo {
   grid-row: span 2; position: relative; width: 48px; height: 48px; border-radius: 10px; overflow: hidden;
-  display: grid; place-items: center; background: var(--surface); border: 1px solid var(--line);
+  display: grid; place-items: center; background: #fff; border: 1px solid var(--line);
 }
 .exp__logo::before { content: attr(data-initial); font-weight: 700; font-size: 15px; color: var(--muted); }
 .exp__logo img { position: absolute; inset: 4px; width: calc(100% - 8px); height: calc(100% - 8px); object-fit: contain; }
