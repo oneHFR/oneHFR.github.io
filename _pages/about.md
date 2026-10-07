@@ -56,7 +56,9 @@ chat:
 
   <div class="pubs">
     <article class="pub" id="pub-mira">
-      <div class="pub__cover pub__cover--type" style="--cover: linear-gradient(135deg, #1f3c88, #3f7de0 55%, #57c0d8)"><span>MIRA</span></div>
+      <div class="pub__cover">
+        <img class="still" src="/images/MIRA-static.jpg" alt="MIRA" width="1600" height="900" decoding="async">
+      </div>
       <div>
         <div class="pub__venue"><span class="badge">Preprint</span></div>
         <h3><b>MIRA:</b> A Multimodal Illustrated Deep Research Agent for Controllable Reports</h3>
@@ -65,10 +67,12 @@ chat:
     </article>
 
     <article class="pub" id="pub-mmmc">
-      <div class="pub__cover pub__cover--type" style="--cover: linear-gradient(135deg, #6b2fb3, #c04d8f 60%, #f08a5d)"><span>MMMC</span></div>
+      <div class="pub__cover">
+        <img class="still" src="/images/MMMC-static.jpg" alt="MMMC" width="1600" height="900" decoding="async">
+      </div>
       <div>
         <div class="pub__venue"><span class="badge">NeurIPS 2026</span></div>
-        <h3><b>MMMC:</b> Towards Realistic Conversational Multimodal Instruction Following</h3>
+        <h3>Towards Realistic Conversational Multimodal Instruction Following</h3>
         <p class="pub__authors">Kaiwen Tuo*, Congcong Wang*, Shuai Dong*, <strong>Hongrui Wu*</strong>, Siyuan Wang, Xuefeng Yin, Yuhang Cao, Nan Duan, Jiaqi Wang</p>
       </div>
     </article>
