@@ -29,11 +29,6 @@ chat:
   <p>
     I conducted research at <a href="https://ucsd.edu/">UC San Diego</a>, advised by Prof. <a href="https://scholar.google.com/citations?user=9oz-dvgAAAAJ">Zhuowen Tu</a>. I was also fortunate to work with Prof. <a href="https://scholar.google.com/citations?user=GDvt570AAAAJ">Jiaqi Wang</a> during my internship at <a href="https://github.com/jd-opensource">JD Explore Academy</a>, part of JD.com. My research interests include agent harnesses and 3D/4D spatial intelligence.
   </p>
-  <ul class="interests" aria-label="Research interests">
-    <li>Agent harnesses</li>
-    <li>Multimodal deep research</li>
-    <li>3D/4D spatial intelligence</li>
-  </ul>
 </section>
 
 <section class="section" id="news">
