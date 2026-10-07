@@ -14,7 +14,6 @@ links:
   - { label: "YouTube",        icon: "youtube",  url: "https://www.youtube.com/@oneHFR" }
 chat:
   label: "Ask my AI twin"
-  hint: "Chat about my research and projects"
   title: "Cyber Rui · AI twin"
   url: "/chat/"
 ---
