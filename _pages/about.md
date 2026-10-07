@@ -55,6 +55,58 @@ redirect_from:
 <div class="research-card">
   <div class="research-card__image">
     <div class="img-switcher is-showing-png">
+      <img class="img-switcher__layer img-switcher__webp" alt="" decoding="async" width="720" height="405">
+      <img class="img-switcher__layer img-switcher__png" src="/images/MIRA-static.jpg" alt="MIRA" decoding="async" fetchpriority="high" width="1600" height="900">
+    </div>
+  </div>
+  <div class="research-card__body">
+    <div class="research-card__venue-badge">Preprint</div>
+    <h3>
+      <strong>MIRA:</strong> A Multimodal Illustrated Deep Research Agent for Controllable Reports
+    </h3>
+    <div class="research-card__authors">
+      <strong>Hongrui Wu*</strong>,
+      Kaiwen Tuo*,
+      Congcong Wang*,
+      Gen Li,
+      Shuai Dong,
+      Xinlei Yu,
+      Haowen Hou,
+      Zelin Peng,
+      Jiaqi Wang
+    </div>
+  </div>
+</div>
+
+<div class="research-card">
+  <div class="research-card__image">
+    <div class="img-switcher is-showing-png">
+      <img class="img-switcher__layer img-switcher__webp" alt="" decoding="async" width="720" height="405">
+      <img class="img-switcher__layer img-switcher__png" src="/images/MMMC-static.jpg" alt="MMMC" loading="lazy" decoding="async" fetchpriority="low" width="1600" height="900">
+    </div>
+  </div>
+  <div class="research-card__body">
+    <div class="research-card__venue-badge">NeurIPS 2026</div>
+    <h3>
+      Towards Realistic Conversational Multimodal Instruction Following
+    </h3>
+    <div class="research-card__authors">
+      Kaiwen Tuo*,
+      Congcong Wang*,
+      Shuai Dong*,
+      <strong>Hongrui Wu*</strong>,
+      Siyuan Wang,
+      Xuefeng Yin,
+      Yuhang Cao,
+      Nan Duan,
+      Jiaqi Wang
+    </div>
+  </div>
+</div>
+
+<div class="research-card">
+  <div class="research-card__image">
+    <div class="img-switcher is-showing-png">
       <img class="img-switcher__layer img-switcher__webp" src="/images/PixARMesh-optimized.webp" alt="PixARMesh animated preview" decoding="async" fetchpriority="high" width="720" height="405">
       <img class="img-switcher__layer img-switcher__png" src="/images/PixARMesh-static.jpg" alt="PixARMesh" decoding="async" fetchpriority="high" width="960" height="540">
       <span class="img-switcher__hint">Loading animation…</span>
