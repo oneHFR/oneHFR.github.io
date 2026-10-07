@@ -12,6 +12,7 @@ links:
   - { label: "Google Scholar", icon: "scholar",  url: "https://scholar.google.com/citations?user=JjjYCN8AAAAJ&hl=en" }
   - { label: "LinkedIn",       icon: "linkedin", url: "https://www.linkedin.com/in/hongrui-wu-7546b734b/" }
   - { label: "YouTube",        icon: "youtube",  url: "https://www.youtube.com/@oneHFR" }
+  - { label: "CV",             icon: "cv",       url: "/files/Hongrui_Wu_CV.pdf" }
 chat:
   label: "Ask My AI Twin 🤖"
   title: "My AI Twin"
