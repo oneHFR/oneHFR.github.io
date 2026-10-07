@@ -11,6 +11,7 @@ links:
   - { label: "Email",          icon: "mail",     url: "mailto:wuhongrui2152131@gmail.com" }
   - { label: "Google Scholar", icon: "scholar",  url: "https://scholar.google.com/citations?user=JjjYCN8AAAAJ&hl=en" }
   - { label: "LinkedIn",       icon: "linkedin", url: "https://www.linkedin.com/in/hongrui-wu-7546b734b/" }
+  - { label: "YouTube",        icon: "youtube",  url: "https://www.youtube.com/@oneHFR" }
 chat:
   label: "Ask my AI twin"
   hint: "Chat about my research and projects"
@@ -34,12 +35,12 @@ chat:
 <section class="section" id="news">
   <div class="section__head"><h2>News</h2></div>
   <ul class="news">
-    <li><time>2026.09</time><span>One paper has been accepted to <span class="tag">NeurIPS 2026</span> See you in Sydney!</span></li>
+    <li><time>2026.09</time><span>One paper has been accepted to <strong class="hl">NeurIPS 2026</strong>. See you in Sydney!</span></li>
     <li><time>2026.05</time><span>I joined <a href="https://github.com/jd-opensource" target="_blank" rel="noopener">JD Explore Academy</a> as a research intern</span></li>
-    <li><time>2026.02</time><span>One paper has been accepted to <span class="tag">CVPR 2026</span> See you in Denver!</span></li>
-    <li><time>2026.01</time><span>One paper has been accepted to <span class="tag">ICASSP 2026</span> See you in Barcelona!</span></li>
+    <li><time>2026.02</time><span>One paper has been accepted to <strong class="hl">CVPR 2026</strong>. See you in Denver!</span></li>
+    <li><time>2026.01</time><span>One paper has been accepted to <strong class="hl">ICASSP 2026</strong>. See you in Barcelona!</span></li>
     <li><time>2025.07</time><span>I joined UC San Diego <a href="https://pages.ucsd.edu/~ztu/Group.htm" target="_blank" rel="noopener">MLPC Lab</a> as a research intern</span></li>
-    <li><time>2025.06</time><span>One paper has been accepted to <span class="tag">ICCV 2025</span> See you in Hawaii!</span></li>
+    <li><time>2025.06</time><span>One paper has been accepted to <strong class="hl">ICCV 2025</strong>. See you in Hawaii!</span></li>
   </ul>
 </section>
 
