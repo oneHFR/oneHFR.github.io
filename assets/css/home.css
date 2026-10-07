@@ -220,7 +220,7 @@ svg { width: 1em; height: 1em; flex: none; }
 
 /* ---------- Honors ---------- */
 .honors { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
-.honors li { display: grid; grid-template-columns: 20px 1fr; gap: 10px; font-size: 15px; }
+.honors li { display: grid; grid-template-columns: 20px 1fr; gap: 10px; font-size: 14px; }
 .honors li::before { content: "✦"; color: var(--accent); font-size: 13px; padding-top: 2px; }
 .honors em { color: var(--faint); font-style: normal; }
 
