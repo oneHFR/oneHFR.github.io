@@ -177,17 +177,17 @@ chat:
       <p class="exp__role">Research Intern</p>
     </li>
     <li>
-      <span class="exp__logo" data-initial="UC"><img src="/images/logos/ucsd.png" alt="" loading="lazy" onerror="this.remove()"></span>
+      <span class="exp__logo" data-initial="UC"><img src="/images/logos/ucsd.svg" alt="" loading="lazy" onerror="this.remove()"></span>
       <div class="exp__head"><h3>UC San Diego</h3><span class="exp__date">Jul 2025 – Dec 2025</span></div>
       <p class="exp__role">Research Intern</p>
     </li>
     <li>
-      <span class="exp__logo" data-initial="ZJ"><img src="/images/logos/zju.png" alt="" loading="lazy" onerror="this.remove()"></span>
+      <span class="exp__logo" data-initial="ZJ"><img src="/images/logos/zju.svg" alt="" loading="lazy" onerror="this.remove()"></span>
       <div class="exp__head"><h3>Zhejiang University</h3><span class="exp__date">Dec 2024 – Mar 2025</span></div>
       <p class="exp__role">Research Intern</p>
     </li>
     <li>
-      <span class="exp__logo" data-initial="TJ"><img src="/images/logos/tongji.png" alt="" loading="lazy" onerror="this.remove()"></span>
+      <span class="exp__logo" data-initial="TJ"><img src="/images/logos/tongji.svg" alt="" loading="lazy" onerror="this.remove()"></span>
       <div class="exp__head"><h3>Tongji University</h3><span class="exp__date">Nov 2024 – Aug 2025</span></div>
       <p class="exp__role">Research Intern</p>
     </li>
