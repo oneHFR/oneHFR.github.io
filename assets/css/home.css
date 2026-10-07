@@ -184,15 +184,16 @@ svg { width: 1em; height: 1em; flex: none; }
 /* ---------- Experience ---------- */
 .timeline { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
 .timeline > li {
-  display: grid; grid-template-columns: 200px 1fr; column-gap: 28px; align-items: center;
-  padding: 18px 0;
+  display: grid; grid-template-columns: 96px 1fr; column-gap: 24px; row-gap: 4px;
+  grid-template-rows: 1fr auto auto 1fr; align-items: center; padding: 16px 0;
 }
 .timeline > li + li { border-top: 1px solid var(--line); }
 /* Logos are the focus here: large, transparent, no frame. */
-.exp__logo { grid-row: span 2; position: relative; width: 200px; height: 112px; display: grid; place-items: center start; }
+/* Every logo sits in the same square slot, centered, with the text block centered beside it. */
+.exp__logo { grid-row: 1 / -1; position: relative; width: 96px; height: 96px; display: grid; place-items: center; }
 .exp__logo::before { content: attr(data-initial); font-weight: 700; font-size: 28px; color: var(--faint); }
 .exp__logo:has(img)::before { content: none; }
-.exp__logo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; object-position: left center; }
+.exp__logo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; object-position: center; }
 .exp__head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 16px; }
 .exp__head h3 { margin: 0; font-size: 16.5px; font-weight: 600; }
 .exp__date { color: var(--faint); font-size: 14px; font-variant-numeric: tabular-nums; }
@@ -282,8 +283,8 @@ svg { width: 1em; height: 1em; flex: none; }
 
   .pub { grid-template-columns: 1fr; gap: 14px; padding: 14px; }
   .demos { grid-template-columns: 1fr; }
-  .timeline > li { grid-template-columns: 1fr; row-gap: 10px; }
-  .exp__logo { grid-row: auto; width: 100%; height: 88px; }
+  .timeline > li { grid-template-columns: 64px 1fr; column-gap: 16px; }
+  .exp__logo { width: 64px; height: 64px; }
   .canoe { padding: 14px; }
   .canoe__grid { grid-template-columns: 1fr; }
   .canoe__poster { grid-column: auto; grid-row: auto; aspect-ratio: 960 / 1474; }
@@ -303,5 +304,5 @@ svg { width: 1em; height: 1em; flex: none; }
 
 .visually-hidden { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .pub__cover:not([data-anim]) { cursor: default; }
-.timeline .exp__head { align-self: end; }
-.timeline .exp__role { align-self: start; margin-top: 2px; }
+.timeline .exp__head { grid-column: 2; grid-row: 2; }
+.timeline .exp__role { grid-column: 2; grid-row: 3; }
