@@ -160,6 +160,8 @@ svg { width: 1em; height: 1em; flex: none; }
 .pub h3 img { display: inline-block; height: 1.3em; width: 1.3em; vertical-align: -.28em; margin-right: 4px; }
 .pub__authors { margin: 0 0 10px; color: var(--muted); font-size: 14px; line-height: 1.55; }
 .pub__authors strong { color: var(--text); }
+.pub__authors a { color: inherit; text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; }
+.pub__authors a:hover { color: var(--accent); text-decoration-color: currentColor; }
 .chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .chip {
   display: inline-flex; align-items: center; gap: 6px; padding: 3px 11px; border: 1px solid var(--line);
@@ -187,20 +189,22 @@ svg { width: 1em; height: 1em; flex: none; }
 .status--soon::before { background: var(--faint); }
 
 /* ---------- Experience ---------- */
-.timeline { list-style: none; margin: 0; padding: 0; position: relative; }
-.timeline::before { content: ""; position: absolute; left: 5px; top: 10px; bottom: 10px; width: 2px; background: var(--line); }
-.timeline > li { position: relative; padding: 0 0 26px 30px; }
-.timeline > li::before {
-  content: ""; position: absolute; left: 0; top: 7px; width: 12px; height: 12px; border-radius: 50%;
-  background: var(--bg); border: 2px solid var(--accent);
+.timeline { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.timeline > li {
+  display: grid; grid-template-columns: 48px 1fr; column-gap: 16px; align-items: center;
+  padding: 12px 0;
 }
-.timeline > li:last-child { padding-bottom: 0; }
+.timeline > li + li { border-top: 1px solid var(--line); }
+.exp__logo {
+  grid-row: span 2; position: relative; width: 48px; height: 48px; border-radius: 10px; overflow: hidden;
+  display: grid; place-items: center; background: var(--surface); border: 1px solid var(--line);
+}
+.exp__logo::before { content: attr(data-initial); font-weight: 700; font-size: 15px; color: var(--muted); }
+.exp__logo img { position: absolute; inset: 4px; width: calc(100% - 8px); height: calc(100% - 8px); object-fit: contain; }
 .exp__head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 16px; }
 .exp__head h3 { margin: 0; font-size: 16.5px; font-weight: 600; }
 .exp__date { color: var(--faint); font-size: 14px; font-variant-numeric: tabular-nums; }
-.exp__role { margin: 2px 0 0; color: var(--muted); font-size: 14.5px; }
-.exp__body { margin: 6px 0 0; font-size: 15px; }
-.exp__papers { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.exp__role { margin: 0; color: var(--muted); font-size: 14.5px; }
 
 .subhead { margin: 40px 0 6px; font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--faint); }
 .canoe { margin-top: 12px; padding: 20px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }

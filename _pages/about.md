@@ -64,7 +64,7 @@ chat:
       <div>
         <div class="pub__venue"><span class="badge">Preprint</span></div>
         <h3><b>MIRA:</b> A Multimodal Illustrated Deep Research Agent for Controllable Reports</h3>
-        <p class="pub__authors"><strong>Hongrui Wu*</strong>, Kaiwen Tuo*, Congcong Wang*, Gen Li, Shuai Dong, Xinlei Yu, Haowen Hou, Zelin Peng, Jiaqi Wang</p>
+        <p class="pub__authors"><strong>Hongrui Wu*</strong>, Kaiwen Tuo*, Congcong Wang*, Gen Li, Shuai Dong, Xinlei Yu, Haowen Hou, Zelin Peng, <a href="https://scholar.google.com/citations?user=GDvt570AAAAJ" target="_blank" rel="noopener">Jiaqi Wang</a></p>
         <div class="chips">
           <span class="chip chip--soon" title="Coming soon">Paper</span>
           <span class="chip chip--soon" title="Coming soon">Project</span>
@@ -82,7 +82,7 @@ chat:
       <div>
         <div class="pub__venue"><span class="badge">NeurIPS 2026</span></div>
         <h3>Towards Realistic Conversational Multimodal Instruction Following</h3>
-        <p class="pub__authors">Kaiwen Tuo*, Congcong Wang*, Shuai Dong*, <strong>Hongrui Wu*</strong>, Siyuan Wang, Xuefeng Yin, Yuhang Cao, Nan Duan, Jiaqi Wang</p>
+        <p class="pub__authors">Kaiwen Tuo*, Congcong Wang*, Shuai Dong*, <strong>Hongrui Wu*</strong>, Siyuan Wang, Xuefeng Yin, Yuhang Cao, Nan Duan, <a href="https://scholar.google.com/citations?user=GDvt570AAAAJ" target="_blank" rel="noopener">Jiaqi Wang</a></p>
         <div class="chips">
           <span class="chip chip--soon" title="Coming soon">Paper</span>
           <span class="chip chip--soon" title="Coming soon">Project</span>
@@ -100,7 +100,7 @@ chat:
       <div>
         <div class="pub__venue"><span class="badge">CVPR 2026</span></div>
         <h3><img src="/images/PixARMesh_logo.png" alt=""><b>PixARMesh:</b> Auto-Regressive Mesh-Native Single-View Scene Reconstruction</h3>
-        <p class="pub__authors">Xiang Zhang*, Sohyun Yoo*, <strong>Hongrui Wu*</strong>, Chuan Li, Jianwen Xie, Zhuowen Tu</p>
+        <p class="pub__authors">Xiang Zhang*, Sohyun Yoo*, <strong>Hongrui Wu*</strong>, Chuan Li, Jianwen Xie, <a href="https://pages.ucsd.edu/~ztu/" target="_blank" rel="noopener">Zhuowen Tu</a></p>
         <div class="chips">
           <a class="chip" href="https://arxiv.org/abs/2603.05888" target="_blank" rel="noopener">Paper</a>
           <a class="chip" href="https://mlpc-ucsd.github.io/PixARMesh/" target="_blank" rel="noopener">Project</a>
@@ -118,7 +118,7 @@ chat:
       <div>
         <div class="pub__venue"><span class="badge">ICASSP 2026</span></div>
         <h3><img src="/images/FOLK_logo.png" alt="" loading="lazy"><b>FOLK:</b> Fast Open-Vocabulary 3D Instance Segmentation via Label-guided Knowledge Distillation</h3>
-        <p class="pub__authors"><strong>Hongrui Wu*</strong>, Zhicheng Gao*, Jin Cao, Kelu Yao, Wen Shen, Zhihua Wei</p>
+        <p class="pub__authors"><strong>Hongrui Wu*</strong>, Zhicheng Gao*, Jin Cao, Kelu Yao, <a href="https://scholar.google.com/citations?user=9ZZzAS0AAAAJ&hl=en" target="_blank" rel="noopener">Wen Shen</a>, <a href="https://openreview.net/profile?id=~Zhihua_Wei1" target="_blank" rel="noopener">Zhihua Wei</a></p>
         <div class="chips">
           <a class="chip" href="https://arxiv.org/abs/2510.08849" target="_blank" rel="noopener">Paper</a>
           <a class="chip" href="https://github.com/oneHFR/FOLK" target="_blank" rel="noopener">Code</a>
@@ -135,7 +135,7 @@ chat:
       <div>
         <div class="pub__venue"><span class="badge">ICCV 2025</span></div>
         <h3><img src="/images/universe_logo-128.png" alt="" loading="lazy"><b>UniVerse:</b> Unleashing the Scene Prior of Video Diffusion Models for Robust Radiance Field Reconstruction</h3>
-        <p class="pub__authors">Jin Cao*, <strong>Hongrui Wu*</strong>, Ziyong Feng, Hujun Bao, Xiaowei Zhou, Sida Peng</p>
+        <p class="pub__authors">Jin Cao*, <strong>Hongrui Wu*</strong>, Ziyong Feng, Hujun Bao, <a href="https://xzhou.me/" target="_blank" rel="noopener">Xiaowei Zhou</a>, <a href="https://pengsida.net/" target="_blank" rel="noopener">Sida Peng</a></p>
         <div class="chips">
           <a class="chip" href="https://arxiv.org/abs/2510.01669" target="_blank" rel="noopener">Paper</a>
           <a class="chip" href="https://jin-cao-tma.github.io/UniVerse.github.io/" target="_blank" rel="noopener">Project</a>
@@ -177,25 +177,24 @@ chat:
   <div class="section__head"><h2>Experience</h2></div>
   <ol class="timeline">
     <li>
+      <span class="exp__logo" data-initial="JD"><img src="/images/logos/jd.png" alt="" loading="lazy" onerror="this.remove()"></span>
       <div class="exp__head"><h3>JD Explore Academy</h3><span class="exp__date">May 2026 – Oct 2026</span></div>
-      <p class="exp__role">Research Intern · Mentor: <a href="https://scholar.google.com/citations?user=GDvt570AAAAJ" target="_blank" rel="noopener">Jiaqi Wang</a></p>
-      <p class="exp__body">Multimodal deep research agents, agent training data, and multimodal instruction following.</p>
-      <div class="exp__papers"><a class="chip" href="#pub-mira">MIRA</a><a class="chip" href="#pub-mmmc">MMMC</a><a class="chip" href="/datatool-demo/">JoyDataTool demo</a></div>
+      <p class="exp__role">Research Intern</p>
     </li>
     <li>
+      <span class="exp__logo" data-initial="UC"><img src="/images/logos/ucsd.png" alt="" loading="lazy" onerror="this.remove()"></span>
       <div class="exp__head"><h3>UC San Diego, <a href="https://pages.ucsd.edu/~ztu/Group.htm" target="_blank" rel="noopener">MLPC Lab</a></h3><span class="exp__date">Jul 2025 – Dec 2025</span></div>
-      <p class="exp__role">Research Intern · Advisor: <a href="https://pages.ucsd.edu/~ztu/" target="_blank" rel="noopener">Prof. Zhuowen Tu</a></p>
-      <div class="exp__papers"><a class="chip" href="#pub-pixarmesh">PixARMesh</a></div>
+      <p class="exp__role">Research Intern</p>
     </li>
     <li>
+      <span class="exp__logo" data-initial="ZJ"><img src="/images/logos/zju.png" alt="" loading="lazy" onerror="this.remove()"></span>
       <div class="exp__head"><h3>Zhejiang University</h3><span class="exp__date">Dec 2024 – Mar 2025</span></div>
-      <p class="exp__role">Research Intern · Advisors: <a href="https://pengsida.net/" target="_blank" rel="noopener">Prof. Sida Peng</a> and <a href="https://xzhou.me/" target="_blank" rel="noopener">Prof. Xiaowei Zhou</a></p>
-      <div class="exp__papers"><a class="chip" href="#pub-universe">UniVerse</a></div>
+      <p class="exp__role">Research Intern</p>
     </li>
     <li>
+      <span class="exp__logo" data-initial="TJ"><img src="/images/logos/tongji.png" alt="" loading="lazy" onerror="this.remove()"></span>
       <div class="exp__head"><h3>Tongji University</h3><span class="exp__date">Nov 2024 – Aug 2025</span></div>
-      <p class="exp__role">Research Intern · Advisors: <a href="https://openreview.net/profile?id=~Zhihua_Wei1" target="_blank" rel="noopener">Prof. Zhihua Wei</a> and <a href="https://scholar.google.com/citations?user=9ZZzAS0AAAAJ&hl=en" target="_blank" rel="noopener">Prof. Wen Shen</a></p>
-      <div class="exp__papers"><a class="chip" href="#pub-folk">FOLK</a></div>
+      <p class="exp__role">Research Intern</p>
     </li>
   </ol>
 
