@@ -39,7 +39,7 @@ chat:
 <section class="section" id="news">
   <div class="section__head"><h2>News</h2></div>
   <ul class="news">
-    <li><time>2026.09</time><span><a href="#pub-mmmc">MMMC</a> has been accepted to <span class="tag">NeurIPS 2026</span></span></li>
+    <li><time>2026.09</time><span>One paper has been accepted to <span class="tag">NeurIPS 2026</span> See you in Sydney!</span></li>
     <li><time>2026.05</time><span>I joined <a href="https://github.com/jd-opensource" target="_blank" rel="noopener">JD Explore Academy</a> as a research intern</span></li>
     <li><time>2026.02</time><span>One paper has been accepted to <span class="tag">CVPR 2026</span> See you in Denver!</span></li>
     <li><time>2026.01</time><span>One paper has been accepted to <span class="tag">ICASSP 2026</span> See you in Barcelona!</span></li>
