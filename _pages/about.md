@@ -3,17 +3,17 @@ permalink: /
 layout: home
 title: "Hongrui Wu"
 description: "Hongrui Wu: M.S. student in Electrical Engineering at Stanford. Research on agent harnesses and 3D/4D spatial intelligence."
-tagline: "M.S. EE @ Stanford · B.Eng. CS @ Tongji"
+tagline: "M.S. EE @ Stanford"
 redirect_from:
   - /about/
   - /about.html
 links:
   - { label: "Email",          icon: "mail",     url: "mailto:wuhongrui2152131@gmail.com" }
   - { label: "Google Scholar", icon: "scholar",  url: "https://scholar.google.com/citations?user=JjjYCN8AAAAJ&hl=en" }
-  - { label: "GitHub",         icon: "github",   url: "https://github.com/oneHFR" }
   - { label: "LinkedIn",       icon: "linkedin", url: "https://www.linkedin.com/in/hongrui-wu-7546b734b/" }
 chat:
   label: "Ask my AI twin"
+  hint: "Chat about my research and projects"
   title: "Cyber Rui · AI twin"
   url: "/chat/"
 ---
@@ -56,24 +56,38 @@ chat:
 
   <div class="pubs">
     <article class="pub" id="pub-mira">
-      <div class="pub__cover">
+      <div class="pub__cover" data-anim="/images/MIRA-optimized.webp">
         <img class="still" src="/images/MIRA-static.jpg" alt="MIRA" width="1600" height="900" decoding="async">
+        <img class="anim" alt="" width="1600" height="900" decoding="async">
+        <span class="hint">Click to pause</span>
       </div>
       <div>
         <div class="pub__venue"><span class="badge">Preprint</span></div>
         <h3><b>MIRA:</b> A Multimodal Illustrated Deep Research Agent for Controllable Reports</h3>
         <p class="pub__authors"><strong>Hongrui Wu*</strong>, Kaiwen Tuo*, Congcong Wang*, Gen Li, Shuai Dong, Xinlei Yu, Haowen Hou, Zelin Peng, Jiaqi Wang</p>
+        <div class="chips">
+          <span class="chip chip--soon" title="Coming soon">Paper</span>
+          <span class="chip chip--soon" title="Coming soon">Project</span>
+          <span class="chip chip--soon" title="Coming soon">Code</span>
+        </div>
       </div>
     </article>
 
     <article class="pub" id="pub-mmmc">
-      <div class="pub__cover">
+      <div class="pub__cover" data-anim="/images/MMMC-optimized.webp">
         <img class="still" src="/images/MMMC-static.jpg" alt="MMMC" width="1600" height="900" decoding="async">
+        <img class="anim" alt="" width="1600" height="900" decoding="async">
+        <span class="hint">Click to pause</span>
       </div>
       <div>
         <div class="pub__venue"><span class="badge">NeurIPS 2026</span></div>
         <h3>Towards Realistic Conversational Multimodal Instruction Following</h3>
         <p class="pub__authors">Kaiwen Tuo*, Congcong Wang*, Shuai Dong*, <strong>Hongrui Wu*</strong>, Siyuan Wang, Xuefeng Yin, Yuhang Cao, Nan Duan, Jiaqi Wang</p>
+        <div class="chips">
+          <span class="chip chip--soon" title="Coming soon">Paper</span>
+          <span class="chip chip--soon" title="Coming soon">Project</span>
+          <span class="chip chip--soon" title="Coming soon">Code</span>
+        </div>
       </div>
     </article>
 
