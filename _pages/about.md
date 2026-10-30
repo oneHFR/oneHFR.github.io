@@ -64,9 +64,9 @@ chat:
         <h3><b>MIRA:</b> A Multimodal Illustrated Deep Research Agent for Controllable Reports</h3>
         <p class="pub__authors"><strong>Hongrui Wu*</strong>, Kaiwen Tuo*, Congcong Wang*, Gen Li, Shuai Dong, Xinlei Yu, Haowen Hou, Zelin Peng, <a href="https://scholar.google.com/citations?user=GDvt570AAAAJ" target="_blank" rel="noopener">Jiaqi Wang</a></p>
         <div class="chips">
-          <a class="chip" href="https://arxiv.org/pdf/2610.25926" target="_blank" rel="noopener">Paper</a>
-          <span class="chip chip--soon" title="Coming soon">Project</span>
-          <span class="chip chip--soon" title="Coming soon">Code</span>
+          <a class="chip" href="https://arxiv.org/abs/2610.25926" target="_blank" rel="noopener">Paper</a>
+          <a class="chip" href="https://mira-mmdeepresearch.github.io/" target="_blank" rel="noopener">Project</a>
+          <a class="chip" href="https://github.com/MIRA-MMDeepResearch" target="_blank" rel="noopener">Code</a>
         </div>
       </div>
     </article>
