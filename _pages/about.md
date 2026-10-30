@@ -12,7 +12,9 @@ links:
   - { label: "Google Scholar", icon: "scholar",  url: "https://scholar.google.com/citations?user=JjjYCN8AAAAJ&hl=en" }
   - { label: "LinkedIn",       icon: "linkedin", url: "https://www.linkedin.com/in/hongrui-wu-7546b734b/" }
   - { label: "YouTube",        icon: "youtube",  url: "https://www.youtube.com/@oneHFR" }
-  - { label: "CV",             icon: "cv",       url: "/files/Hongrui_Wu_CV.pdf" }
+# Switches: set to true to show the Demos section / the AI Twin button and chat panel.
+show_demos: false
+show_chat: false
 chat:
   label: "Ask My AI Twin 🤖"
   title: "My AI Twin"
@@ -62,7 +64,7 @@ chat:
         <h3><b>MIRA:</b> A Multimodal Illustrated Deep Research Agent for Controllable Reports</h3>
         <p class="pub__authors"><strong>Hongrui Wu*</strong>, Kaiwen Tuo*, Congcong Wang*, Gen Li, Shuai Dong, Xinlei Yu, Haowen Hou, Zelin Peng, <a href="https://scholar.google.com/citations?user=GDvt570AAAAJ" target="_blank" rel="noopener">Jiaqi Wang</a></p>
         <div class="chips">
-          <span class="chip chip--soon" title="Coming soon">Paper</span>
+          <a class="chip" href="https://arxiv.org/pdf/2610.25926" target="_blank" rel="noopener">Paper</a>
           <span class="chip chip--soon" title="Coming soon">Project</span>
           <span class="chip chip--soon" title="Coming soon">Code</span>
         </div>
@@ -142,6 +144,7 @@ chat:
   </div>
 </section>
 
+{% if page.show_demos %}
 <section class="section" id="demos">
   <div class="section__head">
     <h2>Demos</h2>
@@ -168,6 +171,7 @@ chat:
     </a>
   </div>
 </section>
+{% endif %}
 
 <section class="section" id="experience">
   <div class="section__head"><h2>Experience</h2></div>
