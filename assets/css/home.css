@@ -164,22 +164,19 @@ svg { width: 1em; height: 1em; flex: none; }
 .chip--soon { cursor: default; }
 .chip--soon:hover { border-color: var(--line); color: var(--text); }
 
-/* ---------- Demos: a horizontal rail of cards; scrolls when there are more than fit ---------- */
-.demos {
-  display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding-inline: 0;
-  padding: 2px 2px 10px; margin: -2px -2px -10px; scrollbar-width: none; overscroll-behavior-x: contain;
-}
-.demos::-webkit-scrollbar { display: none; }
+/* ---------- Demos ---------- */
+.demos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
 .demo {
-  flex: 0 0 300px; scroll-snap-align: start; display: flex; flex-direction: column; overflow: hidden;
+  display: flex; flex-direction: column; overflow: hidden; min-width: 0;
   border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); color: var(--text);
-  text-align: left; font: inherit; cursor: pointer; transition: box-shadow .2s, border-color .2s, transform .2s;
+  text-align: left; font: inherit; transition: box-shadow .2s, border-color .2s;
 }
-.demo:hover { box-shadow: var(--shadow); border-color: var(--accent); text-decoration: none; transform: translateY(-2px); }
+a.demo, button.demo { cursor: pointer; }
+.demo:hover { box-shadow: var(--shadow); border-color: var(--accent); text-decoration: none; }
 .demo__media { position: relative; display: block; aspect-ratio: 16 / 10; background: var(--surface-2); border-bottom: 1px solid var(--line); overflow: hidden; }
-.demo__media img, .demo__media video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: top; }
+.demo__media img, .demo__media video, .demo__media iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; object-fit: cover; object-position: top; }
 .demo__media--icon { display: grid; place-items: center; color: var(--accent); background: var(--accent-soft); font-size: 44px; }
-.demo__body { display: flex; flex-direction: column; gap: 8px; padding: 16px 18px 18px; flex: 1; }
+.demo__body { display: flex; flex-direction: column; gap: 10px; padding: 16px 18px 18px; flex: 1; }
 .demo__top { display: flex; align-items: center; gap: 10px; }
 .demo h3 { margin: 0; font-size: 16px; font-weight: 600; }
 .demo p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.55; flex: 1; }
@@ -188,16 +185,33 @@ svg { width: 1em; height: 1em; flex: none; }
 .status::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: #2fb36d; }
 .status--alt::before { background: #3b82f6; }
 .status--soon::before { background: var(--faint); }
-.rail-nav { display: flex; gap: 6px; align-self: center; }
-.section__head:has(.rail-nav) .section__note { margin-left: auto; }
-.rail-nav button {
-  display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; border: 1px solid var(--line);
-  background: var(--surface); color: var(--text); cursor: pointer; font-size: 15px; transition: border-color .2s, color .2s, opacity .2s;
+
+/* ---------- Canoe popup: the full block (video, 3D model, poster) opens from its demo card ---------- */
+.modal {
+  width: min(960px, calc(100vw - 32px)); max-height: calc(100vh - 32px); margin: auto; padding: 0;
+  border: 1px solid var(--line); border-radius: var(--radius); background: var(--bg); color: var(--text); box-shadow: var(--shadow); overflow: auto;
 }
-.rail-nav button:hover { border-color: var(--accent); color: var(--accent); }
-.rail-nav button:disabled { opacity: .35; cursor: default; }
-.rail-nav button:disabled:hover { border-color: var(--line); color: var(--text); }
-.rail-nav [data-rail-prev] svg { transform: rotate(180deg); }
+.modal::backdrop { background: rgba(10, 12, 16, .55); backdrop-filter: blur(4px); }
+.modal__bar { position: sticky; top: 0; z-index: 1; display: flex; align-items: center; gap: 8px; padding: 12px 12px 12px 20px; border-bottom: 1px solid var(--line); background: var(--bg); }
+.modal__bar strong { flex: 1; font-size: 16px; font-weight: 600; }
+.modal__close { display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%; border: 1px solid var(--line); background: var(--surface); color: var(--text); cursor: pointer; font-size: 16px; }
+.modal__close:hover { border-color: var(--accent); color: var(--accent); }
+.canoe { padding: 20px; display: grid; gap: 18px; }
+.canoe__head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; }
+.canoe__head p { margin: 0; color: var(--muted); font-size: 14.5px; }
+/* Video and 3D model stack on the left; the tall poster fills the same height on the right. */
+.canoe__grid { display: grid; grid-template-columns: 5fr 4fr; grid-template-rows: auto auto; gap: 12px; }
+.canoe figure { margin: 0; position: relative; border-radius: 10px; overflow: hidden; background: var(--surface-2); }
+.canoe__video, .canoe__model { aspect-ratio: 960 / 590; }
+.canoe__poster { grid-column: 2; grid-row: 1 / span 2; }
+.canoe video, .canoe iframe, .canoe__poster img { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.canoe video { object-fit: cover; }
+.canoe__poster img { object-fit: cover; object-position: top; }
+.canoe figcaption {
+  position: absolute; left: 8px; bottom: 8px; padding: 2px 8px; border-radius: 999px; pointer-events: none;
+  background: rgba(0, 0, 0, .55); color: #fff; font-size: 11.5px; font-weight: 500;
+}
+.canoe__model figcaption { bottom: auto; top: 8px; }
 
 /* ---------- Experience ---------- */
 .timeline { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
@@ -218,24 +232,6 @@ svg { width: 1em; height: 1em; flex: none; }
 .exp__role { margin: 0; color: var(--muted); font-size: 14.5px; }
 
 .subhead { margin: 40px 0 6px; font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--faint); }
-.canoe { margin-top: 12px; padding: 20px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); display: grid; gap: 18px; }
-.canoe__head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px 24px; }
-.canoe__head h3 { margin: 0 0 4px; font-size: 16px; font-weight: 600; }
-.canoe__head p { margin: 0; color: var(--muted); font-size: 14.5px; }
-/* Video and 3D model stack on the left; the tall poster fills the same height on the right. */
-.canoe__grid { display: grid; grid-template-columns: 5fr 4fr; grid-template-rows: auto auto; gap: 12px; }
-.canoe figure { margin: 0; position: relative; border-radius: 10px; overflow: hidden; background: var(--surface-2); }
-.canoe__video, .canoe__model { aspect-ratio: 960 / 590; }
-.canoe__poster { grid-column: 2; grid-row: 1 / span 2; }
-.canoe video, .canoe iframe, .canoe__poster img { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
-.canoe video { object-fit: cover; }
-.canoe__poster img { object-fit: cover; object-position: top; }
-.canoe figcaption {
-  position: absolute; left: 8px; bottom: 8px; padding: 2px 8px; border-radius: 999px; pointer-events: none;
-  background: rgba(0, 0, 0, .55); color: #fff; font-size: 11.5px; font-weight: 500;
-}
-.canoe__model figcaption { bottom: auto; top: 8px; }
-
 /* ---------- Honors ---------- */
 .honors { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
 .honors li { display: grid; grid-template-columns: 20px 1fr; gap: 10px; font-size: 14px; }
@@ -300,13 +296,13 @@ svg { width: 1em; height: 1em; flex: none; }
   .main { padding-top: 28px; }
 
   .pub { grid-template-columns: 1fr; gap: 14px; padding: 14px; }
-  .demo { flex-basis: min(300px, 82vw); }
-  .rail-nav { display: none; }
-  .timeline > li { grid-template-columns: 64px 1fr; column-gap: 16px; }
-  .exp__logo { width: 64px; height: 64px; }
+  .demos { grid-template-columns: 1fr; }
+  .modal { width: 100vw; max-height: 100vh; border-radius: 0; border: 0; }
   .canoe { padding: 14px; }
   .canoe__grid { grid-template-columns: 1fr; }
   .canoe__poster { grid-column: auto; grid-row: auto; aspect-ratio: 960 / 1474; }
+  .timeline > li { grid-template-columns: 64px 1fr; column-gap: 16px; }
+  .exp__logo { width: 64px; height: 64px; }
   .section__head { flex-direction: column; align-items: flex-start; gap: 4px; }
   .section__note { text-align: left; }
   .news li { grid-template-columns: 64px 1fr; gap: 10px; }
