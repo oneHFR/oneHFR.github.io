@@ -98,6 +98,27 @@
   }
   if (document.readyState === 'complete') whenIdle(); else window.addEventListener('load', whenIdle);
 
+  // ---- Demo rail: arrows appear only when the cards overflow ----
+  var rail = document.querySelector('[data-rail]');
+  var nav = document.querySelector('[data-rail-nav]');
+  if (rail && nav) {
+    var prev = nav.querySelector('[data-rail-prev]');
+    var next = nav.querySelector('[data-rail-next]');
+    var step = function () { var c = rail.querySelector('.demo'); return c ? c.offsetWidth + 16 : rail.clientWidth; };
+    var update = function () {
+      var overflow = rail.scrollWidth > rail.clientWidth + 4;
+      nav.hidden = !overflow;
+      if (!overflow) return;
+      prev.disabled = rail.scrollLeft <= 2;
+      next.disabled = rail.scrollLeft + rail.clientWidth >= rail.scrollWidth - 2;
+    };
+    prev.addEventListener('click', function () { rail.scrollBy({ left: -step(), behavior: 'smooth' }); });
+    next.addEventListener('click', function () { rail.scrollBy({ left: step(), behavior: 'smooth' }); });
+    rail.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  }
+
   // ---- Theme toggle ----
   var toggle = document.querySelector('[data-theme-toggle]');
   if (toggle) toggle.addEventListener('click', function () {
