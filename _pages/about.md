@@ -148,13 +148,9 @@ chat:
 <section class="section" id="demos">
   <div class="section__head">
     <h2>Demos</h2>
-    <p class="section__note">Things you can try in the browser · scroll for more</p>
-    <div class="rail-nav" data-rail-nav hidden>
-      <button type="button" data-rail-prev aria-label="Previous demos"><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
-      <button type="button" data-rail-next aria-label="Next demos"><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
-    </div>
+    <p class="section__note">Things you can try in the browser</p>
   </div>
-  <div class="demos" data-rail>
+  <div class="demos">
     {% if page.show_chat %}
     <a class="demo" href="/chat/" data-chat-open>
       <span class="demo__media demo__media--icon"><svg aria-hidden="true"><use href="#i-chat"/></svg></span>
@@ -173,15 +169,46 @@ chat:
         <span class="demo__cta">Open demo <svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
       </span>
     </a>
-    <a class="demo" href="#canoe">
+    <button class="demo" type="button" data-canoe-open aria-haspopup="dialog" aria-controls="canoe-dialog">
       <span class="demo__media"><video autoplay loop muted playsinline preload="none" data-lazy-src="/images/p4-video2-960.mp4" aria-label="Concrete canoe race video"></video></span>
       <span class="demo__body">
         <span class="demo__top"><h3>Concrete Canoe</h3><span class="status status--alt">Interactive</span></span>
-        <p>The hull I designed for the ASCE competition: rotate the 3D model, watch the race and read the poster.</p>
-        <span class="demo__cta">See the model <svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
+        <p>The hull I designed for the ASCE Concrete Canoe Competition, 2nd place in the California section. Rotate the 3D model, watch the race and read the poster.</p>
+        <span class="demo__cta">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
       </span>
-    </a>
+    </button>
   </div>
+
+  <dialog class="modal" id="canoe-dialog" aria-labelledby="canoe-title">
+    <header class="modal__bar">
+      <strong id="canoe-title">ASCE Concrete Canoe Competition</strong>
+      <button class="modal__close" type="button" data-modal-close aria-label="Close"><svg aria-hidden="true" viewBox="0 0 24 24"><use href="#i-close"/></svg></button>
+    </header>
+    <div class="canoe">
+      <div class="canoe__head">
+        <p>Hull designer · May 2022 – Apr 2024 · Hosted by <a href="https://www.linkedin.com/company/americansocietyofcivilengineers" target="_blank" rel="noopener">ASCE</a> in Sacramento, CA · 2nd place, California section</p>
+        <div class="chips">
+          <a class="chip" href="/portfolio/">Works</a>
+          <a class="chip" href="https://docs.google.com/presentation/d/12NBXRfv-bkYV1_H_B_a9v2MSho-ZQoks/edit?usp=drive_link&ouid=104071984654367651910&rtpof=true&sd=true" target="_blank" rel="noopener">Slides</a>
+          <a class="chip" href="/files/ASCE_project_proposal.pdf" target="_blank" rel="noopener">Paper</a>
+        </div>
+      </div>
+      <div class="canoe__grid">
+        <figure class="canoe__video">
+          <video loop muted playsinline preload="none" data-modal-src="/images/p4-video2-960.mp4" aria-label="Concrete canoe project video"></video>
+          <figcaption>Race video</figcaption>
+        </figure>
+        <figure class="canoe__model">
+          <iframe title="Canoe2024-Tongji-Yangtze 3D model - Sketchfab" data-modal-src="https://sketchfab.com/models/8775df6e6d034f1ebfdcba0f3ba1b717/embed?autostart=1&amp;preload=1&amp;internal=1&amp;tracking=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_watermark=0" allow="autoplay; fullscreen; xr-spatial-tracking" allowfullscreen></iframe>
+          <figcaption>Interactive 3D model · drag to rotate</figcaption>
+        </figure>
+        <figure class="canoe__poster">
+          <img src="/images/p4-poster-960.jpg" alt="Canoe project poster" loading="lazy" decoding="async" width="960" height="1474">
+          <figcaption>Poster</figcaption>
+        </figure>
+      </div>
+    </div>
+  </dialog>
 </section>
 {% endif %}
 
@@ -209,35 +236,6 @@ chat:
       <p class="exp__role">Research Intern</p>
     </li>
   </ol>
-
-  <p class="subhead">Before research · I miss those happy days</p>
-  <div class="canoe" id="canoe">
-    <div class="canoe__head">
-      <div>
-        <h3><a href="https://onehfr.github.io/portfolio/project-1/">ASCE Concrete Canoe Competition</a></h3>
-        <p>Hull designer · May 2022 – Apr 2024 · Hosted by <a href="https://www.linkedin.com/company/americansocietyofcivilengineers" target="_blank" rel="noopener">ASCE</a> in Sacramento, CA</p>
-      </div>
-      <div class="chips">
-        <a class="chip" href="/portfolio/">Works</a>
-        <a class="chip" href="https://docs.google.com/presentation/d/12NBXRfv-bkYV1_H_B_a9v2MSho-ZQoks/edit?usp=drive_link&ouid=104071984654367651910&rtpof=true&sd=true" target="_blank" rel="noopener">Slides</a>
-        <a class="chip" href="/files/ASCE_project_proposal.pdf" target="_blank" rel="noopener">Paper</a>
-      </div>
-    </div>
-    <div class="canoe__grid">
-      <figure class="canoe__video">
-        <video autoplay loop muted playsinline preload="none" data-lazy-src="/images/p4-video2-960.mp4" aria-label="Concrete canoe project video"></video>
-        <figcaption>Race video</figcaption>
-      </figure>
-      <figure class="canoe__model">
-        <iframe title="Canoe2024-Tongji-Yangtze 3D model - Sketchfab" data-preload-src="https://sketchfab.com/models/8775df6e6d034f1ebfdcba0f3ba1b717/embed?autostart=1&amp;preload=1&amp;internal=1&amp;tracking=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_watermark=0" allow="autoplay; fullscreen; xr-spatial-tracking" allowfullscreen></iframe>
-        <figcaption>Interactive 3D model · drag to rotate</figcaption>
-      </figure>
-      <figure class="canoe__poster">
-        <img src="/images/p4-poster-960.jpg" alt="Canoe project poster" loading="lazy" decoding="async" width="960" height="1474">
-        <figcaption>Poster</figcaption>
-      </figure>
-    </div>
-  </div>
 </section>
 
 <section class="section" id="honors">

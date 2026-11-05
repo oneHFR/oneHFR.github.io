@@ -98,25 +98,25 @@
   }
   if (document.readyState === 'complete') whenIdle(); else window.addEventListener('load', whenIdle);
 
-  // ---- Demo rail: arrows appear only when the cards overflow ----
-  var rail = document.querySelector('[data-rail]');
-  var nav = document.querySelector('[data-rail-nav]');
-  if (rail && nav) {
-    var prev = nav.querySelector('[data-rail-prev]');
-    var next = nav.querySelector('[data-rail-next]');
-    var step = function () { var c = rail.querySelector('.demo'); return c ? c.offsetWidth + 16 : rail.clientWidth; };
-    var update = function () {
-      var overflow = rail.scrollWidth > rail.clientWidth + 4;
-      nav.hidden = !overflow;
-      if (!overflow) return;
-      prev.disabled = rail.scrollLeft <= 2;
-      next.disabled = rail.scrollLeft + rail.clientWidth >= rail.scrollWidth - 2;
+  // ---- Canoe popup: load the heavy media (3D model, video) on first open only ----
+  var dlg = document.getElementById('canoe-dialog');
+  if (dlg && dlg.showModal) {
+    var dlgVideo = dlg.querySelector('video');
+    var openDlg = function () {
+      if (!dlg.dataset.loaded) {
+        dlg.querySelectorAll('[data-modal-src]').forEach(function (el) {
+          el.src = el.getAttribute('data-modal-src');
+          el.removeAttribute('data-modal-src');
+        });
+        dlg.dataset.loaded = '1';
+      }
+      dlg.showModal();
+      if (dlgVideo) { var p = dlgVideo.play(); if (p) p.catch(function () {}); }
     };
-    prev.addEventListener('click', function () { rail.scrollBy({ left: -step(), behavior: 'smooth' }); });
-    next.addEventListener('click', function () { rail.scrollBy({ left: step(), behavior: 'smooth' }); });
-    rail.addEventListener('scroll', update, { passive: true });
-    window.addEventListener('resize', update);
-    update();
+    document.querySelectorAll('[data-canoe-open]').forEach(function (b) { b.addEventListener('click', openDlg); });
+    dlg.querySelector('[data-modal-close]').addEventListener('click', function () { dlg.close(); });
+    dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
+    dlg.addEventListener('close', function () { if (dlgVideo) dlgVideo.pause(); });
   }
 
   // ---- Theme toggle ----
