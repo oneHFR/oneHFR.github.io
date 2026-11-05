@@ -164,22 +164,40 @@ svg { width: 1em; height: 1em; flex: none; }
 .chip--soon { cursor: default; }
 .chip--soon:hover { border-color: var(--line); color: var(--text); }
 
-/* ---------- Demos ---------- */
-.demos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
-.demo {
-  display: flex; flex-direction: column; gap: 8px; padding: 20px; border-radius: var(--radius);
-  background: var(--surface); border: 1px solid var(--line); color: var(--text); text-align: left;
-  font: inherit; cursor: pointer; transition: box-shadow .2s, border-color .2s;
+/* ---------- Demos: a horizontal rail of cards; scrolls when there are more than fit ---------- */
+.demos {
+  display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding-inline: 0;
+  padding: 2px 2px 10px; margin: -2px -2px -10px; scrollbar-width: none; overscroll-behavior-x: contain;
 }
-.demo:hover { box-shadow: var(--shadow); border-color: var(--accent); text-decoration: none; }
+.demos::-webkit-scrollbar { display: none; }
+.demo {
+  flex: 0 0 300px; scroll-snap-align: start; display: flex; flex-direction: column; overflow: hidden;
+  border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); color: var(--text);
+  text-align: left; font: inherit; cursor: pointer; transition: box-shadow .2s, border-color .2s, transform .2s;
+}
+.demo:hover { box-shadow: var(--shadow); border-color: var(--accent); text-decoration: none; transform: translateY(-2px); }
+.demo__media { position: relative; display: block; aspect-ratio: 16 / 10; background: var(--surface-2); border-bottom: 1px solid var(--line); overflow: hidden; }
+.demo__media img, .demo__media video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: top; }
+.demo__media--icon { display: grid; place-items: center; color: var(--accent); background: var(--accent-soft); font-size: 44px; }
+.demo__body { display: flex; flex-direction: column; gap: 8px; padding: 16px 18px 18px; flex: 1; }
 .demo__top { display: flex; align-items: center; gap: 10px; }
-.demo__icon { display: grid; place-items: center; width: 36px; height: 36px; border-radius: 10px; background: var(--accent-soft); color: var(--accent); font-size: 19px; }
 .demo h3 { margin: 0; font-size: 16px; font-weight: 600; }
-.demo p { margin: 0; color: var(--muted); font-size: 14.5px; line-height: 1.55; flex: 1; }
+.demo p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.55; flex: 1; }
 .demo__cta { display: inline-flex; align-items: center; gap: 6px; color: var(--accent); font-size: 14px; font-weight: 500; }
-.status { margin-left: auto; font-size: 12px; font-weight: 500; color: var(--faint); display: inline-flex; align-items: center; gap: 6px; }
+.status { margin-left: auto; font-size: 12px; font-weight: 500; color: var(--faint); display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
 .status::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: #2fb36d; }
+.status--alt::before { background: #3b82f6; }
 .status--soon::before { background: var(--faint); }
+.rail-nav { display: flex; gap: 6px; align-self: center; }
+.section__head:has(.rail-nav) .section__note { margin-left: auto; }
+.rail-nav button {
+  display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; border: 1px solid var(--line);
+  background: var(--surface); color: var(--text); cursor: pointer; font-size: 15px; transition: border-color .2s, color .2s, opacity .2s;
+}
+.rail-nav button:hover { border-color: var(--accent); color: var(--accent); }
+.rail-nav button:disabled { opacity: .35; cursor: default; }
+.rail-nav button:disabled:hover { border-color: var(--line); color: var(--text); }
+.rail-nav [data-rail-prev] svg { transform: rotate(180deg); }
 
 /* ---------- Experience ---------- */
 .timeline { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
@@ -282,7 +300,8 @@ svg { width: 1em; height: 1em; flex: none; }
   .main { padding-top: 28px; }
 
   .pub { grid-template-columns: 1fr; gap: 14px; padding: 14px; }
-  .demos { grid-template-columns: 1fr; }
+  .demo { flex-basis: min(300px, 82vw); }
+  .rail-nav { display: none; }
   .timeline > li { grid-template-columns: 64px 1fr; column-gap: 16px; }
   .exp__logo { width: 64px; height: 64px; }
   .canoe { padding: 14px; }

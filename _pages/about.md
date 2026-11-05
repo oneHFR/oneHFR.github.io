@@ -148,20 +148,42 @@ chat:
 <section class="section" id="demos">
   <div class="section__head">
     <h2>Demos</h2>
-    <p class="section__note">Things you can try in the browser</p>
+    <p class="section__note">Things you can try in the browser · scroll for more</p>
+    <div class="rail-nav" data-rail-nav hidden>
+      <button type="button" data-rail-prev aria-label="Previous demos"><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+      <button type="button" data-rail-next aria-label="Next demos"><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+    </div>
   </div>
-  <div class="demos">
+  <div class="demos" data-rail>
     {% if page.show_chat %}
     <a class="demo" href="/chat/" data-chat-open>
-      <span class="demo__top">
-        <span class="demo__icon"><svg aria-hidden="true"><use href="#i-chat"/></svg></span>
-        <h3>My Personal Agent</h3>
-        <span class="status">Live</span>
+      <span class="demo__media demo__media--icon"><svg aria-hidden="true"><use href="#i-chat"/></svg></span>
+      <span class="demo__body">
+        <span class="demo__top"><h3>My AI Twin</h3><span class="status">Live</span></span>
+        <p>Ask it about my research, projects and experience.</p>
+        <span class="demo__cta">Start a chat <svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
       </span>
-      <p>Ask it about my research, projects and experience.</p>
-      <span class="demo__cta">Start a chat <svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
     </a>
     {% endif %}
+    <a class="demo" href="/datatool-demo/">
+      <span class="demo__media"><img src="/images/demo-datatool.jpg" alt="" loading="lazy" decoding="async" width="800" height="503"></span>
+      <span class="demo__body">
+        <span class="demo__top"><h3>DataTool</h3><span class="status">Live</span></span>
+        <p>A data platform for multimodal training data: register datasets, inspect agent trajectories and interleaved image–text records, browse evaluation results. Synthetic data, runs in your browser.</p>
+        <span class="demo__cta">Open demo <svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
+      </span>
+    </a>
+    <a class="demo" href="#canoe">
+      <span class="demo__media"><video autoplay loop muted playsinline preload="none" data-lazy-src="/images/p4-video2-960.mp4" aria-label="Concrete canoe race video"></video></span>
+      <span class="demo__body">
+        <span class="demo__top"><h3>Concrete Canoe</h3><span class="status status--alt">Interactive</span></span>
+        <p>The hull I designed for the ASCE competition: rotate the 3D model, watch the race and read the poster.</p>
+        <span class="demo__cta">See the model <svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
+      </span>
+    </a>
+  </div>
+</section>
+{% endif %}
     <a class="demo" href="/datatool-demo/">
       <span class="demo__top">
         <span class="demo__icon"><svg aria-hidden="true" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M4 5h16v14H4z M4 9h16 M9 9v10"/></svg></span>
@@ -201,7 +223,7 @@ chat:
   </ol>
 
   <p class="subhead">Before research · I miss those happy days</p>
-  <div class="canoe">
+  <div class="canoe" id="canoe">
     <div class="canoe__head">
       <div>
         <h3><a href="https://onehfr.github.io/portfolio/project-1/">ASCE Concrete Canoe Competition</a></h3>
