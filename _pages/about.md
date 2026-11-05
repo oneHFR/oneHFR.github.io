@@ -2,7 +2,7 @@
 permalink: /
 layout: home
 title: "Hongrui Wu"
-description: "Hongrui Wu: M.S. student in Electrical Engineering at Stanford. Research on agent harnesses and 3D/4D spatial intelligence."
+description: "Hongrui Wu: M.S. student in Electrical Engineering at Stanford. Research on Multimodal AI and Agentic AI."
 tagline: "M.S. EE @ Stanford"
 redirect_from:
   - /about/
@@ -30,7 +30,7 @@ chat:
     I am a Master's student in Electrical Engineering at Stanford University. I graduated with my Bachelor's degree in Computer Science from Tongji University in June 2026.
   </p>
   <p>
-    I conducted research at UC San Diego <a href="https://pages.ucsd.edu/~ztu/Group.htm">MLPC Lab</a>, advised by Prof. <a class="person" href="https://scholar.google.com/citations?user=9oz-dvgAAAAJ">Zhuowen Tu</a>. I was also fortunate to work with Prof. <a class="person" href="https://scholar.google.com/citations?user=GDvt570AAAAJ">Jiaqi Wang</a> during my internship at <a href="https://github.com/jd-opensource">JD Explore Academy</a>, part of JD.com. My research interests include agent harnesses and 3D/4D spatial intelligence.
+    I conducted research at UC San Diego <a href="https://pages.ucsd.edu/~ztu/Group.htm">MLPC Lab</a>, advised by Prof. <a class="person" href="https://scholar.google.com/citations?user=9oz-dvgAAAAJ">Zhuowen Tu</a>. I was also fortunate to work with Prof. <a class="person" href="https://scholar.google.com/citations?user=GDvt570AAAAJ">Jiaqi Wang</a> during my internship at <a href="https://github.com/jd-opensource">JD Explore Academy</a>, part of JD.com. My research interests include Multimodal AI and Agentic AI.
   </p>
 </section>
 
@@ -66,7 +66,7 @@ chat:
         <div class="chips">
           <a class="chip" href="https://arxiv.org/abs/2610.25926" target="_blank" rel="noopener">Paper</a>
           <a class="chip" href="https://mira-mmdeepresearch.github.io/" target="_blank" rel="noopener">Project</a>
-          <a class="chip" href="https://github.com/MIRA-MMDeepResearch" target="_blank" rel="noopener">Code</a>
+          <a class="chip" href="https://github.com/MIRA-MMDeepResearch/MIRA" target="_blank" rel="noopener">Code</a>
         </div>
       </div>
     </article>
