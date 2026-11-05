@@ -125,7 +125,7 @@ svg { width: 1em; height: 1em; flex: none; }
 /* ---------- Publications ---------- */
 .pubs { display: grid; gap: 20px; }
 .pub {
-  display: grid; grid-template-columns: 248px 1fr; gap: 24px; padding: 18px;
+  display: grid; grid-template-columns: 248px 1fr; gap: 24px; padding: 18px; align-items: center;
   background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
   transition: box-shadow .2s, transform .2s;
 }
