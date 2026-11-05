@@ -184,18 +184,6 @@ chat:
   </div>
 </section>
 {% endif %}
-    <a class="demo" href="/datatool-demo/">
-      <span class="demo__top">
-        <span class="demo__icon"><svg aria-hidden="true" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M4 5h16v14H4z M4 9h16 M9 9v10"/></svg></span>
-        <h3>DataTool</h3>
-        <span class="status">Live</span>
-      </span>
-      <p>A viewer for multimodal training data that renders each record by its task: agent trajectories, image–text interleaved data and 3D perception data.</p>
-      <span class="demo__cta">Open demo <svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
-    </a>
-  </div>
-</section>
-{% endif %}
 
 <section class="section" id="experience">
   <div class="section__head"><h2>Experience</h2></div>
