@@ -13,7 +13,7 @@ links:
   - { label: "LinkedIn",       icon: "linkedin", url: "https://www.linkedin.com/in/hongrui-wu-7546b734b/" }
   - { label: "YouTube",        icon: "youtube",  url: "https://www.youtube.com/@oneHFR" }
 # Switches: set to true to show the Demos section / the AI Twin button and chat panel.
-show_demos: false
+show_demos: true
 show_chat: false
 chat:
   label: "Ask My AI Twin 🤖"
@@ -151,6 +151,7 @@ chat:
     <p class="section__note">Things you can try in the browser</p>
   </div>
   <div class="demos">
+    {% if page.show_chat %}
     <a class="demo" href="/chat/" data-chat-open>
       <span class="demo__top">
         <span class="demo__icon"><svg aria-hidden="true"><use href="#i-chat"/></svg></span>
@@ -160,10 +161,11 @@ chat:
       <p>Ask it about my research, projects and experience.</p>
       <span class="demo__cta">Start a chat <svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
     </a>
+    {% endif %}
     <a class="demo" href="/datatool-demo/">
       <span class="demo__top">
         <span class="demo__icon"><svg aria-hidden="true" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M4 5h16v14H4z M4 9h16 M9 9v10"/></svg></span>
-        <h3>JoyDataTool</h3>
+        <h3>DataTool</h3>
         <span class="status">Live</span>
       </span>
       <p>A viewer for multimodal training data that renders each record by its task: agent trajectories, image–text interleaved data and 3D perception data.</p>
